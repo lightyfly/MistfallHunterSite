@@ -345,13 +345,25 @@
         {
           "heading": "Current answer: 暂无",
           "paragraphs": [
-            "The collected Codes.md material does not contain a code that can be verified as a Mistfall Hunter redemption reward. The only searchable code list in that source is for Solo Hunters, a different Roblox game, so its strings are not relevant here. The current verified Mistfall Hunter code list is therefore 暂无.",
+            "The collected Codes.md material does not contain a code that can be verified as a Mistfall Hunter redemption reward. The only searchable code list in that source is for Solo Hunters, a different Roblox game, so its strings are not relevant here. The current verified Mistfall Hunter code list is therefore 暂无. Official Steam announcements found in the follow-up search describe rewards delivered through in-game mail, not a redeemable code string.",
             "This is a deliberate status, not an incomplete copy. Publishing a familiar-looking string without a Mistfall Hunter source would create a false reward claim and could send players to an unsafe or unrelated page. The page will change only when an official or directly verifiable Mistfall Hunter source provides a redeemable code."
           ],
           "bullets": [
             "Verified Mistfall Hunter redemption code: 暂无.",
             "Verified reward amount: 暂无.",
             "Code expiry date: 待确认 because no verified code is available."
+          ]
+        },
+        {
+          "heading": "Official rewards are not redemption codes",
+          "paragraphs": [
+            "An official Steam announcement dated August 14, 2026 says that players could receive Moonlight Nectar x5, Pro Combat Bag x2, and Advanced Combat Bag x2 through in-game mail by August 22, 2026 at 00:00 UTC+0. This is a real reward notice, but it does not publish a code to enter in a redemption form. The reward channel and the code status must stay separate.",
+            "The same Steam announcement describes Soul Harvest tokens and shop rewards, which are gameplay or shop systems rather than codes. Therefore the answer to a player specifically searching for a working redemption string remains 暂无. Any future code still needs an official announcement that names the string and explains where to redeem it."
+          ],
+          "bullets": [
+            "Official reward channel found: in-game mail.",
+            "Official redemption code string: 暂无.",
+            "Reward deadline in the announcement: August 22, 2026 at 00:00 UTC+0."
           ]
         },
         {
@@ -385,6 +397,7 @@
       ],
       "sources": [
         {"label": "Official Mistfall Hunter website", "url": "https://mistfallhunter.com/"},
+        {"label": "Official Steam announcements", "url": "https://steamcommunity.com/app/3282300/allnews/"},
         {"label": "Official Steam listing", "url": "https://store.steampowered.com/app/3282300/Mistfall_Hunter/"},
         {"label": "Codes research source reviewed", "url": "https://mobalytics.gg/gamebase/guides/solo-hunter-codes"}
       ]
@@ -463,20 +476,27 @@
       "description": "mistfall hunter patch notes from the August 12 live update, separating verified changes from community AMA and roadmap items for current players.",
       "h1": "mistfall hunter patch notes: August update summary",
       "image": "/images/mistfall/updates.jpg",
-      "answer": "The supplied official August 12, 2026 patch notes are the main confirmed update source in this collection. They should be read separately from the Gyldhunters Council AMA: the patch is a live-update record, while the AMA contains community questions, reported plans, and items that may still be in development.",
+      "answer": "The latest official Steam update record found in the follow-up search is dated August 14, 2026: server configuration adjustments across all servers were reported to reduce intermittent stuttering, while optimization remains ongoing. The official August 12 live update also added Soul Harvest, a Fate Chart stage, a World Chat blocklist function, Xbox real-time voice chat, balance changes, and bug fixes; AMA plans remain separate from shipped notes.",
       "confidence": "Official patch notes plus AMA context",
       "updated": "Research snapshot",
       "sections": [
         {
           "heading": "The confirmed patch source",
           "paragraphs": [
-            "The collection includes an IGN page titled for the Mistfall Hunter August 12, 2026 Live Update Patch Notes. That page is treated as the primary patch-note reference for this article because it is specifically organized around the live update rather than a general guide. The page does not justify adding unrelated community rumors or making up a full change table that is not present in the supplied notes.",
-            "A separate Changelog.gg page records Gyldhunters Council Phase 1 community AMA responses. It is useful context for what players asked and what the team discussed, but an AMA answer is not automatically a shipped feature. Each statement below is therefore labeled by its source status rather than merged into one list of confirmed changes."
+            "The official Steam announcement for the August 12 live update says Soul Harvest arrived with a new stage of the Fate Chart. It describes Soul Incubators, Soul Cocoons, Fate Altars, and an altar ritual in Hallowgrove and Brandrgarde, while the in-game tutorial is the source for the full rules. The same note adds a World Chat blocklist function and Xbox real-time voice chat, then lists class balance adjustments and bug fixes.",
+            "The official Steam news hub also shows an August 14 server-stutter optimization announcement. It attributes part of the intermittent lag and teleporting problem to cloud-server CPU hyper-threading, says configuration adjustments were rolled out across all servers on August 13 and 14, and reports that stutters were occurring less frequently. The post says optimization is still ongoing, so this is a status update rather than a claim that every performance issue is fixed."
           ],
           "bullets": [
-            "Official live-update reference: August 12, 2026 patch notes.",
-            "Community context: Gyldhunters Council Phase 1 AMA responses.",
-            "A complete numeric change log in the supplied extract: 待确认."
+            "August 12, 2026: Soul Harvest, a Fate Chart stage, World Chat blocklist, Xbox voice chat, balance adjustments, and bug fixes.",
+            "August 14, 2026: server configuration adjustments reported to reduce stuttering; optimization continues.",
+            "Complete numeric balance table and current hotfix coverage: 待确认."
+          ]
+        },
+        {
+          "heading": "August 14 server-stutter status",
+          "paragraphs": [
+            "The August 14 official notice does not say that lag, teleporting, or related issues have disappeared. It says one cause was traced to cloud-server CPU hyper-threading, adjustments were rolled out across all servers, and monitoring showed the stutters were less frequent. Performance optimization remains the team's highest priority according to the notice.",
+            "Players should therefore treat an ongoing stutter as a reportable issue rather than assuming the update failed or that every connection problem has the same cause. The announcement does not publish a universal latency target, a per-platform fix list, or a guarantee for a specific region. Those technical details are 待确认."
           ]
         },
         {
@@ -489,8 +509,8 @@
         {
           "heading": "AMA items are context, not guaranteed features",
           "paragraphs": [
-            "The AMA material says the team was working on unlocking additional regions and considering fair regional pricing. It also reports that Duo matchmaking was not planned for the short term and that Brandrgarde Solo might open temporarily. These are reported responses from the supplied AMA source, not promises that every item had shipped by the August patch.",
-            "The roadmap search result in the collected material does not provide an extracted transcript that can verify a full schedule. For that reason, a named date, future class, map, or feature that appears only in a roadmap video is 待确认 here. This keeps the patch page useful without turning speculation into a release note."
+            "The AMA material says the team was working on unlocking additional regions and considering fair regional pricing. It also reports that Duo matchmaking was not planned for the short term, while the official Steam roadmap announcement separately targets Brandrgarde Solo for the middle of Season 1 in September. These are different source states: a discussion response or future target is not the same as a completed patch item.",
+            "For that reason, a named date, future class, map, or feature that is not present in a shipped official update remains 待确认 here. This keeps the patch page useful without turning a roadmap or community answer into a release note."
           ]
         },
         {
@@ -503,12 +523,13 @@
         {
           "heading": "What this page deliberately leaves out",
           "paragraphs": [
-            "This page does not invent damage adjustments, drop-rate changes, server metrics, or a date for the next patch. It also does not treat the unrelated Solo Hunters code list as a Mistfall Hunter update. The user-facing answer is the source boundary: August 12 is the confirmed live-update reference, while future and incomplete details remain open.",
-            "When a new official note is available, add it as a dated entry and preserve the distinction between shipped changes and discussion. Until then, the current collection supports the patch-note source and the AMA context above, but a complete line-by-line change table is 待确认."
+            "This page does not invent damage adjustments, drop-rate changes, latency targets, or a date for the next patch. It also does not treat the unrelated Solo Hunters code list as a Mistfall Hunter update. The current official record is a dated sequence: August 12 gameplay and balance changes, followed by the August 14 server-stutter status update.",
+            "When a new official note is available, add it as a dated entry and preserve the distinction between shipped changes, performance status, and discussion. Exact per-skill values, platform-specific hotfix coverage, and any update after the August 14 notice are 待确认."
           ]
         }
       ],
       "sources": [
+        {"label": "Official Steam update announcements", "url": "https://steamcommunity.com/app/3282300/allnews/"},
         {"label": "IGN August 12 live update patch notes", "url": "https://www.ign.com/wikis/mistfall-hunter/Mistfall_Hunter_August_12_2026_Live_Update_Patch_Notes"},
         {"label": "Gyldhunters Council AMA responses", "url": "https://changelog.gg/games/mistfall-hunter-3282300/updates/2026-07-10-gyldenhunters-council-phase-1-community-ama-responses-4185f101b5cb8bed"},
         {"label": "Official Mistfall Hunter website", "url": "https://mistfallhunter.com/"}
@@ -522,21 +543,22 @@
       "description": "mistfall hunter roadmap status from the supplied AMA and update sources, separating reported plans such as regions and matchmaking from details marked 待确认.",
       "h1": "mistfall hunter roadmap: confirmed plans and unknowns",
       "image": "/images/mistfall/updates.jpg",
-      "answer": "The collected roadmap information is limited: the AMA reports work on unlocking more regions, consideration of fair regional pricing, no short-term Duo matchmaking plan, and a possible temporary Brandrgarde Solo opening. A complete dated roadmap is not verifiable from the supplied materials, so detailed future schedules are 待确认.",
-      "confidence": "AMA-reported plans; schedule unverified",
+      "answer": "The official Steam roadmap announcement confirms Brandrgarde Solo for Normal and Cataclysm difficulties in the middle of Season 1, targeted for September. The same announcement records more than 1,000,000 community members; additional regions, fair regional pricing, Duo matchmaking, and roadmap items beyond that mode remain subject to the cited AMA or 待确认.",
+      "confidence": "Official Steam roadmap announcement plus AMA-reported plans",
       "updated": "Research snapshot",
       "sections": [
         {
           "heading": "What the supplied roadmap evidence actually supports",
           "paragraphs": [
-            "The strongest roadmap evidence in the source set comes from the Gyldhunters Council Phase 1 AMA response page, not from a complete official calendar. It reports that the team was working on unlocking additional regions and considering fair regional pricing. It also reports no Duo matchmaking plan in the short term and says Brandrgarde Solo might open temporarily.",
-            "Those points are useful because they describe direction and constraints, but they are not the same as a launch date or a guaranteed feature list. The supplied YouTube roadmap search has no extracted transcript that independently confirms a schedule. The honest summary is therefore a short list of reported plans plus a clear unknown status."
+            "The official Steam announcement dated August 5, 2026 confirms that Brandrgarde Solo will be introduced for the Normal and Cataclysm difficulties in the middle of Season 1, targeted for September. It also says that more than 1,000,000 members had joined the Gyldhunters community at the time of the post. This is a dated announcement, not a claim that every item shown in the roadmap image has already shipped.",
+            "The follow-up search also found the Gyldhunters Council AMA response: the team reported work on unlocking additional regions, consideration of fair regional pricing, and no short-term Duo matchmaking plan. Those points describe direction and constraints; exact region order, pricing, Duo timing, and any roadmap item without a direct date remain 待确认."
           ],
           "bullets": [
-            "Reported work: unlocking additional regions.",
-            "Reported consideration: fair regional pricing.",
-            "Reported short-term status: no Duo matchmaking plan; Brandrgarde Solo may open temporarily.",
-            "Complete dated roadmap: 待确认."
+            "Official milestone: more than 1,000,000 community members reported on August 5, 2026.",
+            "Official plan: Brandrgarde Solo for Normal and Cataclysm difficulties in the middle of Season 1, targeted for September.",
+            "AMA-reported work: unlocking additional regions and considering fair regional pricing.",
+            "AMA-reported short-term status: no Duo matchmaking plan.",
+            "Roadmap items without a direct confirmed date: 待确认."
           ]
         },
         {
@@ -550,14 +572,14 @@
           "heading": "Duo matchmaking and Brandrgarde Solo",
           "paragraphs": [
             "The supplied AMA response reports that Duo matchmaking was not planned for the short term. That is a meaningful answer for players who want to queue as two, but it should not be read as a permanent rejection or a guarantee that the feature will arrive later. The roadmap page records the reported short-term position only.",
-            "Brandrgarde Solo is described as something that might open temporarily. The wording suggests a possible test or limited availability rather than a confirmed permanent mode. The source set does not provide the opening window, rules, rewards, or exact matchmaking behavior, so those details are 待确认."
+            "The official Steam announcement is more specific than the earlier AMA: Brandrgarde Solo is planned for the middle of Season 1, targeted for September, and the stated scope is the Normal and Cataclysm difficulties. The announcement does not give an exact day, final rules, rewards, or whether the mode will remain permanently available. Those details are 待确认 until another official note confirms them."
           ]
         },
         {
           "heading": "Why the roadmap is intentionally short",
           "paragraphs": [
-            "A roadmap is most useful when each item has a traceable source and a clear state: shipped, announced, in development, or only discussed. The supplied materials contain one dated live-update reference and one AMA response page, but not a complete official schedule with milestones. Adding generic future features would make the page look fuller while making it less reliable.",
-            "For the same reason, the page does not attach a date to a future map, class, balance pass, or event unless the provided sources do so. Community videos can be valuable leads, but the collected roadmap search does not include a transcript that verifies those claims. Those potential details are marked 待确认 rather than presented as news."
+            "A roadmap is most useful when each item has a traceable source and a clear state: shipped, announced, in development, or only discussed. The official Steam post provides a confirmed Brandrgarde Solo target and links a roadmap image, while the AMA supplies additional direction on regions, pricing, and Duo matchmaking. It does not provide a complete text schedule for every future feature.",
+            "For the same reason, this page does not attach a date to a future map, class, balance pass, or event unless an official source does so. The confirmed September target is kept separate from discussion points and from roadmap image details that are not independently readable in the collected text. Those missing details are marked 待确认 rather than presented as news."
           ]
         },
         {
@@ -569,6 +591,7 @@
         }
       ],
       "sources": [
+        {"label": "Official Steam roadmap and launch rewards announcement", "url": "https://steamcommunity.com/app/3282300/announcements/?l=brazilian"},
         {"label": "Gyldhunters Council AMA responses", "url": "https://changelog.gg/games/mistfall-hunter-3282300/updates/2026-07-10-gyldenhunters-council-phase-1-community-ama-responses-4185f101b5cb8bed"},
         {"label": "Official August live update notes", "url": "https://www.ign.com/wikis/mistfall-hunter/Mistfall_Hunter_August_12_2026_Live_Update_Patch_Notes"},
         {"label": "Official Mistfall Hunter website", "url": "https://mistfallhunter.com/"}
@@ -582,27 +605,27 @@
       "description": "mistfall hunter release date evidence shows July 29 or July 30, 2026 depending on the cited listing and timezone; the exact local launch time is 待确认.",
       "h1": "mistfall hunter release date: July launch details",
       "image": "/images/mistfall/hero.jpg",
-      "answer": "The supplied sources place Mistfall Hunter’s release in late July 2026, with July 29 on the official release information and July 30 on the Steam listing. Because the materials show a date discrepancy that may reflect source or timezone conventions, the exact local launch time is 待确认.",
+      "answer": "The official Xbox Wire announcement lists a July 29, 2026 launch for Xbox Series X|S and Xbox on PC, while an official Steam launch-rewards announcement is dated July 30. The safest answer keeps both platform-labeled dates visible; the exact local unlock time and how each storefront displayed it remain 待确认.",
       "confidence": "Source date discrepancy preserved",
       "updated": "Research snapshot",
       "sections": [
         {
           "heading": "The date answer is July 29 or July 30, 2026",
           "paragraphs": [
-            "The collected release material contains two dates. The official release information and Metacritic snapshot report July 29, 2026, while the supplied Steam listing displays a July 30, 2026 release date. This page preserves both rather than silently choosing one and presenting a source discrepancy as a fact with no qualification.",
-            "The difference can be caused by regional storefront display or timezone convention, but the supplied sources do not prove the reason. Therefore the exact local launch time, regional midnight behavior, and whether every platform displayed the same moment are 待确认. Check the storefront for your region if you need the precise local unlock time."
+            "The official Xbox Wire announcement says Mistfall Hunter was set to launch on July 29, 2026 for Xbox Series X|S and Xbox on PC. The official Steam news hub contains a July 30 launch-rewards announcement that says the team was celebrating the first eight hours after the official launch. These are both primary platform announcements, so the page preserves the two dates instead of silently treating one as a universal timestamp.",
+            "The sources do not directly explain whether the difference is a regional calendar display, a timezone conversion, or a platform-specific rollout. Therefore the exact local launch time, regional midnight behavior, and whether every platform unlocked at the same moment are 待确认. Check the storefront for your region if you need the precise local unlock time."
           ],
           "bullets": [
-            "Official release information: July 29, 2026.",
-            "Steam listing in the supplied material: July 30, 2026.",
+            "Official Xbox Wire launch date: July 29, 2026 for Xbox Series X|S and Xbox on PC.",
+            "Official Steam launch-rewards announcement: July 30, 2026.",
             "Exact local launch time and timezone conversion: 待确认."
           ]
         },
         {
           "heading": "What the launch information confirms",
           "paragraphs": [
-            "The release sources describe Mistfall Hunter as a third-person PvPvE extraction ARPG with solo and trio play. The collected official listing material names PC, PlayStation 5, and Xbox Series X|S availability, while the PlayStation page adds PS5 and PS5 Pro enhanced support. These platform facts are separate from the date discrepancy and should not be used to infer a different launch time.",
-            "The official Steam source also describes a paid game listing rather than a free-to-play launch model. Regional editions and prices are covered on the purchase page, because the release date source does not establish one universal price for every storefront."
+            "The Xbox Wire description identifies Mistfall Hunter as a third-person PvPvE extraction ARPG with solo and three-player squad play, six classes, and two weapon stances per class. The collected platform material also names PC, PlayStation 5, and Xbox Series X|S, while the PlayStation page adds PS5 Pro enhanced support. These platform facts are separate from the date discrepancy and should not be used to infer a different launch time.",
+            "The Xbox announcement also says the game would be available Day One with Xbox Game Pass. That is a subscription-access statement for Xbox, not proof that the product is free to play on every platform. Regional editions, prices, and other subscription catalogs remain separate purchase questions."
           ]
         },
         {
@@ -622,12 +645,14 @@
         {
           "heading": "Current status of the release record",
           "paragraphs": [
-            "This page records the date evidence available in the supplied Release Information.md rather than inventing a conversion. July 29, 2026 is the date reported by the official release information and Metacritic snapshot; July 30, 2026 is the date shown by the cited Steam listing. Both should remain visible when comparing search results.",
-            "For updates, use the official website and Steam page as the first checks, then compare any new platform announcement against the regional storefront. Exact local time, launch-day preload schedule, and later date corrections are 待确认."
+            "This page now records the two primary announcements found in the follow-up search: July 29, 2026 on Xbox Wire and July 30, 2026 in the official Steam launch-rewards post. That is more precise than calling one date a universal answer, but it still does not establish the exact local moment for every account.",
+            "For updates, use the official website, Steam news hub, Xbox announcement, and the regional storefront together. Exact local time, launch-day preload schedule, and later date corrections are 待确认 unless a platform-specific source states them."
           ]
         }
       ],
       "sources": [
+        {"label": "Official Xbox Wire launch announcement", "url": "https://news.xbox.com/en-us/2026/06/15/mistfall-hunter-june-playtest-xbox/"},
+        {"label": "Official Steam launch and update announcements", "url": "https://steamcommunity.com/app/3282300/allnews/"},
         {"label": "Official Mistfall Hunter release information", "url": "https://mistfallhunter.com/news?id=7621113048505424645"},
         {"label": "Official Steam listing", "url": "https://store.steampowered.com/app/3282300/Mistfall_Hunter/"},
         {"label": "Metacritic release snapshot", "url": "https://www.metacritic.com/game/mistfall-hunter/"}
@@ -760,7 +785,7 @@
       "description": "mistfall hunter free to play status based on paid Standard and Deluxe listings, with trials, discounts, and regional exceptions clearly marked 待确认.",
       "h1": "mistfall hunter free to play: current purchase status",
       "image": "/images/mistfall/loot.jpg",
-      "answer": "The supplied official purchase listings show paid Standard and Deluxe editions, so the collected evidence does not support calling Mistfall Hunter free to play. A beta or regional promotion is not the same as a permanent free model, and any current trial, subscription inclusion, or exception is 待确认.",
+      "answer": "The supplied official storefront evidence shows paid Standard and Deluxe editions, so Mistfall Hunter is not supported as a free-to-play game in this research. Xbox Wire separately says it is available Day One with Xbox Game Pass, which is subscription access on Xbox rather than a universal free model; current trials, discounts, and regional exceptions remain 待确认.",
       "confidence": "Paid editions confirmed in supplied listings",
       "updated": "Research snapshot",
       "sections": [
@@ -768,12 +793,13 @@
           "heading": "Short answer: the supplied listings are paid",
           "paragraphs": [
             "The purchase sources in scope list Mistfall Hunter as a paid product with Standard and Deluxe editions. Steam China is shown with ¥88 Standard and ¥138 Deluxe, while PlayStation Japan is shown with ¥3150 for the base edition and ¥5100 for Deluxe. These are regional snapshots, but they establish that the collected evidence is not a free-to-play listing.",
-            "This does not prove that every future offer will have the same terms. A sale, trial, subscription catalog, or regional promotion could change a player's access cost without changing the underlying product model. The supplied materials do not confirm such an offer, so current exceptions are 待确认."
+            "Xbox Wire adds an important access distinction: the game was announced as available Day One with Xbox Game Pass. That can let an eligible Xbox subscriber play without buying the standalone edition, but it does not rewrite the paid storefront model or establish the same access on PC, PlayStation, or every subscription tier. Current catalog availability and regional terms are 待确认."
           ],
           "bullets": [
             "Standard and Deluxe paid editions: shown in supplied storefront sources.",
-            "Free-to-play launch model: not supported by the collected listings.",
-            "Current trial, subscription access, or regional exception: 待确认."
+            "Xbox Game Pass: announced as Day One access on Xbox Wire.",
+            "Universal free-to-play model: not supported by the collected listings.",
+            "Current trial, subscription terms, or regional exception: 待确认."
           ]
         },
         {
@@ -786,8 +812,8 @@
         {
           "heading": "Regional prices explain search-result confusion",
           "paragraphs": [
-            "Search results can show different amounts because the collected sources cover Steam China, PlayStation Japan, and an unofficial dollar report. The fan report gives $24.99 and $39.99 figures, but the supplied material does not make those an official worldwide price table. A different amount does not automatically mean the game is free or that the listing is wrong; it may be a region or edition difference.",
-            "For a real purchase decision, use the storefront attached to your account and check Standard, Deluxe, currency, tax, and any upgrade path. A global price, current discount, and any platform subscription inclusion are 待确认 outside the regional snapshots above."
+            "Search results can show different amounts because the collected sources cover Steam China, PlayStation Japan, an unofficial dollar report, and Xbox Game Pass access. The fan report gives $24.99 and $39.99 figures, but the supplied material does not make those an official worldwide price table. A different amount does not automatically mean the game is free or that the listing is wrong; it may be a region, edition, or subscription-access difference.",
+            "For a real purchase decision, use the storefront attached to your account and check Standard, Deluxe, currency, tax, upgrade path, and Game Pass availability in your region. A global price, current discount, subscription tier, and catalog end date are 待确认 outside the snapshots above."
           ]
         },
         {
@@ -806,6 +832,7 @@
         }
       ],
       "sources": [
+        {"label": "Official Xbox Wire launch announcement", "url": "https://news.xbox.com/en-us/2026/06/15/mistfall-hunter-june-playtest-xbox/"},
         {"label": "Official Steam listing", "url": "https://store.steampowered.com/app/3282300/Mistfall_Hunter/"},
         {"label": "Official PlayStation Japan listing", "url": "https://www.playstation.com/ja-jp/games/mistfall-hunter/"},
         {"label": "Purchase research source reviewed", "url": "https://www.reddit.com/r/MistfallHunter/comments/1u6d744/free_to_play_or_priced/"}

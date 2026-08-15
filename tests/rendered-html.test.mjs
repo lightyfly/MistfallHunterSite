@@ -48,7 +48,23 @@ test("server-renders multilingual routes and MDX article", async () => {
   assert.match(html, /已确认信息/);
   assert.match(html, /Mistfall Hunter/);
 
-  for (const pathname of ["/ru", "/de", "/pt-br", "/ru/classes/overview", "/de/codes", "/pt-br/privacy-policy"]) {
+  for (const pathname of [
+    "/ru",
+    "/de",
+    "/pt-br",
+    "/ru/classes/overview",
+    "/de/codes",
+    "/pt-br/privacy-policy",
+    "/zh/guides",
+    "/zh/beginner-guide",
+    "/zh/extraction",
+    "/zh/bosses",
+    "/zh/codes",
+    "/zh/tier-list",
+    "/zh/updates",
+    "/zh/community",
+    "/zh/maps-and-loot",
+  ]) {
     const localizedResponse = await render(pathname);
     assert.equal(localizedResponse.status, 200, pathname);
   }

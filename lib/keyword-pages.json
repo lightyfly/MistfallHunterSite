@@ -148,7 +148,7 @@
         {
           "heading": "The six classes at a glance",
           "paragraphs": [
-            "The official Steam material confirms six playable classes, while the collected class guides provide the more detailed role descriptions. Blackarrow is the ranged bow archetype, Mercenary is the direct melee bruiser, Seer combines support and aggressive magic, Shadowstrix focuses on stealth and assassination, Sorcerer is the complex spellcaster, and Withered Knight blends melee damage with defense and counterplay.",
+            "The official Xbox Wire and Steam material confirm six playable classes, while the collected class guides provide the more detailed role descriptions. Blackarrow is the ranged bow archetype, Mercenary is the direct melee bruiser, Seer combines support and aggressive magic, Shadowstrix focuses on stealth and assassination, Sorcerer is the complex spellcaster, and Withered Knight blends melee damage with defense and counterplay.",
             "These labels are useful starting points rather than hard restrictions. The official description emphasizes that skills, talents, gems, and active abilities can be combined into personal builds, and the guides repeatedly describe multiple weapon or oath paths within a class. A class name tells you the default problem it solves, not the only way it can be played."
           ],
           "bullets": [
@@ -184,12 +184,13 @@
         {
           "heading": "Confirmed information versus guide detail",
           "paragraphs": [
-            "Confirmed from the official Steam description: there are six classes, third-person action combat, PvPvE expeditions, skill and talent customization, gem-based equipment customization, and parties of up to three players. The official page also lists PC, PlayStation 5, and Xbox Series X|S availability in the collected material.",
+            "Confirmed by the official Xbox Wire description: there are six classes, third-person PvPvE extraction combat, skill and talent customization, gem-based equipment customization, and parties of up to three players. The same official description says each class has two weapon stances; the collected platform material lists PC, PlayStation 5, and Xbox Series X|S availability.",
             "The individual weapon names, class paths, exact abilities, balance rankings, and class-switch costs come from third-party guides or videos. They are included here as useful reported information, but the page does not invent missing numbers or convert an opinion into an official fact."
           ]
         }
       ],
       "sources": [
+        {"label": "Official Xbox Wire overview", "url": "https://news.xbox.com/en-us/2026/06/15/mistfall-hunter-june-playtest-xbox/"},
         {"label": "Official Steam page", "url": "https://store.steampowered.com/app/3282300/Mistfall_Hunter/"},
         {"label": "Mobalytics classes explained", "url": "https://mobalytics.gg/gamebase/guides/mistfall-hunter-classes-explained"},
         {"label": "IGN Best Classes Tier List", "url": "https://www.ign.com/wikis/mistfall-hunter/Best_Classes_Tier_List"}
