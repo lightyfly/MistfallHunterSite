@@ -1,19 +1,6 @@
 import type { Metadata } from "next";
-import { notFound } from "next/navigation";
-import { RaceDetailPage } from "../../../components/race-detail-page";
-import { getRaceRecord, raceRecords } from "../../../lib/site-data";
+import { redirect } from "next/navigation";
 
-export function generateStaticParams() { return raceRecords.en.map(({ slug }) => ({ slug })); }
+export const metadata: Metadata = { title: "Class Reference — Mistfall Hunter", description: "Mistfall Hunter class reference pages." };
 
-export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
-  const { slug } = await params;
-  const record = getRaceRecord("en", slug);
-  if (!record) return { title: "Guide not found — VV: ULTIMATUM" };
-  return { title: `${record.title} — VV: ULTIMATUM`, description: record.description };
-}
-
-export default async function Page({ params }: { params: Promise<{ slug: string }> }) {
-  const { slug } = await params;
-  if (!getRaceRecord("en", slug)) notFound();
-  return <RaceDetailPage locale="en" slug={slug} />;
-}
+export default function Page() { redirect("/classes/overview"); }

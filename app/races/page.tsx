@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
-import { RacesPage } from "../../components/races-page";
+import { redirect } from "next/navigation";
 
-export const metadata: Metadata = { title: "Races Overview — VV: ULTIMATUM", description: "Choose between Shinigami, Quincy, and Hollow progression paths." };
+export const metadata: Metadata = { title: "Classes Overview — Mistfall Hunter", description: "Review the six officially listed Mistfall Hunter classes." };
 
-export default function Page() { return <RacesPage locale="en" />; }
+export default function Page() { redirect("/classes"); }

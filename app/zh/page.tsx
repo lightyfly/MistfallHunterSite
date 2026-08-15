@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { HomePage } from "../page";
+import { localizedSeo, seo } from "../../lib/site-data";
 
-export const metadata: Metadata = { title: "VV: ULTIMATUM — 中文 Wiki", description: "VV: ULTIMATUM 中文玩家参考站。" };
+export const metadata: Metadata = { title: localizedSeo.zh.title, description: localizedSeo.zh.description, keywords: seo.keywords };
 
 export default function Page() { return <HomePage locale="zh" />; }

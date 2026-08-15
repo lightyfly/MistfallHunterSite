@@ -3,12 +3,16 @@ import path from "node:path";
 import { compile } from "@mdx-js/mdx";
 
 const entries = [
-  ["en/races/shinigami.mdx", "en-shinigami.jsx"],
-  ["en/races/quincy.mdx", "en-quincy.jsx"],
-  ["en/races/hollow.mdx", "en-hollow.jsx"],
-  ["zh/races/shinigami.mdx", "zh-shinigami.jsx"],
-  ["zh/races/quincy.mdx", "zh-quincy.jsx"],
-  ["zh/races/hollow.mdx", "zh-hollow.jsx"],
+  ["en/classes/overview.mdx", "en-overview.jsx"],
+  ["en/classes/builds.mdx", "en-builds.jsx"],
+  ["ru/classes/overview.mdx", "ru-overview.jsx"],
+  ["ru/classes/builds.mdx", "ru-builds.jsx"],
+  ["de/classes/overview.mdx", "de-overview.jsx"],
+  ["de/classes/builds.mdx", "de-builds.jsx"],
+  ["pt-br/classes/overview.mdx", "pt-br-overview.jsx"],
+  ["pt-br/classes/builds.mdx", "pt-br-builds.jsx"],
+  ["zh/classes/overview.mdx", "zh-overview.jsx"],
+  ["zh/classes/builds.mdx", "zh-builds.jsx"],
 ];
 
 const root = process.cwd();

@@ -1,33 +1,19 @@
 import Link from "next/link";
-import { localizedPath, raceRecords, type Locale } from "../lib/site-data";
+import { classRecords, localizedPath, type Locale } from "../lib/site-data";
 import { SiteFrame } from "./site-frame";
 
-const copy = {
-  en: {
-    breadcrumb: "Races",
-    title: "Races Overview",
-    lede: "Choose your path — Shinigami, Quincy, or Hollow. Each race offers unique mechanics, progression systems, and combat styles.",
-    intro: "In VV: ULTIMATUM, your race determines your entire playstyle. Shinigami wield Zanpakuto with Shikai and Bankai progression. Quincy fight at range with spirit weapons and unlock Schrift abilities. Hollow evolve through monster forms and collect powerful traits. Each race has distinct strengths, progression milestones, and endgame goals. Use the guides below to learn each race in depth.",
-    warning: "⚠️ Faction Defection — Changing Your Race",
-    warningCopy: "It is possible to defect from your current faction, but the requirements are extreme: you must hold a high-ranking officer rank to initiate a defection. For most players, using Prayer Beads to wipe is the more practical way to switch races.",
-    guides: "Races Guides",
-    media: "Official media",
-    read: "Read more",
-  },
-  zh: {
-    breadcrumb: "种族",
-    title: "种族总览",
-    lede: "选择你的道路——死神、灭却师或虚。每个种族都有独特机制、成长系统与战斗风格。",
-    intro: "在 VV: ULTIMATUM 中，种族会决定你的整体玩法。死神使用斩魄刀，沿着始解与卍解成长；灭却师以远程灵弓作战并解锁圣文字；虚则通过怪物形态进化并收集强力特性。每个种族都有自己的优势、成长节点与后期目标。",
-    warning: "⚠️ 阵营叛离——如何更换种族",
-    warningCopy: "你可以离开当前阵营，但要求非常苛刻：需要先达到高阶军官身份。对大多数玩家来说，使用祈祷珠重置会是更实际的换种族方式。",
-    guides: "种族指南",
-    media: "官方素材",
-    read: "阅读更多",
-  },
-} as const;
+const copy: Record<Locale, { breadcrumb: string; title: string; lede: string; intro: string; warning: string; warningCopy: string; guides: string; media: string; read: string }> = {
+  en: { breadcrumb: "Classes", title: "Classes Overview", lede: "The official Steam page lists six playable classes. Names and class-by-class details are 待确认 in the current research snapshot.", intro: "The research brief confirms six playable classes, dual weapon stances, talent trees, gem affixes, and active skills. The individual class names, skill lists, and balance values have not been confirmed here.", warning: "⚠️ Class details — awaiting verification", warningCopy: "Use the official Steam page and the official game channels below as the source of truth. This wiki will add class-specific routes only after the relevant information can be verified.", guides: "Class Reference Pages", media: "Official media", read: "Read more" },
+  ru: { breadcrumb: "Классы", title: "Обзор классов", lede: "Официальная страница Steam указывает шесть игровых классов. Названия и детали каждого класса в текущем снимке ожидают подтверждения.", intro: "Исследовательский бриф подтверждает шесть классов, стойки оружия, деревья талантов, аффиксы самоцветов и активные навыки. Названия классов, списки навыков и баланс пока не подтверждены.", warning: "⚠️ Детали классов — ожидают проверки", warningCopy: "Проверяйте официальную страницу Steam и официальные каналы игры. Мы добавим конкретные маршруты только после проверки источника.", guides: "Страницы классов", media: "Официальный материал", read: "Подробнее" },
+  de: { breadcrumb: "Klassen", title: "Klassenübersicht", lede: "Die offizielle Steam-Seite nennt sechs spielbare Klassen. Namen und Details sind im aktuellen Recherche-Snapshot zu bestätigen.", intro: "Der Recherchebrief bestätigt sechs Klassen, Waffenhaltungen, Talentbäume, Edelstein-Affixe und aktive Skills. Einzelne Namen, Skill-Listen und Balancewerte sind hier noch nicht bestätigt.", warning: "⚠️ Klassendetails — zu bestätigen", warningCopy: "Nutze die offizielle Steam-Seite und offiziellen Kanäle als Quelle. Konkrete Routen werden erst nach verifizierten Informationen ergänzt.", guides: "Klassen-Referenzen", media: "Offizielles Material", read: "Mehr lesen" },
+  "pt-br": { breadcrumb: "Classes", title: "Visão geral das classes", lede: "A página oficial da Steam lista seis classes jogáveis. Os nomes e detalhes individuais estão a confirmar neste snapshot.", intro: "O material da pesquisa confirma seis classes, posturas de arma, árvores de talentos, afixos de gemas e habilidades ativas. Nomes, listas de habilidades e balanceamento ainda não foram confirmados.", warning: "⚠️ Detalhes das classes — a confirmar", warningCopy: "Use a página oficial da Steam e os canais oficiais como referência. Rotas específicas serão adicionadas depois da verificação.", guides: "Páginas de referência das classes", media: "Mídia oficial", read: "Ler mais" },
+  zh: { breadcrumb: "职业", title: "职业总览", lede: "官方 Steam 页面列出 6 个可玩职业。当前调研快照没有确认具体名称与逐职业细节，因此标为待确认。", intro: "调研资料确认了 6 个职业、双武器姿态、天赋树、宝石词缀与主动技能。职业名称、技能清单与平衡数据尚未确认。", warning: "⚠️ 职业详情——待核验", warningCopy: "请以官方 Steam 页面与官方频道为准。本 Wiki 会在相关信息完成核验后再补充具体职业路线。", guides: "职业参考页", media: "官方素材", read: "阅读更多" },
+};
 
-export function RacesPage({ locale }: { locale: Locale }) {
+export function ClassesPage({ locale }: { locale: Locale }) {
   const text = copy[locale];
-  return <SiteFrame locale={locale} currentPath="/races"><article className="reference-article"><nav className="breadcrumbs"><Link href={localizedPath(locale, "/")}>{locale === "zh" ? "首页" : "Home"}</Link><span>›</span><span>{text.breadcrumb}</span></nav><div className="article-media"><img src="/images/official/roblox/game-thumb-768x432.png" alt="All races in VV Ultimatum — official game artwork" /><span>{text.media}</span></div><h1>{text.title}</h1><p className="article-lede">{text.lede}</p><div className="ad-slot" aria-hidden="true" /><div className="article-copy"><p>{text.intro}</p><p className="warning-copy">{text.warning}</p><p>{text.warningCopy}</p><h2>{text.guides}</h2><div className="guide-grid">{raceRecords[locale].map((race) => <Link className="guide-card" href={localizedPath(locale, `/races/${race.slug}`)} key={race.slug}><div className="guide-card-copy">{race.tag ? <span className="badge">{race.tag}</span> : null}<h3>{race.title}</h3><p>{race.description}</p><span className="read-more">{text.read} <b>→</b></span></div></Link>)}</div></div></article></SiteFrame>;
+  const records = classRecords[locale];
+  return <SiteFrame locale={locale} currentPath="/classes"><article className="reference-article"><nav className="breadcrumbs"><Link href={localizedPath(locale, "/")}>{locale === "zh" ? "首页" : "Home"}</Link><span>›</span><span>{text.breadcrumb}</span></nav><div className="article-media"><img src="/images/mistfall/heroes.jpg" alt="Mistfall Hunter official class artwork" /><span>{text.media}</span></div><h1>{text.title}</h1><p className="article-lede">{text.lede}</p><div className="ad-slot" aria-hidden="true" /><div className="article-copy"><p>{text.intro}</p><p className="warning-copy">{text.warning}</p><p>{text.warningCopy}</p><h2>{text.guides}</h2><div className="guide-grid">{records.map((record) => <Link className="guide-card" href={localizedPath(locale, `/classes/${record.slug}`)} key={record.slug}><div className="guide-card-copy">{record.tag ? <span className="badge">{record.tag}</span> : null}<h3>{record.title}</h3><p>{record.description}</p><span className="read-more">{text.read} <b>→</b></span></div></Link>)}</div></div></article></SiteFrame>;
 }
+
+export const RacesPage = ClassesPage;

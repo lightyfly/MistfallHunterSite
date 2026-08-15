@@ -1,10 +1,12 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { seo } from "../lib/site-data";
 
 export const metadata: Metadata = {
-  title: "VV: ULTIMATUM — Codes, Builds, Guides",
-  description: "A fan-made VV: ULTIMATUM reference for Roblox players.",
-  icons: { icon: "/logo.png", shortcut: "/logo.png" },
+  title: seo.title,
+  description: seo.description,
+  keywords: seo.keywords,
+  icons: { icon: "/images/mistfall/favicon.png", shortcut: "/images/mistfall/favicon.png" },
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {

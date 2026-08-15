@@ -15,9 +15,11 @@ async function render(pathname) {
 
 test("server-renders the requested core routes", async () => {
   const routes = [
-    ["/", "VV: ULTIMATUM"],
-    ["/races", "Races Overview"],
-    ["/races/shinigami", "Shinigami Guide"],
+    ["/", "Mistfall Hunter"],
+    ["/classes", "Classes Overview"],
+    ["/classes/overview", "Six Playable Classes"],
+    ["/codes", "暂无官方可验证兑换码"],
+    ["/privacy-policy", "Privacy Policy"],
   ];
 
   for (const [pathname, expected] of routes) {
@@ -28,11 +30,16 @@ test("server-renders the requested core routes", async () => {
   }
 });
 
-test("server-renders the Chinese routes and MDX article", async () => {
-  const response = await render("/zh/races/shinigami");
+test("server-renders multilingual routes and MDX article", async () => {
+  const response = await render("/zh/classes/overview");
   assert.equal(response.status, 200);
   const html = await response.text();
-  assert.match(html, /死神指南/);
-  assert.match(html, /斩魄刀进化/);
-  assert.match(html, /中文|EN/);
+  assert.match(html, /6 个可玩职业/);
+  assert.match(html, /已确认信息/);
+  assert.match(html, /Mistfall Hunter/);
+
+  for (const pathname of ["/ru", "/de", "/pt-br", "/ru/classes/overview", "/de/codes", "/pt-br/privacy-policy"]) {
+    const localizedResponse = await render(pathname);
+    assert.equal(localizedResponse.status, 200, pathname);
+  }
 });
