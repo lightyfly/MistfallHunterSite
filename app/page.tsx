@@ -21,7 +21,7 @@ export function HomePage({ locale = "en" as Locale }: { locale?: Locale }) {
     <SiteFrame locale={locale} currentPath="/">
       <section className="home-hero">
         <div className="hero-heading"><h1>Mistfall Hunter</h1><span>{copy.home.eyebrow}</span></div>
-        <div className="media-frame hero-video"><img src="/images/mistfall/hero.jpg" alt="Mistfall Hunter official artwork" /><div className="video-shade" /><Link className="play-button" href={officialLinks.trailer} aria-label="Open the official Mistfall Hunter trailer">▶</Link><span className="media-source">{copy.home.mediaLabel}</span></div>
+        <div className="media-frame hero-video"><iframe className="hero-video-frame" src="https://www.youtube.com/embed/YiMyw3qVnVE?rel=0&modestbranding=1" title="Mistfall Hunter official trailer" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen /><span className="media-source">{copy.home.mediaLabel}</span></div>
         <p className="hero-intro">{copy.home.intro}</p>
         <div className="stat-row">{copy.home.stats.map((stat) => <span className="stat-chip" key={stat}>{stat}</span>)}</div>
         <div className="hero-ctas"><Link href={localizedPath(locale, "/beginner-guide")} className="button button-primary">{copy.home.ctas[0]} <span>→</span></Link><Link href={localizedPath(locale, "/classes")} className="button">{copy.home.ctas[1]} <span>→</span></Link><Link href={localizedPath(locale, "/codes")} className="button">{copy.home.ctas[2]} <span>→</span></Link></div>

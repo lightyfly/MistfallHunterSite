@@ -26,7 +26,9 @@ test("server-renders the requested core routes", async () => {
     const response = await render(pathname);
     assert.equal(response.status, 200, pathname);
     assert.match(response.headers.get("content-type") ?? "", /^text\/html\b/i);
-    assert.match(await response.text(), new RegExp(expected.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")));
+    const html = await response.text();
+    assert.match(html, new RegExp(expected.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")));
+    if (pathname === "/") assert.match(html, /youtube\.com\/embed\/YiMyw3qVnVE/);
   }
 });
 
