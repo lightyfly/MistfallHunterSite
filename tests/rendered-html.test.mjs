@@ -29,8 +29,8 @@ test("server-renders the requested core routes", async () => {
     const html = await response.text();
     assert.match(html, new RegExp(expected.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")));
     if (pathname === "/") {
-      assert.match(html, /youtube-nocookie\.com\/embed\/YiMyw3qVnVE/);
-      assert.match(html, /autoplay=1&amp;mute=1&amp;controls=0/);
+      assert.match(html, /pst-2607\.mp4/);
+      assert.match(html, /autoPlay/);
     }
   }
 });

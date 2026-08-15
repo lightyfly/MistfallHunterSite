@@ -36,6 +36,7 @@ export const officialLinks = {
   x: "https://x.com/MistfallHunter",
   youtube: "https://www.youtube.com/@MistfallHunter",
   trailer: "https://www.youtube.com/watch?v=YiMyw3qVnVE",
+  heroVideo: "https://lf16-pstcdn-alisg.bytedgame.com/obj/lf-game-alisg/gdl_app_613238/web/videos/pst-2607.mp4",
 } as const;
 
 export const seo = {
