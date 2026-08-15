@@ -28,7 +28,10 @@ test("server-renders the requested core routes", async () => {
     assert.match(response.headers.get("content-type") ?? "", /^text\/html\b/i);
     const html = await response.text();
     assert.match(html, new RegExp(expected.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")));
-    if (pathname === "/") assert.match(html, /youtube\.com\/embed\/YiMyw3qVnVE/);
+    if (pathname === "/") {
+      assert.match(html, /youtube-nocookie\.com\/embed\/YiMyw3qVnVE/);
+      assert.match(html, /autoplay=1&amp;mute=1&amp;controls=0/);
+    }
   }
 });
 
