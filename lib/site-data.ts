@@ -58,7 +58,7 @@ export const localizedSeo: Record<Locale, { title: string; description: string }
 export const navItems = [
   { label: "Classes", path: "/classes", key: "classes" },
   { label: "Bosses", path: "/bosses", key: "bosses" },
-  { label: "Guides", path: "/beginner-guide", key: "guides" },
+  { label: "Guides", path: "/guides", key: "guides" },
   { label: "Codes", path: "/codes", key: "codes" },
   { label: "Tier List", path: "/tier-list", key: "tierList" },
   { label: "Updates", path: "/updates", key: "updates" },

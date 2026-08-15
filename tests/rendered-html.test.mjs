@@ -1,9 +1,14 @@
 import assert from "node:assert/strict";
+import fs from "node:fs";
 import test from "node:test";
 
 const workerUrl = new URL("../dist/server/index.js", import.meta.url);
 workerUrl.searchParams.set("test", `${process.pid}-${Date.now()}`);
 const { default: worker } = await import(workerUrl.href);
+const keywordArticles = [
+  ...JSON.parse(fs.readFileSync(new URL("../lib/keyword-pages.json", import.meta.url), "utf8")).articles,
+  ...JSON.parse(fs.readFileSync(new URL("../lib/keyword-pages-extra.json", import.meta.url), "utf8")).articles,
+];
 
 async function render(pathname) {
   return worker.fetch(
@@ -46,5 +51,22 @@ test("server-renders multilingual routes and MDX article", async () => {
   for (const pathname of ["/ru", "/de", "/pt-br", "/ru/classes/overview", "/de/codes", "/pt-br/privacy-policy"]) {
     const localizedResponse = await render(pathname);
     assert.equal(localizedResponse.status, 200, pathname);
+  }
+});
+
+test("server-renders keyword index, article pages, and localized keyword pages", async () => {
+  assert.equal(keywordArticles.length, 20);
+  for (const article of keywordArticles) {
+    assert.ok(article.title.length >= 40 && article.title.length <= 60, article.slug);
+    assert.ok(article.description.length >= 140 && article.description.length <= 160, article.slug);
+    assert.match(article.description.toLowerCase(), new RegExp(article.keyword.toLowerCase()), article.slug);
+  }
+
+  for (const pathname of ["/guides", "/guides/mistfall-hunter-guide", "/guides/mistfall-hunter-codes", "/guides/mistfall-hunter-review", "/zh/guides/mistfall-hunter-codes"]) {
+    const response = await render(pathname);
+    assert.equal(response.status, 200, pathname);
+    const html = await response.text();
+    assert.match(html, /Mistfall Hunter/);
+    assert.match(html, /待确认|暂无/);
   }
 });

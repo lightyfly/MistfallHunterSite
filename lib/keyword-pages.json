@@ -1,0 +1,253 @@
+{
+  "articles": [
+    {
+      "slug": "mistfall-hunter-guide",
+      "keyword": "mistfall hunter guide",
+      "category": "Guide",
+      "title": "mistfall hunter guide: beginner tips for extraction",
+      "description": "mistfall hunter guide for first runs: choose a class, learn PvPvE routes, repair gear, use combat bags, and extract safely from collected facts.",
+      "h1": "mistfall hunter guide: beginner tips for extraction",
+      "image": "/images/mistfall/fight.jpg",
+      "answer": "The safest way to start Mistfall Hunter is to learn one class, clear nearby monsters, take only the loot you can protect, and leave before the Gyldenmist turns a good run into a lost loadout.",
+      "confidence": "Confirmed and reported facts separated",
+      "updated": "Research snapshot",
+      "sections": [
+        {
+          "heading": "Start with one class, but do not treat the first choice as permanent",
+          "paragraphs": [
+            "Mistfall Hunter has six playable classes, and the collected beginner guides agree that each one changes how you approach movement, damage, and extraction risk. A ranged class can give a new player more room to learn maps and enemy attacks, while a melee class teaches spacing, blocking, and commitment at close range. The best first class is therefore a reported recommendation, not an official ranking.",
+            "The class-selection material reports that you can change a character's class for a fee while keeping its level, but the change has a cooldown that becomes more restrictive as the character grows. A separate character slot is another option, and the base facilities are shared across characters according to the collected guide. Pick a class you enjoy, then use the training area before investing valuable gear in a new setup."
+          ],
+          "bullets": [
+            "Blackarrow is repeatedly described as a forgiving ranged starting option, but the advantage can shrink against experienced players.",
+            "Mercenary is repeatedly described as an accessible melee option in the collected class reports.",
+            "The source set does not confirm a single universally best beginner class."
+          ]
+        },
+        {
+          "heading": "Make early expeditions about information and survival",
+          "paragraphs": [
+            "The game is a PvPvE extraction ARPG, so monsters are not just obstacles between you and a player fight. Beginner material recommends clearing monsters on the way to an objective because the encounters provide experience, basic materials, and practice with your current skills. Rushing every high-value hotspot can produce better loot, but it also creates the highest chance of losing everything before you understand the route.",
+            "You do not have to fight every player you see. If another team has not noticed you, changing direction can preserve your equipment and let you finish a smaller objective. The source material warns that player encounters are usually hostile, so disengaging is a tactical choice rather than a promise that the other team will leave you alone."
+          ]
+        },
+        {
+          "heading": "Treat gear, repair, and recovery as one system",
+          "paragraphs": [
+            "Equipment durability decreases during expeditions, and the collected beginner guide recommends returning to the forge regularly instead of waiting until a piece is nearly broken. Repairing early is described as more economical because the repair cost rises as durability falls. The exact repair curve is not independently confirmed in the supplied material, so use the advice as a practical rule rather than a numeric formula.",
+            "Combat bags are the game's recovery tool in the source material. They provide a predetermined loadout that can help after a losing streak, and successfully extracting with the equipment lets you rebuild momentum. A basic loadout is also useful when your supplies are low; you do not need to risk your best gear on every learning run."
+          ]
+        },
+        {
+          "heading": "Use the camp between runs instead of leaving progress idle",
+          "paragraphs": [
+            "The collected guides describe Windrest Camp and its facilities as the preparation layer between expeditions. The forge repairs and crafts gear, the warehouse stores recovered materials, the auction house lets you buy or sell equipment and materials, and the scavenger system can bring back resources while you are away. These systems are presented in third-party guides, so exact timers and upgrade costs remain待确认.",
+            "Check facilities before starting the next run, especially when a craft or scavenger mission has finished. The same material says characters share the account base, which makes a second character less expensive to support than rebuilding every facility from zero. The safest routine is to repair, move useful materials into storage, check available combat bags, and only then choose the next risk level."
+          ]
+        },
+        {
+          "heading": "Learn the map and extraction loop before chasing bosses",
+          "paragraphs": [
+            "The collected guide material discusses Hallowgrove and Brandrgarde, designated loot zones, Mist Lords, and two bosses on each map. Loot zones contain better rewards but also more enemies and more reasons for rival teams to visit. Treat these details as guide-reported gameplay information, because the supplied official pages do not provide a complete public map database.",
+            "Extraction is tied to the Gyldenmist and Returner systems in the guide material. Hallowgrove is described as using a Returner Chime that leads to a Returner Woodling, while Brandrgarde is described as having a shrinking mist and randomly appearing Returner Woodlings. The exact spawn rules and timing should be checked against current in-game behavior before you plan a high-value route."
+          ]
+        },
+        {
+          "heading": "A practical first-run checklist",
+          "paragraphs": [
+            "The first few runs should answer simple questions: how far can this class travel safely, which enemies interrupt my attacks, and where is the nearest reliable way out? Keep the route short enough that you can return with materials even after an unexpected fight. If the objective becomes noisy or another team arrives, leaving with partial progress is still a successful learning run.",
+            "Once the controls feel familiar, add one variable at a time. Test a new talent, then a new weapon path, then a different loot zone rather than changing the whole loadout at once. This makes deaths easier to understand and keeps the information you gain more valuable than the gear you lose."
+          ],
+          "bullets": [
+            "Repair before the next expedition.",
+            "Carry a recovery option instead of risking every valuable item.",
+            "Clear nearby PvE enemies for practice and materials.",
+            "Keep an exit route in mind before entering a loot zone.",
+            "Mark exact timers, costs, and spawn rules as待确认 until verified in game."
+          ]
+        }
+      ],
+      "sources": [
+        {"label": "Fextralife beginner guide", "url": "https://fextralife.com/mistfall-hunter-beginner-guide-everything-you-should-know-before-you-play/"},
+        {"label": "IGN solo guide", "url": "https://www.ign.com/wikis/mistfall-hunter/Solo_Guide:_Tips_and_Tricks"},
+        {"label": "Official Steam page", "url": "https://store.steampowered.com/app/3282300/Mistfall_Hunter/"}
+      ]
+    },
+    {
+      "slug": "mistfall-hunter-tier-list",
+      "keyword": "mistfall hunter tier list",
+      "category": "Class Selection",
+      "title": "mistfall hunter tier list: trio and solo class picks",
+      "description": "mistfall hunter tier list from collected launch reports, comparing trio and solo class strengths while separating rankings from confirmed information.",
+      "h1": "mistfall hunter tier list: trio and solo class picks",
+      "image": "/images/mistfall/heroes.jpg",
+      "answer": "For the collected launch snapshot, the clearest trio ranking is Sorcerer and Blackarrow in S, Seer and Shadowstrix in A, and Withered Knight and Mercenary in B; this is a reported meta view, not an official tier list.",
+      "confidence": "Third-party meta snapshot",
+      "updated": "Research snapshot",
+      "sections": [
+        {
+          "heading": "The reported trio ranking",
+          "paragraphs": [
+            "The IGN tier list supplied for this project places Sorcerer and Blackarrow in S tier for trios, Seer and Shadowstrix in A tier, and Withered Knight and Mercenary in B tier. The ranking is focused on the game's default trio format in that source, where ranged damage and team coverage are especially valuable. It should be read as a launch snapshot rather than a permanent balance statement.",
+            "Mobalytics reaches a similar high-level conclusion but expands the list by weapon path. It places Blackarrow, Sorcerer, and Seer Reverent among the strongest trio choices, then separates Mercenary Sword and Shield, Shadowstrix Dual Blades, and Withered Knight Polearm and Shield from lower-ranked weapon paths. Because the sources use different path labels and rating frameworks, the exact letter for a subclass is not settled."
+          ],
+          "bullets": [
+            "S snapshot: Sorcerer and Blackarrow in the IGN trio list.",
+            "A snapshot: Seer and Shadowstrix in the IGN trio list.",
+            "B snapshot: Withered Knight and Mercenary in the IGN trio list.",
+            "Path-specific differences are reported, not official balance tiers."
+          ]
+        },
+        {
+          "heading": "Why ranged classes lead the early conversation",
+          "paragraphs": [
+            "The collected reports repeatedly point to range, high ground, and the ability to keep dealing damage while repositioning. Blackarrow is described as a pure ranged damage dealer, while Sorcerer combines ranged burst with area spells and utility. These advantages matter in team fights because a backline can pressure enemies without taking every melee trade at the same time.",
+            "That does not make melee classes weak. Mercenary is described as a frontline and peel option, and Withered Knight brings defensive play, counters, and disruption. Their lower placement in the snapshot reflects how easily open terrain can expose melee approaches, not a claim that the classes cannot win or contribute."
+          ]
+        },
+        {
+          "heading": "Solo rankings change the answer",
+          "paragraphs": [
+            "The solo material rewards self-sufficiency rather than team utility. Shadowstrix and Blackarrow are repeatedly highlighted for solo PvP pressure, stealth, ranged damage, and the ability to choose when to engage. Withered Knight and Mercenary are described as versatile options that can survive PvE while still contesting players, although ranged opponents remain a problem.",
+            "Seer is the clearest example of a mode-dependent class. Reverent's healing and support value are much stronger with coordinated teammates, while the Blasphemer path is presented as a more aggressive solo alternative. Sorcerer can produce high burst but is described as more demanding in solo PvE, so the class is a reported specialist choice rather than a safe default."
+          ]
+        },
+        {
+          "heading": "How a new player should use the list",
+          "paragraphs": [
+            "Use the tier list to narrow your first experiment, not to decide what you are allowed to play. The sources themselves recommend choosing the class you enjoy, and they also note that the meta was still settling after launch. A class with a lower letter can be the right choice if its range, defense, or weapon rhythm matches how you actually make decisions in a fight.",
+            "For trios, start by asking what the team lacks: safe ranged damage, frontline control, or healing and support. For solos, ask whether you can survive a PvE encounter and a player ambush without a teammate covering your recovery. Those questions are more reliable than importing a tier label without its mode and weapon path."
+          ]
+        },
+        {
+          "heading": "What is still待确认",
+          "paragraphs": [
+            "The supplied tier lists are written by third-party guide publishers and do not provide an official developer ranking. The exact launch patch, player skill distribution, map rotation, and future balance changes can all change the outcome. The collected material also contains path labels that do not appear consistently across every source.",
+            "This page therefore preserves the reported rankings while separating them from confirmed facts. The official Steam material confirms six playable classes and multiple build systems, but it does not confirm that any class is objectively S tier. Recheck the latest patch notes before treating a letter grade as current."
+          ]
+        }
+      ],
+      "sources": [
+        {"label": "IGN Best Classes Tier List", "url": "https://www.ign.com/wikis/mistfall-hunter/Best_Classes_Tier_List"},
+        {"label": "Mobalytics tier list", "url": "https://mobalytics.gg/gamebase/guides/mistfall-hunter-tier-list"},
+        {"label": "Official Steam page", "url": "https://store.steampowered.com/app/3282300/Mistfall_Hunter/"}
+      ]
+    },
+    {
+      "slug": "mistfall-hunter-classes",
+      "keyword": "mistfall hunter classes",
+      "category": "Class Selection",
+      "title": "mistfall hunter classes: weapons, paths, and roles",
+      "description": "mistfall hunter classes explained with the six reported archetypes, weapon paths, team roles, class switching rules, and clear notes on what remains待确认.",
+      "h1": "mistfall hunter classes: weapons, paths, and roles",
+      "image": "/images/mistfall/heroes.jpg",
+      "answer": "Mistfall Hunter has six playable classes: Blackarrow, Mercenary, Seer, Shadowstrix, Sorcerer, and Withered Knight. Collected guides describe different weapon paths and roles for each, but exact balance values are not confirmed by the official Steam description.",
+      "confidence": "Six classes confirmed; paths reported",
+      "updated": "Research snapshot",
+      "sections": [
+        {
+          "heading": "The six classes at a glance",
+          "paragraphs": [
+            "The official Steam material confirms six playable classes, while the collected class guides provide the more detailed role descriptions. Blackarrow is the ranged bow archetype, Mercenary is the direct melee bruiser, Seer combines support and aggressive magic, Shadowstrix focuses on stealth and assassination, Sorcerer is the complex spellcaster, and Withered Knight blends melee damage with defense and counterplay.",
+            "These labels are useful starting points rather than hard restrictions. The official description emphasizes that skills, talents, gems, and active abilities can be combined into personal builds, and the guides repeatedly describe multiple weapon or oath paths within a class. A class name tells you the default problem it solves, not the only way it can be played."
+          ],
+          "bullets": [
+            "Blackarrow: Bow and reported Javelin path; ranged pressure and kiting.",
+            "Mercenary: Hammer or Sword and Shield; frontline damage, blocking, and control.",
+            "Seer: Catalyst or Mace; healing and magical pressure through different oaths.",
+            "Shadowstrix: Dagger or Dual Blades; stealth, mobility, and burst.",
+            "Sorcerer: Staff and multiple schools of magic; ranged burst and utility.",
+            "Withered Knight: Greatsword or Polearm and Shield; counterplay, defense, and engage."
+          ]
+        },
+        {
+          "heading": "Weapon paths change the job inside a team",
+          "paragraphs": [
+            "The strongest difference between paths is not just the weapon model; it is the distance and timing the class wants. Blackarrow and Sorcerer can work from a backline, while Mercenary and Withered Knight can occupy space that protects teammates. Seer can either stabilize a trio with healing and constructs or trade that identity for a more aggressive melee direction.",
+            "Shadowstrix is the most explicitly assassination-oriented class in the collected material. Dagger tools emphasize stealth and repositioning, while Dual Blades focus on offensive pressure and duels. Withered Knight's Greatsword is described as a damage and counter route, while Polearm and Shield shifts toward frontline control and protection."
+          ]
+        },
+        {
+          "heading": "How class switching is described",
+          "paragraphs": [
+            "A Mobalytics class guide reports that players can change classes after the tutorial progression. The change requires a Gyldenblod fee, the cost increases with level, and a cooldown limits how quickly another change can be made. The same guide also reports a short reversion window, but these details are not laid out in the official Steam description and should be treated as reported system behavior.",
+            "The beginner guide also reports multiple character slots and an account-linked base. That makes experimentation less punishing because facilities such as the warehouse and forge are shared across characters. Exact unlock levels, fees, cooldown durations, and reversion rules are待确认 in the current collected set."
+          ]
+        },
+        {
+          "heading": "Choosing a class without copying a tier list",
+          "paragraphs": [
+            "Choose Blackarrow if you want distance, aiming, and a clear escape plan. Choose Mercenary if you prefer to enter the fight, block pressure, and make melee decisions at close range. Choose Seer if your satisfaction comes from placing effects that change a fight for the whole squad rather than simply producing the largest number on screen.",
+            "Choose Shadowstrix if stealth, ambushes, and short windows of burst sound rewarding. Choose Sorcerer if you enjoy learning resource and spell rotations. Choose Withered Knight if you want parries, armor, and a mix of offensive and protective routes. The collected sources agree that fun and practice matter more than an abstract class label."
+          ]
+        },
+        {
+          "heading": "Confirmed information versus guide detail",
+          "paragraphs": [
+            "Confirmed from the official Steam description: there are six classes, third-person action combat, PvPvE expeditions, skill and talent customization, gem-based equipment customization, and parties of up to three players. The official page also lists PC, PlayStation 5, and Xbox Series X|S availability in the collected material.",
+            "The individual weapon names, class paths, exact abilities, balance rankings, and class-switch costs come from third-party guides or videos. They are included here as useful reported information, but the page does not invent missing numbers or convert an opinion into an official fact."
+          ]
+        }
+      ],
+      "sources": [
+        {"label": "Official Steam page", "url": "https://store.steampowered.com/app/3282300/Mistfall_Hunter/"},
+        {"label": "Mobalytics classes explained", "url": "https://mobalytics.gg/gamebase/guides/mistfall-hunter-classes-explained"},
+        {"label": "IGN Best Classes Tier List", "url": "https://www.ign.com/wikis/mistfall-hunter/Best_Classes_Tier_List"}
+      ]
+    },
+    {
+      "slug": "mistfall-hunter-best-solo-class",
+      "keyword": "mistfall hunter best solo class",
+      "category": "Class Selection",
+      "title": "mistfall hunter best solo class: safe picks and tips",
+      "description": "mistfall hunter best solo class advice from collected guides: compare Shadowstrix, Blackarrow, Mercenary, Withered Knight, and mode-specific tradeoffs.",
+      "h1": "mistfall hunter best solo class: safe picks and tips",
+      "image": "/images/mistfall/fight.jpg",
+      "answer": "The collected solo guides most often recommend Shadowstrix for stealth and ambushes, with Blackarrow as a strong ranged alternative. Mercenary and Withered Knight are reported as dependable melee options, while Seer support and Sorcerer complexity make them less forgiving solo starts.",
+      "confidence": "Reported solo recommendations",
+      "updated": "Research snapshot",
+      "sections": [
+        {
+          "heading": "The short answer is Shadowstrix, with important caveats",
+          "paragraphs": [
+            "The IGN solo guide calls out Shadowstrix as the obvious solo choice because stealth lets you bypass danger, choose ambushes, and escape fights that do not pay off. That is a recommendation based on the class's reported toolkit, not a developer-confirmed best-in-slot answer. A player who dislikes stealth timing or close-range commitment may perform better on a simpler class.",
+            "Blackarrow is the strongest alternative when you want to win through distance rather than invisibility. The collected tier material describes it as effective in both PvP and PvE while solo, provided you can aim, kite, and avoid letting melee enemies close the gap. It is safer at range but much less forgiving after a positioning mistake."
+          ]
+        },
+        {
+          "heading": "Why Shadowstrix fits solo expeditions",
+          "paragraphs": [
+            "Solo play removes the teammate who normally watches your back, interrupts an enemy, or buys time for a heal. Shadowstrix's reported strengths directly answer that problem: stealth can break line of sight, mobility can create an exit, and an ambush can end a fight before the opponent organizes a response. The class is therefore strong when you control the timing of contact.",
+            "The tradeoff is execution. The source material describes Shadowstrix as difficult to master and less reliable in hard PvE encounters than in player fights. You still need a plan for monsters, doors, bosses, and extraction, because stealth does not turn every PvE objective into a free reward."
+          ]
+        },
+        {
+          "heading": "Blackarrow, Mercenary, and Withered Knight alternatives",
+          "paragraphs": [
+            "Blackarrow is the best solo fit for players who want steady ranged damage and the ability to pressure enemies before melee range. Mercenary is reported as easier to perform well on early because its direct melee kit can stagger and defend, although ranged classes can kite it in open ground. Withered Knight brings more counterplay and defensive depth but asks you to land parries and manage its slower approach.",
+            "The right alternative depends on what you lose most often. If you die while approaching, prefer range. If you die because a duel reaches your face, prefer block, armor, or parry. If you extract safely but cannot finish objectives, consider the class's PvE damage and movement rather than copying a PvP-only tier placement."
+          ]
+        },
+        {
+          "heading": "Classes that are less forgiving alone",
+          "paragraphs": [
+            "The collected solo ranking places Seer lower because its healing and support value are reduced without allies. The Blasphemer path is described as a more viable offensive solo choice, but the class still depends on resource and timing decisions that can be difficult for a new player. That does not make Seer unusable; it makes the class more specialized.",
+            "Sorcerer is also described as a demanding solo pick. Its burst and area spells are powerful, but missing casts or being caught by an assassin can leave you without a simple recovery plan. Start with Sorcerer only if learning a complex spell rotation is part of the appeal, not because a tier label promises easy wins."
+          ]
+        },
+        {
+          "heading": "Solo habits matter more than the label",
+          "paragraphs": [
+            "The solo guide recommends leaving once you have the objective or materials you came for instead of staying until the lobby forces a fight. Listen for the heartbeat cue associated with nearby Shadowstrix activity, use doors and bridges to create ambushes, and decide early whether the run is for PvE progress or player hunting. Every extra fight increases the chance that a third party arrives while you are looting.",
+            "Resource management also changes between solo and trios. Save the gear and consumables that fit the mode you play most often, and do not spend a trio loadout on a solo experiment unless the test is worth the risk. The best solo class is the one whose escape plan you can repeat under pressure."
+          ]
+        }
+      ],
+      "sources": [
+        {"label": "IGN Solo Guide", "url": "https://www.ign.com/wikis/mistfall-hunter/Solo_Guide:_Tips_and_Tricks"},
+        {"label": "Mobalytics tier list", "url": "https://mobalytics.gg/gamebase/guides/mistfall-hunter-tier-list"},
+        {"label": "Fextralife beginner guide", "url": "https://fextralife.com/mistfall-hunter-beginner-guide-everything-you-should-know-before-you-play/"}
+      ]
+    }
+  ]
+}
