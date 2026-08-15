@@ -3,7 +3,6 @@ function _createMdxContent(props) {
   const _components = {
     a: "a",
     h2: "h2",
-    h3: "h3",
     li: "li",
     p: "p",
     strong: "strong",
@@ -14,29 +13,43 @@ function _createMdxContent(props) {
     children: [_jsx(_components.h2, {
       children: "Build information status"
     }), "\n", _jsx(_components.p, {
-      children: "The research brief confirms that Mistfall Hunter includes weapon stances, talent trees, gem affixes, and active skills. It does not provide a verified class-by-class build table."
-    }), "\n", _jsx(_components.h3, {
-      children: "What is safe to say"
+      children: "The official description confirms weapon stances, talent trees, gem affixes, and active skills, but it does not publish one developer-approved build for every class. The collected build sources are therefore useful starting points, not guarantees of a current meta or a fixed damage result. Test one change at a time and keep the extraction risk in mind."
+    }), "\n", _jsx(_components.h2, {
+      children: "Reported starting directions"
     }), "\n", _jsxs(_components.ul, {
       children: ["\n", _jsxs(_components.li, {
-        children: ["There are ", _jsx(_components.strong, {
-          children: "6 playable classes"
-        }), " listed on the official Steam page."]
-      }), "\n", _jsx(_components.li, {
-        children: "Build recommendations depend on the class names, skill details, and balance data."
+        children: [_jsx(_components.strong, {
+          children: "Blackarrow:"
+        }), " Barbed Arrow, Bloodfly Arrow, and Lightning Arrow are reported core choices, with Rapid Arrows, Sky Piercer, and Frostblight Bomb also reported."]
       }), "\n", _jsxs(_components.li, {
-        children: ["Class-specific build routes are ", _jsx(_components.strong, {
-          children: "待确认"
-        }), " until an official source verifies the required details."]
+        children: [_jsx(_components.strong, {
+          children: "Withered Knight:"
+        }), " Greatsword is reported for solo counterplay; Polearm and Shield is reported for a trio frontline. Parry, Radiant Retribution, Javelin Thrust, Spear Barrage, and Intervene are reported skills."]
+      }), "\n", _jsxs(_components.li, {
+        children: [_jsx(_components.strong, {
+          children: "Shadowstrix:"
+        }), " Dagger and Dual Blades are reported weapons, with Flash Stride, Shadow Stride, Spinning Slash, Phantom Shift, Shadow Strike, and optional Smoke Bomb."]
+      }), "\n", _jsxs(_components.li, {
+        children: [_jsx(_components.strong, {
+          children: "Seer:"
+        }), " Reverent is the reported support oath; Blasphemer is the reported aggressive alternative, with Rune Pillars, Healing Art, and Wind Surge named in the build notes."]
+      }), "\n", _jsxs(_components.li, {
+        children: [_jsx(_components.strong, {
+          children: "Mercenary:"
+        }), " Hammer is reported for direct pressure, while Sword and Shield is reported for a defensive frontline. Skull Crusher, Earth Shaker, Hammer Dash, Shield Dash, and Shield Slam appear in the collected material."]
       }), "\n"]
+    }), "\n", _jsx(_components.h2, {
+      children: "What remains unverified"
     }), "\n", _jsxs(_components.p, {
-      children: ["Do not spend resources based on an unverified build list. Check the ", _jsx(_components.a, {
+      children: ["Exact damage, cooldowns, stamina costs, talent values, affix thresholds, build-import strings, and a universal best build are ", _jsx(_components.strong, {
+        children: "待确认"
+      }), ". A build-share string is not a redemption code and should not be listed on the code page. Use the ", _jsx(_components.a, {
         href: "https://mistfallhunter.com/",
         children: "official website"
       }), " and ", _jsx(_components.a, {
         href: "https://www.youtube.com/@MistfallHunter",
         children: "official YouTube channel"
-      }), " for future source material."]
+      }), " for later balance or build announcements."]
     })]
   });
 }

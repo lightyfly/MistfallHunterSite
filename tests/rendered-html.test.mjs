@@ -23,7 +23,15 @@ test("server-renders the requested core routes", async () => {
     ["/", "Mistfall Hunter"],
     ["/classes", "Classes Overview"],
     ["/classes/overview", "Six Playable Classes"],
+    ["/classes/builds", "Class Builds"],
+    ["/beginner-guide", "Beginner Guide"],
+    ["/extraction", "How Extraction Works"],
+    ["/bosses", "Mist Lords"],
     ["/codes", "暂无官方可验证兑换码"],
+    ["/maps-and-loot", "Maps, Bosses"],
+    ["/tier-list", "Tier List"],
+    ["/updates", "Official Updates"],
+    ["/community", "Official Community"],
     ["/privacy-policy", "Privacy Policy"],
   ];
 
@@ -84,5 +92,12 @@ test("server-renders keyword index, article pages, and localized keyword pages",
     const html = await response.text();
     assert.match(html, /Mistfall Hunter/);
     assert.match(html, /待确认|暂无/);
+  }
+
+  for (const article of keywordArticles) {
+    for (const pathname of [`/guides/${article.slug}`, `/zh/guides/${article.slug}`]) {
+      const response = await render(pathname);
+      assert.equal(response.status, 200, pathname);
+    }
   }
 });

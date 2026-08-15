@@ -2,7 +2,9 @@ import Link from "next/link";
 import { createElement } from "react";
 import type { AnchorHTMLAttributes, BlockquoteHTMLAttributes, HTMLAttributes } from "react";
 import { getClassMdx } from "../content";
+import { keywordArticles } from "../lib/keyword-pages";
 import { classRecords, getClassRecord, localizedPath, type Locale } from "../lib/site-data";
+import { ResearchArticles } from "./research-content";
 import { SiteFrame } from "./site-frame";
 
 const detailCopy: Record<Locale, { home: string; classes: string; media: string; confidence: string; back: string; next: string; snapshot: string; source: string }> = {
@@ -18,8 +20,10 @@ function MdxHeadingTwo({ children, ...props }: HTMLAttributes<HTMLHeadingElement
 function MdxHeadingThree({ children, ...props }: HTMLAttributes<HTMLHeadingElement>) { return <h3 className="mdx-h3" {...props}>{children}</h3>; }
 function MdxQuote({ children, ...props }: BlockquoteHTMLAttributes<HTMLQuoteElement>) { return <blockquote className="mdx-quote" {...props}>{children}</blockquote>; }
 const mdxComponents = { a: MdxLink, h2: MdxHeadingTwo, h3: MdxHeadingThree, blockquote: MdxQuote };
+const buildArticles = keywordArticles.filter((article) => article.category === "Class Builds");
 
 function MdxBody({ locale, slug, title }: { locale: Locale; slug: string; title: string }) {
+  if (slug === "builds" && (locale === "en" || locale === "zh")) return <ResearchArticles articles={buildArticles} locale={locale} />;
   const MdxComponent = getClassMdx(locale, slug);
   return MdxComponent ? createElement(MdxComponent, { components: mdxComponents }) : <FallbackMdx locale={locale} title={title} />;
 }
