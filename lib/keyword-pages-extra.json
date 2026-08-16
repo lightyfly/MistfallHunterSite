@@ -473,10 +473,10 @@
       "keyword": "mistfall hunter patch notes",
       "category": "Updates",
       "title": "mistfall hunter patch notes: August update summary",
-      "description": "mistfall hunter patch notes from the August 12 live update, separating verified changes from community AMA and roadmap items for current players.",
+      "description": "mistfall hunter patch notes: verified August 12 changes and August 15 server status, with community AMA and roadmap details clearly separated.",
       "h1": "mistfall hunter patch notes: August update summary",
       "image": "/images/mistfall/updates.jpg",
-      "answer": "The latest official Steam update record found in the follow-up search is dated August 14, 2026: server configuration adjustments across all servers were reported to reduce intermittent stuttering, while optimization remains ongoing. The official August 12 live update also added Soul Harvest, a Fate Chart stage, a World Chat blocklist function, Xbox real-time voice chat, balance changes, and bug fixes; AMA plans remain separate from shipped notes.",
+      "answer": "The latest official Steam update record found in the follow-up search is dated August 15, 2026: server configuration adjustments across all servers were reported to reduce intermittent stuttering, while optimization remains ongoing. The official August 12 live update also added Soul Harvest, a Fate Chart stage, a World Chat blocklist function, Xbox real-time voice chat, balance changes, and bug fixes; AMA plans remain separate from shipped notes.",
       "confidence": "Official patch notes plus AMA context",
       "updated": "Research snapshot",
       "sections": [
@@ -484,18 +484,18 @@
           "heading": "The confirmed patch source",
           "paragraphs": [
             "The official Steam announcement for the August 12 live update says Soul Harvest arrived with a new stage of the Fate Chart. It describes Soul Incubators, Soul Cocoons, Fate Altars, and an altar ritual in Hallowgrove and Brandrgarde, while the in-game tutorial is the source for the full rules. The same note adds a World Chat blocklist function and Xbox real-time voice chat, then lists class balance adjustments and bug fixes.",
-            "The official Steam news hub also shows an August 14 server-stutter optimization announcement. It attributes part of the intermittent lag and teleporting problem to cloud-server CPU hyper-threading, says configuration adjustments were rolled out across all servers on August 13 and 14, and reports that stutters were occurring less frequently. The post says optimization is still ongoing, so this is a status update rather than a claim that every performance issue is fixed."
+            "The official Steam news hub also shows an August 15 server-stutter optimization announcement. It attributes part of the intermittent lag and teleporting problem to cloud-server CPU hyper-threading, says configuration adjustments were rolled out across all servers on August 13 and 14, and reports that stutters were occurring less frequently. The post says optimization is still ongoing, so this is a status update rather than a claim that every performance issue is fixed."
           ],
           "bullets": [
             "August 12, 2026: Soul Harvest, a Fate Chart stage, World Chat blocklist, Xbox voice chat, balance adjustments, and bug fixes.",
-            "August 14, 2026: server configuration adjustments reported to reduce stuttering; optimization continues.",
+            "August 15, 2026: server configuration adjustments reported to reduce stuttering; optimization continues.",
             "Complete numeric balance table and current hotfix coverage: 待确认."
           ]
         },
         {
-          "heading": "August 14 server-stutter status",
+          "heading": "August 15 server-stutter status",
           "paragraphs": [
-            "The August 14 official notice does not say that lag, teleporting, or related issues have disappeared. It says one cause was traced to cloud-server CPU hyper-threading, adjustments were rolled out across all servers, and monitoring showed the stutters were less frequent. Performance optimization remains the team's highest priority according to the notice.",
+            "The August 15 official notice does not say that lag, teleporting, or related issues have disappeared. It says one cause was traced to cloud-server CPU hyper-threading, adjustments were rolled out across all servers, and monitoring showed the stutters were less frequent. Performance optimization remains the team's highest priority according to the notice.",
             "Players should therefore treat an ongoing stutter as a reportable issue rather than assuming the update failed or that every connection problem has the same cause. The announcement does not publish a universal latency target, a per-platform fix list, or a guarantee for a specific region. Those technical details are 待确认."
           ]
         },
@@ -523,12 +523,14 @@
         {
           "heading": "What this page deliberately leaves out",
           "paragraphs": [
-            "This page does not invent damage adjustments, drop-rate changes, latency targets, or a date for the next patch. It also does not treat the unrelated Solo Hunters code list as a Mistfall Hunter update. The current official record is a dated sequence: August 12 gameplay and balance changes, followed by the August 14 server-stutter status update.",
-            "When a new official note is available, add it as a dated entry and preserve the distinction between shipped changes, performance status, and discussion. Exact per-skill values, platform-specific hotfix coverage, and any update after the August 14 notice are 待确认."
+            "This page does not invent damage adjustments, drop-rate changes, latency targets, or a date for the next patch. It also does not treat the unrelated Solo Hunters code list as a Mistfall Hunter update. The current official record is a dated sequence: August 12 gameplay and balance changes, followed by the August 15 server-stutter status update.",
+            "When a new official note is available, add it as a dated entry and preserve the distinction between shipped changes, performance status, and discussion. Exact per-skill values, platform-specific hotfix coverage, and any update after the August 15 notice are 待确认."
           ]
         }
       ],
       "sources": [
+        {"label": "Official Steam server-stutter and Soul Harvest notice", "url": "https://store.steampowered.com/news/app/3282300/view/196621727844796747"},
+        {"label": "Official Steam Fair Play notice", "url": "https://store.steampowered.com/news/app/3282300/view/672877288649392186"},
         {"label": "Official Steam update announcements", "url": "https://steamcommunity.com/app/3282300/allnews/"},
         {"label": "IGN August 12 live update patch notes", "url": "https://www.ign.com/wikis/mistfall-hunter/Mistfall_Hunter_August_12_2026_Live_Update_Patch_Notes"},
         {"label": "Gyldhunters Council AMA responses", "url": "https://changelog.gg/games/mistfall-hunter-3282300/updates/2026-07-10-gyldenhunters-council-phase-1-community-ama-responses-4185f101b5cb8bed"},
