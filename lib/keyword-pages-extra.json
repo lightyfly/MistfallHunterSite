@@ -8,33 +8,34 @@
       "description": "mistfall hunter blackarrow build guide using reported arrow skills, talents, and affixes for ranged pressure, with unverified numbers excluded.",
       "h1": "mistfall hunter blackarrow build: skills and affixes",
       "image": "/images/mistfall/loot.jpg",
-      "answer": "A cross-checked Blackarrow starting point uses Barbed Arrow and Bloodfly Arrow for sustained pressure, Lightning Arrow for groups, Rapid Arrows for mobile burst, and Frostblight Bomb to create a freeze window. The Mobalytics class and beginner guides plus KeenGamer report this ranged-control direction, while the official Steam and Xbox descriptions confirm that class loadouts are built around skills, talents, weapon stances, and gear. Exact damage, cooldown, stamina, and a universal best loadout remain 待确认.",
+      "answer": "A cross-checked Blackarrow starting point uses Barbed Arrow and Bloodfly Arrow for sustained pressure, Lightning Arrow for groups, Rapid Arrows for mobile burst, and Frostblight Bomb to create a freeze window. Two current game-data references agree that Rapid Arrows fires up to 5 arrows for 10 Energy, while Sky Piercer has a 20s cooldown, costs 30 Energy, and pierces 5 units. Exact damage, mode-specific cooldown differences, and a universal best loadout remain 待确认.",
       "confidence": "Cross-checked community build report",
       "updated": "Cross-checked Aug 17, 2026",
       "sections": [
         {
           "heading": "What the collected Blackarrow build recommends",
           "paragraphs": [
-            "Mobalytics and KeenGamer independently describe Blackarrow as a ranged class that controls space while staying away from close-range pressure. Their fetched guides overlap on Barbed Arrow, Bloodfly Arrow, Lightning Arrow, Rapid Arrows, and Frostblight Bomb for pressure, burst, or control. The sources agree on the play pattern, not on one official best loadout or one universal finisher.",
+            "Mobalytics and KeenGamer independently describe Blackarrow as a ranged class that controls space while staying away from close-range pressure. Their fetched guides overlap on Barbed Arrow, Bloodfly Arrow, Lightning Arrow, Rapid Arrows, and Frostblight Bomb for pressure, burst, or control. The two game-data references add a useful baseline: Rapid Arrows can fire up to 5 arrows for 10 Energy, and Sky Piercer is a charged arrow with a 20s cooldown, 30 Energy cost, and 5-unit pierce.",
             "Blackarrow is only as safe as the space you create around it. A strong opening does not replace a retreat path, and a long sightline can become a trap when a melee player reaches cover. Treat the shared skill package as a reproducible starting point rather than a promise of a specific result."
           ],
           "bullets": [
             "Cross-source arrow consensus: Barbed Arrow, Bloodfly Arrow, and Lightning Arrow.",
-            "Cross-source active-skill direction: Rapid Arrows and Frostblight Bomb; an official best finisher is 待确认.",
-            "Exact damage, stamina costs, cooldowns, range, and a single official best loadout: 待确认."
+            "Cross-source active-skill direction: Rapid Arrows for up to 5-arrow pressure, Sky Piercer for a 20s charged finisher option, and Frostblight Bomb for a freeze window.",
+            "Frostblight Bomb is confirmed to freeze and to have a shorter base cooldown in trio mode, but the two data pages do not expose the same current mode-specific cooldown values; that table remains 待确认.",
+            "Exact damage coefficients, complete cooldown table, effective range, and a single official best loadout: 待确认."
           ]
         },
         {
           "heading": "Talents for pressure and repeatable damage",
           "paragraphs": [
             "Mobalytics and KeenGamer both name Full Draw, Colossal Power, Focus Fire, and Lasting Pain in their Blackarrow talent guidance. Together, those choices point toward fully charged shots, faster charging, repeated Rapid Arrows pressure, and longer damage-over-time effects. Other talent names that appear in only one fetched guide are not treated as verified recommendations here.",
-            "Do not equip every damage talent simply because it appears in a guide. If a talent makes the build harder to retreat with, it can be a poor trade for a new player who is still learning map angles. Neither guide supplies a complete official talent-value table, so exact scaling and the best unlock order remain 待确认."
+            "Do not equip every damage talent simply because it appears in a guide. If a talent makes the build harder to retreat with, it can be a poor trade for a new player who is still learning map angles. The data page lists current effects for the shared talent names, but the community guides do not agree on one unlock order and no official priority table was found; exact scaling and the best unlock order remain 待确认."
           ]
         },
         {
           "heading": "Affixes that fit a ranged plan",
           "paragraphs": [
-            "The Mobalytics beginner build and KeenGamer's build both include Ranged, Focused, and Elusive in their affix direction. Their larger packages differ, so the shared names are safer than either guide's complete order. Exact affix levels, roll values, caps, and the best slot-by-slot package remain 待确认.",
+            "The Mobalytics beginner build and KeenGamer's build both include Ranged, Focused, and Elusive in their affix direction. A separate MetaMist class guide instead prioritizes Valor, Ranged, Strife, Swift, and Tenacious. This is a documented source disagreement, so the shared ranged identity is safer than any complete order; exact affix levels, roll values, caps, and the best slot-by-slot package remain 待确认.",
             "Do not turn one guide's priority order into a mandatory item checklist. A player who dies while being rushed needs a different adjustment from a player who cannot finish an enemy. Use the cross-source names as a testable direction and keep the variant choices tied to the guide that reported them."
           ]
         },
@@ -42,14 +43,14 @@
           "heading": "How to play the build in an extraction run",
           "paragraphs": [
             "Use Blackarrow's range to scout and soften enemies before committing to a fight. Clear nearby monsters when the route is quiet, but avoid standing still for a long cast or charge if a rival team could hear the encounter. The beginner sources consistently recommend leaving with useful progress rather than extending a run just because more loot remains in the next room.",
-            "Open ground is the main risk for a ranged class when the opponent has cover and a shorter path to you. Both guides emphasize distance, traps or control, and keeping a defensive movement option available instead of turning the bow plan into a stationary duel. Exact movement speed, effective range, stamina use, and cooldown numbers are 待确认 in the verified source set."
+            "Open ground is the main risk for a ranged class when the opponent has cover and a shorter path to you. Both guides emphasize distance, traps or control, and keeping a defensive movement option available instead of turning the bow plan into a stationary duel. The two data pages agree on Blackarrow's base block of 100 Attack, 50 Defense, 618 Health, 25% critical damage, 100 Maximum Energy, and 10 Energy recovery per second; movement speed, effective range, and the full cooldown table remain 待确认."
           ]
         },
         {
           "heading": "Build codes and what is not verified",
           "paragraphs": [
             "The supplied Blackarrow articles use the word code for community build or import information, but those strings are not redemption codes. This page intentionally does not publish a build code as though it were an official reward code. The codes research contains no verified Mistfall Hunter redemption code, so it should not be used to fill in missing build data.",
-            "Use the cross-checked skill, talent, and shared affix names above as a checklist for testing your own version. A complete official Blackarrow template, exact stat targets, and any developer-published build import format are 待确认. The responsible answer is a reproducible reported direction, not an invented number or code."
+            "Use the cross-checked skill, talent, and shared affix names above as a checklist for testing your own version. The official Steam update confirms the Blackarrow adjustment scope, but it does not publish a developer build template or import format. Exact stat targets and any developer-published build import format are 待确认; the responsible answer is a reproducible reported direction, not an invented number or code."
           ]
         },
         {
@@ -65,7 +66,11 @@
         {"label": "Mobalytics Blackarrow beginner build", "url": "https://mobalytics.gg/gamebase/guides/mistfall-hunter-blackarrow-beginner-build"},
         {"label": "KeenGamer Blackarrow build", "url": "https://www.keengamer.com/articles/guides/mistfall-hunter-best-blackarrow-build/"},
         {"label": "Official Steam store description", "url": "https://store.steampowered.com/app/3282300/Mistfall_Hunter/"},
-        {"label": "Xbox Wire playtest announcement", "url": "https://news.xbox.com/en-us/2026/06/15/mistfall-hunter-june-playtest-xbox/"}
+        {"label": "Xbox Wire playtest announcement", "url": "https://news.xbox.com/en-us/2026/06/15/mistfall-hunter-june-playtest-xbox/"},
+        {"label": "GameDB Blackarrow data page", "url": "https://mistfallhunter.gamedb.wiki/classes/blackarrow/"},
+        {"label": "MistfallDB Blackarrow class page", "url": "https://mistfalldb.com/classes/blackarrow"},
+        {"label": "MistfallDB Sky Piercer skill page", "url": "https://mistfalldb.com/skills/sky-piercer"},
+        {"label": "Official Steam announcements", "url": "https://steamcommunity.com/app/3282300/announcements/"}
       ]
     },
     {
@@ -76,7 +81,7 @@
       "description": "mistfall hunter withered knight build guide comparing reported Greatsword and Polearm and Shield routes, defensive talents, skills, and affixes.",
       "h1": "mistfall hunter withered knight build: greatsword or shield",
       "image": "/images/mistfall/fight.jpg",
-      "answer": "A cross-checked Withered Knight route uses Greatsword for solo and 1v1 pressure through Wither and Execution, or Polearm and Shield for trio frontline protection. Mobalytics and KeenGamer report the same solo-versus-trio split, while Destructoid independently describes the class as a melee hybrid; exact balance values, breakpoints, and an official import build remain 待确认.",
+      "answer": "A cross-checked Withered Knight route uses Greatsword for solo and 1v1 pressure through Wither and Execution, or Polearm and Shield for trio frontline protection. Two current game-data references agree on the core skill baselines: Thorn Guide is 16s and 35 Energy, Withering Mark is 12s and 20 Energy, and Breakthrough Charge is 15s and 40 Energy. Exact damage, armor breakpoints, mode-specific Parry costs, and an official import build remain 待确认.",
       "confidence": "Cross-checked community build report",
       "updated": "Cross-checked Aug 17, 2026",
       "sections": [
@@ -87,29 +92,29 @@
             "A solo Greatsword player needs an exit after a trade, while a shield player can measure success by whether a teammate survives the engagement. Destructoid's class overview also treats Withered Knight as a melee-focused hybrid, but none of these sources establishes a universal ranking that applies equally to both paths."
           ],
           "bullets": [
-            "Cross-source Greatsword direction: Thorn Guide, Parry, Withering Mark, and Breakthrough Charge.",
-            "Cross-source Polearm and Shield direction: Sacred Bulwark, Intervene, and Javelin Thrust; Spear Barrage is a reported alternative.",
-            "Exact damage, armor, Wither/Execution values, cooldowns, and path balance: 待确认."
+            "Cross-source Greatsword direction: Thorn Guide 16s/35 Energy, Withering Mark 12s/20 Energy, and Breakthrough Charge 15s/40 Energy; Parry lasts up to 5s or 5 successful parries.",
+            "Cross-source Polearm and Shield direction: Sacred Bulwark 15s/20 Energy, Intervene 20s/20 Energy, and Javelin Thrust 15s/25 Energy; Spear Barrage is a reported alternative.",
+            "Exact damage coefficients, armor breakpoints, Wither/Execution values, and a complete mode-specific Parry cost table: 待确认."
           ]
         },
         {
           "heading": "Greatsword for solo counterplay",
           "paragraphs": [
             "The two current build guides agree on Thorn Guide as the engage tool, Parry as the frontal counter, Withering Mark as the Wither applicator, and Breakthrough Charge as mobility. The shared loop is to create contact, apply Wither, and reserve a counter or movement option for the response.",
-            "Mobalytics and KeenGamer both name Greatsword Specialization, Crime, Bad Karma, and Instant Wither around the offensive route. These are reported build directions, not a developer-mandated order. A slower melee route is still vulnerable in open ground, so a counter tool does not remove the need for cover or an extraction plan."
+            "Mobalytics and KeenGamer both name Greatsword Specialization, Crime, Bad Karma, and Instant Wither around the offensive route. The data pages agree on the skill functions and on the Parry limit of 5 seconds or 5 attacks, while GameDB additionally exposes mode-specific cooldown and energy entries. These are reported build directions, not a developer-mandated order; a slower melee route is still vulnerable in open ground."
           ]
         },
         {
           "heading": "Polearm and Shield for a trio frontline",
           "paragraphs": [
             "The two build guides converge on Sacred Bulwark and Intervene for frontline protection, with Javelin Thrust as a way to apply Wither and close distance. Other skills appear in individual guides but do not form a shared core, so they are not presented as confirmed recommendations here. The common purpose is to protect or reposition teammates, not to chase every target alone.",
-            "Mobalytics and KeenGamer both report Polearm and Shield Specialization, Defensive Shift, Unbreakable, Guardian, and Swift Vanguard as relevant defensive talents. In a trio, enter when ranged teammates can follow, then disengage before the group is surrounded by PvE enemies or a third party. The sources do not confirm one fixed party rotation."
+            "Mobalytics and KeenGamer both report Polearm and Shield Specialization, Defensive Shift, Unbreakable, Guardian, and Swift Vanguard as relevant defensive talents. The data pages describe Sacred Bulwark as a frontal barrier and Intervene as an ally-targeted dash that grants a shield, which confirms their different jobs even without a fixed rotation. In a trio, enter when ranged teammates can follow, then disengage before the group is surrounded."
           ]
         },
         {
           "heading": "Affixes and the defense tradeoff",
           "paragraphs": [
-            "Burst, Aegis, Tenacious, and Valor are supported across the fetched community reports: KeenGamer recommends Burst, Tenacious, and Valor; Mobalytics lists Aegis and Tenacious for the class; Destructoid also reports the four-name damage-and-defense package. They point toward surviving a committed exchange while still threatening an opponent in melee range. The sources do not establish which affix is mandatory or what roll threshold is required.",
+            "Burst, Aegis, Tenacious, and Valor are supported across the fetched community reports: KeenGamer recommends Burst, Tenacious, and Valor; Mobalytics lists Aegis and Tenacious for the class; Destructoid also reports the four-name damage-and-defense package. MetaMist supplies a different order—Fervid, Tenacious, Burst, Fervor, and Stoic—so the follow-up search confirms a source disagreement rather than a universal priority. The names point toward surviving a committed exchange while still threatening an opponent in melee range.",
             "A defensive item is not automatically better if it leaves the class unable to finish an enemy or escape a second attacker. Compare equipment by the problem it solves: damage during a counter, staying power while holding a doorway, or recovery after an unsuccessful engage. Exact armor, reduction, damage, and affix-roll numbers are 待确认, so community preferences are not hard requirements."
           ]
         },
@@ -123,8 +128,8 @@
         {
           "heading": "What remains unverified",
           "paragraphs": [
-            "The official Steam and Xbox descriptions confirm the wider class system—weapon stances, skills, talents, and gear—but do not certify a Withered Knight rotation, talent order, affix priority, or share code. The cross-checked community sources are therefore used for route and named-option guidance, not for official balance claims.",
-            "No exact Withered Knight damage table, armor breakpoint, Wither/Execution value, cooldown list, or official import code is supplied by two corroborating sources. Mark those values 待确认 until a primary source or an in-game test records them. The safest recommendation is the route whose timing and retreat plan you can execute consistently."
+            "The official Steam and Xbox descriptions confirm the wider class system—weapon stances, skills, talents, and gear—but do not certify a Withered Knight rotation, talent order, affix priority, or share code. The two data pages do agree on the current base block of 100 Attack, 50 Defense, 618 Health, 35% critical damage, 100 Maximum Energy, and 10 Energy recovery per second. These are base attributes, not armor breakpoints or a promise of balance.",
+            "No exact Withered Knight damage table, armor breakpoint, full Wither/Execution value table, or official import code is supplied by two corroborating sources. Mode-specific Parry entries also need a clearer primary-source explanation. Keep those values 待确认 until a primary source or an in-game test records them."
           ]
         }
       ],
@@ -133,7 +138,11 @@
         {"label": "KeenGamer Withered Knight build", "url": "https://www.keengamer.com/articles/guides/mistfall-hunter-best-withered-knight-build/"},
         {"label": "Destructoid Withered Knight build", "url": "https://www.destructoid.com/best-withered-knight-build-in-mistfall-hunter/"},
         {"label": "Official Steam store description", "url": "https://store.steampowered.com/app/3282300/Mistfall_Hunter/"},
-        {"label": "Xbox Wire playtest announcement", "url": "https://news.xbox.com/en-us/2026/06/15/mistfall-hunter-june-playtest-xbox/"}
+        {"label": "Xbox Wire playtest announcement", "url": "https://news.xbox.com/en-us/2026/06/15/mistfall-hunter-june-playtest-xbox/"},
+        {"label": "GameDB Withered Knight data page", "url": "https://mistfallhunter.gamedb.wiki/classes/withered-knight/"},
+        {"label": "MistfallDB Withered Knight class page", "url": "https://mistfalldb.com/classes/withered-knight"},
+        {"label": "MistfallDB Breakthrough Charge skill page", "url": "https://mistfalldb.com/skills/breakthrough-charge"},
+        {"label": "MistfallDB Polearm and Shield skill data", "url": "https://mistfalldb.com/skills/sacred-bulwark"}
       ]
     },
     {
@@ -144,7 +153,7 @@
       "description": "mistfall hunter shadowstrix build for reported solo Dagger and Dual Blades play, covering stealth skills, talents, affixes, and high-risk PvP tradeoffs.",
       "h1": "mistfall hunter shadowstrix build: solo daggers and stealth",
       "image": "/images/mistfall/fight.jpg",
-      "answer": "A cross-checked Shadowstrix direction uses Dagger for stealth, entry, and burst, with Dual Blades for sustained pressure and follow-up. Mobalytics and MetaMist both list Shadow Strike, Flash Stride, and Spinning Slash in their build material, while TreyexGaming and Destructoid independently describe the class as a high-execution stealth/PvP choice. Exact damage, cooldowns, affix thresholds, and a universal best setup remain 待确认.",
+      "answer": "A cross-checked Shadowstrix direction uses Dagger for stealth, entry, and burst, with Dual Blades for sustained pressure and follow-up. Two game-data references agree that Shadow Strike has a 20s cooldown and costs 30 Energy, while Smoke Bomb has a 30s cooldown and costs 20 Energy. Exact damage, mode-specific cooldown differences, affix thresholds, and a universal best setup remain 待确认.",
       "confidence": "Cross-checked community build report",
       "updated": "Cross-checked Aug 17, 2026",
       "sections": [
@@ -156,22 +165,23 @@
           ],
           "bullets": [
             "Cross-source weapon direction: Dagger for entry and Dual Blades for follow-up pressure.",
-            "Cross-source skill names: Shadow Strike, Flash Stride, and Spinning Slash.",
-            "Smoke Bomb and any exact utility values: 待确认."
+            "Cross-source skill names: Shadow Strike, Flash Stride, and Spinning Slash; Shadow Strike is 20s/30 Energy in both data references.",
+            "Smoke Bomb is a confirmed utility baseline at 30s/20 Energy, and its function is to obscure vision while improving the user's vision inside the smoke.",
+            "Phantom Shift and Spinning Slash have mode or version differences between the data pages, so their complete current cooldown table remains 待确认."
           ]
         },
         {
           "heading": "Skills for entry, burst, and exit",
           "paragraphs": [
             "Mobalytics and MetaMist both document Shadow Strike and Flash Stride as Dagger tools, and both include Spinning Slash in the Dual Blades path. TreyexGaming describes the same combat logic in its dagger guide: approach from stealth, open with the gap-closing attack, then keep moving after the burst.",
-            "Do not spend every movement tool on the opening attack. A solo player has no teammate to cover a retreat, and both the build guides and Destructoid's class overview describe the cost of a missed timing or prolonged PvE fight. Hold enough mobility to cross a doorway, break line of sight, or reach extraction when the original target was only a distraction."
+            "Do not spend every movement tool on the opening attack. The data pages agree that Flash Stride is a Dagger dash with 40 Energy and that Spinning Slash costs 15 Energy with a shorter base cooldown in trio mode, but they do not expose the same solo/trio cooldown table. Hold enough mobility to cross a doorway, break line of sight, or reach extraction when the original target was only a distraction."
           ]
         },
         {
           "heading": "Reported talents and affixes",
           "paragraphs": [
-            "Mobalytics and MetaMist both name Battle Frenzy and Combat Euphoria in their Dual Blades-oriented material. Mobalytics and TreyexGaming independently report Valor, Fervid, Seeker, and Vitality as useful affix directions for a mobile burst build. These shared names are a starting direction, not a mandatory order.",
-            "The sources do not define a developer-approved stat threshold or one universal talent path. Treat the names as a testing menu and observe which choice fixes your actual failure: missing the first burst, running out of escape, or losing to PvE damage while searching for a target. Win-rate figures and exact item rolls are intentionally excluded because they are not independently verified here."
+            "Mobalytics and MetaMist both name Battle Frenzy and Combat Euphoria in their Dual Blades-oriented material. Mobalytics and TreyexGaming independently report Valor, Fervid, Seeker, and Vitality as useful affix directions for a mobile burst build. MetaMist's separate priority order is Valor, Seeker, Strife, Swift, and Elusive, so the two report families overlap on names but not on a complete package. These shared names are a starting direction, not a mandatory order.",
+            "The sources do not define a developer-approved stat threshold or one universal talent path. MistfallDB and MetaMist also disagree on the mode-specific class read—both recognize Shadowstrix's solo strength, but their solo/trio labels are not identical. Treat the names as a testing menu and keep exact item rolls and rankings 待确认."
           ]
         },
         {
@@ -192,7 +202,7 @@
           "heading": "Build code and status of the report",
           "paragraphs": [
             "The source is a third-party community build, not an official developer template. Any build-share string associated with a guide is not a redemption code, and the current codes research has no verified Mistfall Hunter reward code. This page therefore keeps the skill, talent, and affix recommendations while omitting unverified strings.",
-            "Use the cross-checked weapon and skill direction as a baseline and change one item or talent at a time. An official Shadowstrix balance table, exact cooldowns, numeric affix thresholds, and a developer-confirmed import format are 待确认 in the collected materials. The build is useful because it explains a play pattern, not because it proves one fixed list is best for every map or player."
+            "Use the cross-checked weapon and skill direction as a baseline and change one item or talent at a time. The official Steam update confirms that Shadowstrix skills and talents were part of the August balance pass, while the two data pages provide the shared Shadow Strike and Smoke Bomb baselines. A complete official balance table, all mode-specific cooldowns, numeric affix thresholds, and a developer-confirmed import format are 待确认."
           ]
         }
       ],
@@ -201,7 +211,11 @@
         {"label": "Mobalytics Shadowstrix guide", "url": "https://mobalytics.gg/gamebase/guides/mistfall-hunter-shadowstrix-guide"},
         {"label": "MetaMist Shadowstrix build", "url": "https://metamist.io/builds/dual-blades-spinning-slash"},
         {"label": "TreyexGaming Shadowstrix build guide", "url": "https://www.treyexgaming.com/mistfall-hunter-shadowstrix-build-guide/"},
-        {"label": "Destructoid class tier list", "url": "https://www.destructoid.com/mistfall-hunter-class-tier-list/"}
+        {"label": "Destructoid class tier list", "url": "https://www.destructoid.com/mistfall-hunter-class-tier-list/"},
+        {"label": "GameDB Shadowstrix data page", "url": "https://mistfallhunter.gamedb.wiki/classes/shadowstrix/"},
+        {"label": "MistfallDB Shadowstrix class page", "url": "https://mistfalldb.com/classes/shadowstrix"},
+        {"label": "MistfallDB skill index", "url": "https://mistfalldb.com/skills"},
+        {"label": "Official Steam announcements", "url": "https://steamcommunity.com/app/3282300/announcements/"}
       ]
     },
     {
@@ -212,7 +226,7 @@
       "description": "mistfall hunter seer build guide covering the reported Reverent oath, Rune Pillars, Divine Arts, talents, affixes, and solo support tradeoffs.",
       "h1": "mistfall hunter seer build: reverent support skills",
       "image": "/images/mistfall/heroes.jpg",
-      "answer": "A cross-checked Seer direction uses Reverent for healing, shielding, and zone control in trios, while Blasphemer is the more aggressive path built around Rune enchantments, sigils, and Zeal. Mobalytics, MetaMist, and Destructoid agree on this support-versus-duelist split and on Seer's limited solo comfort. They do not publish a shared official oath stat table or current balance values, so exact numbers remain 待确认.",
+      "answer": "A cross-checked Seer direction uses Reverent for healing, shielding, and zone control in trios, while Blasphemer is the more aggressive path built around Rune enchantments, sigils, and Zeal. Two game-data references agree that Healing Art has a 30s cooldown and limited uses with more available in trio mode; MistfallDB lists 4 uses per match, while GameDB does not publish that count. Shelter Rune scales its shield with Attack and is more durable in trio mode. Exact oath values, damage scaling, and a universal ranking remain 待确认.",
       "confidence": "Cross-checked class and build report",
       "updated": "Cross-checked Aug 17, 2026",
       "sections": [
@@ -225,27 +239,27 @@
           "bullets": [
             "Cross-source role direction: Reverent for trio support, healing, shielding, and control.",
             "Cross-source alternative: Blasphemer for aggressive Rune, sigil, and Zeal pressure.",
-            "Exact oath values, solo/trio balance, and official ranking: 待确认."
+            "Healing Art is the clearest support baseline: both data pages give it a 30s cooldown and limited-use behavior with more uses in trio mode, while MistfallDB alone lists 4 uses per match. The data pages also agree that Seer has no normal Energy bar, while the community tier labels disagree on solo and trio performance; the exact use count, oath values, and an official ranking remain 待确认."
           ]
         },
         {
           "heading": "Rune Pillars and Divine Arts",
           "paragraphs": [
-            "The two class guides agree that Reverent's useful tools include healing or shielding Runes and area-control options. Mobalytics' build selects Healing Art and Wind Surge as the Divine Arts, with Shelter Rune and Binding Rune as broadly useful choices; MetaMist independently documents Healing Rune, Shelter Rune, Binding Rune, Wind Surge, and Healing Art as part of the Reverent kit. The exact third Rune depends on the team and is not an official universal prescription.",
-            "For Blasphemer, Mobalytics and MetaMist both document Shapeshift, Thorn Sigil, Impact Sigil, Paralysis Curse, and Zeal-oriented play. Healing is most valuable before a teammate is one hit from death, while a movement or pressure tool can create the moment needed to reset. Keep an escape decision in mind because a Seer who remains in a bad position cannot support anyone."
+            "The two class guides agree that Reverent's useful tools include healing or shielding Runes and area-control options. Mobalytics' build selects Healing Art and Wind Surge as the Divine Arts, with Shelter Rune and Binding Rune as broadly useful choices; the data pages confirm Healing Rune as a limited-use healing Construct and Shelter Rune as an Attack-scaling shield Construct. The exact third Rune depends on the team and is not an official universal prescription.",
+            "For Blasphemer, Mobalytics and MetaMist both document Shapeshift, Thorn Sigil, Impact Sigil, Paralysis Curse, and Zeal-oriented play. The data references give Impact Sigil a 15s cooldown and Thorn Sigil a 30s cooldown, but they do not provide a complete oath-by-oath damage table. Healing is most valuable before a teammate is one hit from death, while a movement or pressure tool can create the moment needed to reset."
           ]
         },
         {
           "heading": "Talents for support and opportunity damage",
           "paragraphs": [
             "The guides agree that Seer talents should follow the selected path rather than one universal damage list. MetaMist and Mobalytics both document Blasphemer choices around Inexhaustible, Obsession, Infusion, and Keen Edge to support Zeal; the Reverent references instead emphasize healing, shielding, Rune placement, and control. The names are useful for navigation in the live talent tree, but the sources do not publish a shared complete priority table.",
-            "Select talents according to the problem your squad is actually facing: sustain and protection for a team that loses to attrition, or resource and pressure tools for a Blasphemer that wins after a clean engage. Exact talent effects, scaling, unlock order, and cross-patch priority are 待确认."
+            "Select talents according to the problem your squad is actually facing: sustain and protection for a team that loses to attrition, or resource and pressure tools for a Blasphemer that wins after a clean engage. The follow-up data lists Deep Healing and Purify under Healing Art Enhancement, so their roles are confirmed as extra healing and debuff removal; exact scaling, unlock order, and cross-patch priority remain 待确认."
           ]
         },
         {
           "heading": "Affixes and a safe team position",
           "paragraphs": [
-            "The fetched Seer guides do not provide a shared complete affix list or priority order. This page therefore does not present Creation, Eloquence, Ranged, Tenacious, or other names as confirmed priorities. Exact affix combinations, levels, and roll values are 待确认.",
+            "The fetched Seer guides do not provide a shared complete affix list or priority order. MetaMist names Tenacious as a baseline but explicitly says the full recommendation is not yet available, while MistfallDB confirms Tenacious's health-and-healing function without publishing the hidden roll values. Exact affix combinations, levels, and roll values are therefore 待确认.",
             "Stay close enough to affect a fight but not so close that the first melee engage removes your ability to heal. Watch the same doors and bridges as the frontline, and move before the opponent has a clean path to your position. If the team separates too far, support skills lose value even when the build is technically correct."
           ]
         },
@@ -253,14 +267,14 @@
           "heading": "Solo use and why it feels harder",
           "paragraphs": [
             "Mobalytics, MetaMist, and Destructoid all make the same practical distinction: Reverent gains value from teammates, while Seer is less forgiving alone; Blasphemer is the more offensive solo direction but still asks for resource and timing control. A solo player should not expect a Reverent support list to perform like a dedicated assassination build.",
-            "If you are learning the game, use a low-risk run to practice placing Runes, healing before the emergency, and leaving with partial progress. Repair at the forge and keep a recovery loadout available instead of making every experiment expensive. Exact solo rankings, damage comparisons, and mode-specific performance remain 待确认."
+            "If you are learning the game, use a low-risk run to practice placing Runes, healing before the emergency, and leaving with partial progress. The community ratings are not consistent: MetaMist reports the same broad B-tier read across modes, while MistfallDB rates trio much higher than solo. Keep exact solo rankings, damage comparisons, and mode-specific performance 待确认 rather than presenting either site as an official ranking."
           ]
         },
         {
           "heading": "Build code status",
           "paragraphs": [
             "A build-share string, if shown by a third-party guide, would describe skills or equipment rather than grant a redemption reward. The codes page has no verified Mistfall Hunter redemption code, so this article does not republish unverified strings or suggest that they grant items. Keeping those two meanings separate prevents a build reference from becoming false code information.",
-            "Use the cross-checked oath, role, Rune, and Divine Art direction as the verified scope of this page. Official skill values, a developer-published build template, complete affix priorities, and the exact cost of changing paths are 待确认. Recheck the live game before treating a community guide as a fixed patch prescription."
+            "Use the cross-checked oath, role, Rune, and Divine Art direction as the verified scope of this page. The official Steam balance notice confirms reduced channeling time for Healing Rune and Punishment Rune and a larger Ebb and Flow hitbox, but it does not publish a full numeric oath table or build template. Complete affix priorities, the exact cost of changing paths, and a developer-published import format remain 待确认."
           ]
         }
       ],
@@ -268,7 +282,11 @@
         {"label": "Mobalytics Seer guide", "url": "https://mobalytics.gg/gamebase/guides/mistfall-hunter-seer-guide"},
         {"label": "MetaMist Seer class guide", "url": "https://metamist.io/classes/seer"},
         {"label": "Destructoid class tier list", "url": "https://www.destructoid.com/mistfall-hunter-class-tier-list/"},
-        {"label": "Mobalytics class guide", "url": "https://mobalytics.gg/gamebase/guides/mistfall-hunter-classes-explained"}
+        {"label": "Mobalytics class guide", "url": "https://mobalytics.gg/gamebase/guides/mistfall-hunter-classes-explained"},
+        {"label": "GameDB Seer data page", "url": "https://mistfallhunter.gamedb.wiki/classes/seer/"},
+        {"label": "MistfallDB Seer class page", "url": "https://mistfalldb.com/classes/seer"},
+        {"label": "MistfallDB Healing Art skill page", "url": "https://mistfalldb.com/skills/healing-art"},
+        {"label": "Official Steam announcements", "url": "https://steamcommunity.com/app/3282300/announcements/"}
       ]
     },
     {
@@ -279,7 +297,7 @@
       "description": "mistfall hunter mercenary build guide using reported Hammer and Sword and Shield skills, talents, affixes, and close-range positioning advice.",
       "h1": "mistfall hunter mercenary build: hammer and shield",
       "image": "/images/mistfall/fight.jpg",
-      "answer": "A cross-checked Mercenary starting route uses Sword and Shield with Shield Dash and Stonebreaker Slash for defensive control, while Hammer with Skullcrusher and Earthshaker is the offensive or PvE alternative. Mobalytics and KeenGamer list these choices and describe Mercenary as an easy-to-read melee frontline class. Exact damage, stamina, cooldown, and import-code details remain 待确认.",
+      "answer": "A cross-checked Mercenary starting route uses Sword and Shield with Shield Dash and Stonebreaker Slash for defensive control, while Hammer with Skullcrusher and Earthshaker is the offensive or PvE alternative. Two game-data references agree that Shield Dash is 15s/20 Energy, Stonebreaker Slash is 12s/35 Energy, and Shield Slam is 18s/25 Energy. Exact damage, Hammer charge cooldowns, and import-code details remain 待确认.",
       "confidence": "Cross-checked community build report",
       "updated": "Cross-checked Aug 17, 2026",
       "sections": [
@@ -292,28 +310,29 @@
           "bullets": [
             "Cross-source Hammer direction: Skullcrusher and Earthshaker; Hammer Dash is a reported mobility alternative.",
             "Cross-source Sword and Shield direction: Shield Dash and Stonebreaker Slash; Shield Slam is a reported alternative.",
-            "Exact damage, stamina costs, cooldowns, and official import code: 待确认."
+            "Cross-checked skill baselines: Shield Dash 15s/20 Energy, Stonebreaker Slash 12s/35 Energy, and Shield Slam 18s/25 Energy. Skullcrusher and Earthshaker both cost 20 Energy and can be charged up to 2 times, but the current data pages do not expose a shared charge-level cooldown table.",
+            "Exact damage coefficients, Hammer charge cooldowns, complete mode-specific values, and an official import code: 待确认."
           ]
         },
         {
           "heading": "Hammer skills for a committed engage",
           "paragraphs": [
             "Mobalytics and KeenGamer both recommend Skullcrusher and Earthshaker for the Hammer branch; Mobalytics describes Skullcrusher as the mobility option and Earthshaker as useful against groups, while KeenGamer also lists Hammer Dash as a movement choice. Hammer should start an exchange only after identifying where the opponent can retreat, because a failed approach leaves a slow moveset exposed.",
-            "A Hammer Mercenary should use monsters as practice for spacing rather than as a reason to stand in every hazard. Clear the enemy that blocks the route, then reset before a player arrives on top of the noise. The guides explain the component skills but do not provide a two-source fixed rotation, so the opening and escape timing remain a player test."
+            "A Hammer Mercenary should use monsters as practice for spacing rather than as a reason to stand in every hazard. The data pages agree that Skullcrusher and Earthshaker are charge skills with up to 2 charge levels, and that each uses 20 Energy; they do not agree on a single published cooldown table for those charge levels. Clear the enemy that blocks the route, then reset before a player arrives on top of the noise."
           ]
         },
         {
           "heading": "Sword and Shield for control and survival",
           "paragraphs": [
             "Mobalytics and KeenGamer both recommend Shield Dash plus Stonebreaker Slash for the Sword and Shield route. Shield Dash closes while protecting the front, while Stonebreaker Slash supplies a Perfect Block or counterattack window; both sources also list Shield Slam as an alternative with more readable timing. The route is less about one large hit and more about ensuring that the next close-range decision happens on your terms.",
-            "In trios, call the engage before committing so ranged teammates can use the time you create. In solo play, do not chase a target into open terrain simply because the shield kept you alive once. The class's exact defensive advantage and damage comparison are not quantified in two corroborating sources."
+            "In trios, call the engage before committing so ranged teammates can use the time you create. In solo play, do not chase a target into open terrain simply because the shield kept you alive once. The data pages confirm that Stonebreaker Slash can trigger a Perfect Block during its wind-up and that Shield Dash can be cast while blocking; the class's exact defensive advantage and damage comparison remain unverified."
           ]
         },
         {
           "heading": "Talents and affixes in the reported build",
           "paragraphs": [
             "Mobalytics and KeenGamer both list Sword Edge, Blade Charge, Indomitable Will, Stacking Blade, and Rising to the Challenge for the Sword and Shield route. Their Hammer lists also overlap on Unstoppable, Hammer of Convergence, Iron-Clad Body, and Leap Step. Both guides name Stoic, Tenacious, Valor, and Wrath as the main affix direction, giving the page a cross-checked baseline instead of the earlier mixed list.",
-            "Do not turn the list into a rule that every item must carry every defensive property. A player who dies while walking into ranged fire needs a different adjustment from a player who reaches the target but cannot finish the exchange. Exact roll priorities, caps, thresholds, and slot-by-slot stat values remain 待确认."
+            "Do not turn the list into a rule that every item must carry every defensive property. The affix reference pages confirm the generic functions of Stoic, Tenacious, Valor, and Wrath, but they do not establish that this four-name package is mandatory for Mercenary or give a two-source slot-by-slot order. A player who dies while walking into ranged fire needs a different adjustment from a player who reaches the target but cannot finish the exchange; exact roll priorities, caps, thresholds, and slot-by-slot stat values remain 待确认."
           ]
         },
         {
@@ -327,7 +346,7 @@
           "heading": "A safe way to test the build",
           "paragraphs": [
             "Start with a basic loadout and practice the approach against monsters, then add one talent or affix change at a time. Repair at the forge after the run, and use a combat bag when you need a low-cost attempt to rebuild. These preparation habits come from the collected beginner material and are more reliable than assuming a guide list removes the cost of failure.",
-            "The cross-checked Mercenary build is a baseline for a player who enjoys direct decisions and visible frontline responsibility. It is not a promise that every match will favor melee, and it is not an official balance statement. Exact skill data, stamina use, cooldowns, a confirmed build import code, and numeric comparison with other classes are 待确认."
+            "The two data pages agree on Mercenary's base block of 100 Attack, 50 Defense, 618 Health, 35% critical damage, 100 Maximum Energy, and 10 Energy recovery per second. That is useful for separating class identity from gear scaling, but it is not an official balance statement. Exact skill damage, Hammer charge cooldowns, a confirmed build import code, and numeric comparison with other classes are 待确认."
           ]
         }
       ],
@@ -336,7 +355,11 @@
         {"label": "KeenGamer Mercenary build", "url": "https://www.keengamer.com/articles/guides/mistfall-hunter-best-mercenary-build-skills-talents-and-affixes/"},
         {"label": "Mobalytics class guide", "url": "https://mobalytics.gg/gamebase/guides/mistfall-hunter-classes-explained"},
         {"label": "Official Steam store description", "url": "https://store.steampowered.com/app/3282300/Mistfall_Hunter/"},
-        {"label": "Xbox Wire playtest announcement", "url": "https://news.xbox.com/en-us/2026/06/15/mistfall-hunter-june-playtest-xbox/"}
+        {"label": "Xbox Wire playtest announcement", "url": "https://news.xbox.com/en-us/2026/06/15/mistfall-hunter-june-playtest-xbox/"},
+        {"label": "GameDB Mercenary data page", "url": "https://mistfallhunter.gamedb.wiki/classes/mercenary/"},
+        {"label": "MistfallDB Mercenary class page", "url": "https://mistfalldb.com/classes/mercenary"},
+        {"label": "MistfallDB Shield Dash skill page", "url": "https://mistfalldb.com/skills/shield-dash"},
+        {"label": "MistfallDB Stonebreaker Slash skill page", "url": "https://mistfalldb.com/skills/stonebreaker-slash"}
       ]
     },
     {
