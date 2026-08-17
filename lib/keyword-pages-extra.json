@@ -5,10 +5,10 @@
       "keyword": "mistfall hunter blackarrow build",
       "category": "Class Builds",
       "title": "mistfall hunter blackarrow build: skills and affixes",
-      "description": "mistfall hunter blackarrow build guide using reported arrow skills, talents, and affixes for ranged pressure, with unverified numbers excluded.",
+      "description": "mistfall hunter blackarrow build guide using reported arrow skills, talents, and affixes for ranged pressure, with shared published baselines.",
       "h1": "mistfall hunter blackarrow build: skills and affixes",
       "image": "/images/mistfall/loot.jpg",
-      "answer": "A cross-checked Blackarrow starting point uses Barbed Arrow and Bloodfly Arrow for sustained pressure, Lightning Arrow for groups, Rapid Arrows for mobile burst, and Frostblight Bomb to create a freeze window. Two current game-data references agree that Rapid Arrows fires up to 5 arrows for 10 Energy, while Sky Piercer has a 20s cooldown, costs 30 Energy, and pierces 5 units. Exact damage, mode-specific cooldown differences, and a universal best loadout remain 待确认.",
+      "answer": "A cross-checked Blackarrow starting point uses Barbed Arrow and Bloodfly Arrow for sustained pressure, Lightning Arrow for groups, Rapid Arrows for mobile burst, and Frostblight Bomb to create a freeze window. Two current game-data references agree that Rapid Arrows fires up to 5 arrows for 10 Energy, while Sky Piercer has a 20s cooldown, costs 30 Energy, and pierces 5 units. This page focuses on shared skill baselines and reported build directions rather than a universal damage table or best loadout.",
       "confidence": "Cross-checked community build report",
       "updated": "Cross-checked Aug 17, 2026",
       "sections": [
@@ -21,21 +21,20 @@
           "bullets": [
             "Cross-source arrow consensus: Barbed Arrow, Bloodfly Arrow, and Lightning Arrow.",
             "Cross-source active-skill direction: Rapid Arrows for up to 5-arrow pressure, Sky Piercer for a 20s charged finisher option, and Frostblight Bomb for a freeze window.",
-            "Frostblight Bomb is confirmed to freeze and to have a shorter base cooldown in trio mode, but the two data pages do not expose the same current mode-specific cooldown values; that table remains 待确认.",
-            "Exact damage coefficients, complete cooldown table, effective range, and a single official best loadout: 待确认."
+            "Frostblight Bomb is confirmed to freeze and to have a shorter base cooldown in trio mode. The cited data pages do not publish one shared mode-specific table, so this page keeps the comparison at the shared functional level."
           ]
         },
         {
           "heading": "Talents for pressure and repeatable damage",
           "paragraphs": [
             "Mobalytics and KeenGamer both name Full Draw, Colossal Power, Focus Fire, and Lasting Pain in their Blackarrow talent guidance. Together, those choices point toward fully charged shots, faster charging, repeated Rapid Arrows pressure, and longer damage-over-time effects. Other talent names that appear in only one fetched guide are not treated as verified recommendations here.",
-            "Do not equip every damage talent simply because it appears in a guide. If a talent makes the build harder to retreat with, it can be a poor trade for a new player who is still learning map angles. The data page lists current effects for the shared talent names, but the community guides do not agree on one unlock order and no official priority table was found; exact scaling and the best unlock order remain 待确认."
+            "Do not equip every damage talent simply because it appears in a guide. If a talent makes the build harder to retreat with, it can be a poor trade for a new player who is still learning map angles. The data page lists current effects for the shared talent names, while the community guides point to different unlock orders; use the shared names as a testable route rather than a fixed sequence."
           ]
         },
         {
           "heading": "Affixes that fit a ranged plan",
           "paragraphs": [
-            "The Mobalytics beginner build and KeenGamer's build both include Ranged, Focused, and Elusive in their affix direction. A separate MetaMist class guide instead prioritizes Valor, Ranged, Strife, Swift, and Tenacious. This is a documented source disagreement, so the shared ranged identity is safer than any complete order; exact affix levels, roll values, caps, and the best slot-by-slot package remain 待确认.",
+            "The Mobalytics beginner build and KeenGamer's build both include Ranged, Focused, and Elusive in their affix direction. A separate MetaMist class guide instead prioritizes Valor, Ranged, Strife, Swift, and Tenacious. This is a documented source disagreement, so the shared ranged identity is safer than choosing one complete order from a single guide.",
             "Do not turn one guide's priority order into a mandatory item checklist. A player who dies while being rushed needs a different adjustment from a player who cannot finish an enemy. Use the cross-source names as a testable direction and keep the variant choices tied to the guide that reported them."
           ]
         },
@@ -43,14 +42,14 @@
           "heading": "How to play the build in an extraction run",
           "paragraphs": [
             "Use Blackarrow's range to scout and soften enemies before committing to a fight. Clear nearby monsters when the route is quiet, but avoid standing still for a long cast or charge if a rival team could hear the encounter. The beginner sources consistently recommend leaving with useful progress rather than extending a run just because more loot remains in the next room.",
-            "Open ground is the main risk for a ranged class when the opponent has cover and a shorter path to you. Both guides emphasize distance, traps or control, and keeping a defensive movement option available instead of turning the bow plan into a stationary duel. The two data pages agree on Blackarrow's base block of 100 Attack, 50 Defense, 618 Health, 25% critical damage, 100 Maximum Energy, and 10 Energy recovery per second; movement speed, effective range, and the full cooldown table remain 待确认."
+            "Open ground is the main risk for a ranged class when the opponent has cover and a shorter path to you. Both guides emphasize distance, traps or control, and keeping a defensive movement option available instead of turning the bow plan into a stationary duel. The two data pages agree on Blackarrow's base block of 100 Attack, 50 Defense, 618 Health, 25% critical damage, 100 Maximum Energy, and 10 Energy recovery per second; use those values as the class baseline rather than as a universal range or speed rule."
           ]
         },
         {
-          "heading": "Build codes and what is not verified",
+          "heading": "Build references and scope",
           "paragraphs": [
             "The supplied Blackarrow articles use the word code for community build or import information, but those strings are not redemption codes. This page intentionally does not publish a build code as though it were an official reward code. The codes research contains no verified Mistfall Hunter redemption code, so it should not be used to fill in missing build data.",
-            "Use the cross-checked skill, talent, and shared affix names above as a checklist for testing your own version. The official Steam update confirms the Blackarrow adjustment scope, but it does not publish a developer build template or import format. Exact stat targets and any developer-published build import format are 待确认; the responsible answer is a reproducible reported direction, not an invented number or code."
+            "Use the cross-checked skill, talent, and shared affix names above as a checklist for testing your own version. The official Steam update confirms the Blackarrow adjustment scope, but it does not publish a developer build template or import format. The responsible answer is a reproducible reported direction, not an invented number or code."
           ]
         },
         {
@@ -81,7 +80,7 @@
       "description": "mistfall hunter withered knight build guide comparing reported Greatsword and Polearm and Shield routes, defensive talents, skills, and affixes.",
       "h1": "mistfall hunter withered knight build: greatsword or shield",
       "image": "/images/mistfall/fight.jpg",
-      "answer": "A cross-checked Withered Knight route uses Greatsword for solo and 1v1 pressure through Wither and Execution, or Polearm and Shield for trio frontline protection. Two current game-data references agree on the core skill baselines: Thorn Guide is 16s and 35 Energy, Withering Mark is 12s and 20 Energy, and Breakthrough Charge is 15s and 40 Energy. Exact damage, armor breakpoints, mode-specific Parry costs, and an official import build remain 待确认.",
+      "answer": "A cross-checked Withered Knight route uses Greatsword for solo and 1v1 pressure through Wither and Execution, or Polearm and Shield for trio frontline protection. Two current game-data references agree on the core skill baselines: Thorn Guide is 16s and 35 Energy, Withering Mark is 12s and 20 Energy, and Breakthrough Charge is 15s and 40 Energy. This page reports the shared skill functions and route differences without claiming a universal damage or armor table.",
       "confidence": "Cross-checked community build report",
       "updated": "Cross-checked Aug 17, 2026",
       "sections": [
@@ -94,7 +93,7 @@
           "bullets": [
             "Cross-source Greatsword direction: Thorn Guide 16s/35 Energy, Withering Mark 12s/20 Energy, and Breakthrough Charge 15s/40 Energy; Parry lasts up to 5s or 5 successful parries.",
             "Cross-source Polearm and Shield direction: Sacred Bulwark 15s/20 Energy, Intervene 20s/20 Energy, and Javelin Thrust 15s/25 Energy; Spear Barrage is a reported alternative.",
-            "Exact damage coefficients, armor breakpoints, Wither/Execution values, and a complete mode-specific Parry cost table: 待确认."
+            "Use the shared skill functions and route roles as the comparison baseline; the cited guides do not provide one complete damage, armor, or mode-specific Parry table."
           ]
         },
         {
@@ -115,7 +114,7 @@
           "heading": "Affixes and the defense tradeoff",
           "paragraphs": [
             "Burst, Aegis, Tenacious, and Valor are supported across the fetched community reports: KeenGamer recommends Burst, Tenacious, and Valor; Mobalytics lists Aegis and Tenacious for the class; Destructoid also reports the four-name damage-and-defense package. MetaMist supplies a different order—Fervid, Tenacious, Burst, Fervor, and Stoic—so the follow-up search confirms a source disagreement rather than a universal priority. The names point toward surviving a committed exchange while still threatening an opponent in melee range.",
-            "A defensive item is not automatically better if it leaves the class unable to finish an enemy or escape a second attacker. Compare equipment by the problem it solves: damage during a counter, staying power while holding a doorway, or recovery after an unsuccessful engage. Exact armor, reduction, damage, and affix-roll numbers are 待确认, so community preferences are not hard requirements."
+            "A defensive item is not automatically better if it leaves the class unable to finish an enemy or escape a second attacker. Compare equipment by the problem it solves: damage during a counter, staying power while holding a doorway, or recovery after an unsuccessful engage. Community preferences are useful directions, not hard requirements."
           ]
         },
         {
@@ -126,10 +125,10 @@
           ]
         },
         {
-          "heading": "What remains unverified",
+          "heading": "How to read the evidence",
           "paragraphs": [
             "The official Steam and Xbox descriptions confirm the wider class system—weapon stances, skills, talents, and gear—but do not certify a Withered Knight rotation, talent order, affix priority, or share code. The two data pages do agree on the current base block of 100 Attack, 50 Defense, 618 Health, 35% critical damage, 100 Maximum Energy, and 10 Energy recovery per second. These are base attributes, not armor breakpoints or a promise of balance.",
-            "No exact Withered Knight damage table, armor breakpoint, full Wither/Execution value table, or official import code is supplied by two corroborating sources. Mode-specific Parry entries also need a clearer primary-source explanation. Keep those values 待确认 until a primary source or an in-game test records them."
+            "The cited sources do not include an official Withered Knight damage table, armor breakpoint table, full Wither/Execution value table, or import code. The page therefore stops at the shared skill functions, base attributes, and reported route roles instead of presenting an invented numeric comparison."
           ]
         }
       ],
@@ -153,7 +152,7 @@
       "description": "mistfall hunter shadowstrix build for reported solo Dagger and Dual Blades play, covering stealth skills, talents, affixes, and high-risk PvP tradeoffs.",
       "h1": "mistfall hunter shadowstrix build: solo daggers and stealth",
       "image": "/images/mistfall/fight.jpg",
-      "answer": "A cross-checked Shadowstrix direction uses Dagger for stealth, entry, and burst, with Dual Blades for sustained pressure and follow-up. Two game-data references agree that Shadow Strike has a 20s cooldown and costs 30 Energy, while Smoke Bomb has a 30s cooldown and costs 20 Energy. Exact damage, mode-specific cooldown differences, affix thresholds, and a universal best setup remain 待确认.",
+      "answer": "A cross-checked Shadowstrix direction uses Dagger for stealth, entry, and burst, with Dual Blades for sustained pressure and follow-up. Two game-data references agree that Shadow Strike has a 20s cooldown and costs 30 Energy, while Smoke Bomb has a 30s cooldown and costs 20 Energy. This page focuses on shared skill baselines and the reported stealth play pattern rather than a universal setup.",
       "confidence": "Cross-checked community build report",
       "updated": "Cross-checked Aug 17, 2026",
       "sections": [
@@ -167,7 +166,7 @@
             "Cross-source weapon direction: Dagger for entry and Dual Blades for follow-up pressure.",
             "Cross-source skill names: Shadow Strike, Flash Stride, and Spinning Slash; Shadow Strike is 20s/30 Energy in both data references.",
             "Smoke Bomb is a confirmed utility baseline at 30s/20 Energy, and its function is to obscure vision while improving the user's vision inside the smoke.",
-            "Phantom Shift and Spinning Slash have mode or version differences between the data pages, so their complete current cooldown table remains 待确认."
+            "Phantom Shift and Spinning Slash have mode or version differences between the data pages, so the page keeps their comparison at the shared role and function level."
           ]
         },
         {
@@ -181,7 +180,7 @@
           "heading": "Reported talents and affixes",
           "paragraphs": [
             "Mobalytics and MetaMist both name Battle Frenzy and Combat Euphoria in their Dual Blades-oriented material. Mobalytics and TreyexGaming independently report Valor, Fervid, Seeker, and Vitality as useful affix directions for a mobile burst build. MetaMist's separate priority order is Valor, Seeker, Strife, Swift, and Elusive, so the two report families overlap on names but not on a complete package. These shared names are a starting direction, not a mandatory order.",
-            "The sources do not define a developer-approved stat threshold or one universal talent path. MistfallDB and MetaMist also disagree on the mode-specific class read—both recognize Shadowstrix's solo strength, but their solo/trio labels are not identical. Treat the names as a testing menu and keep exact item rolls and rankings 待确认."
+            "The sources do not define a developer-approved stat threshold or one universal talent path. MistfallDB and MetaMist also disagree on the mode-specific class read—both recognize Shadowstrix's solo strength, but their solo/trio labels are not identical. Treat the names as a testing menu and keep each ranking tied to the source and mode that reported it."
           ]
         },
         {
@@ -201,8 +200,8 @@
         {
           "heading": "Build code and status of the report",
           "paragraphs": [
-            "The source is a third-party community build, not an official developer template. Any build-share string associated with a guide is not a redemption code, and the current codes research has no verified Mistfall Hunter reward code. This page therefore keeps the skill, talent, and affix recommendations while omitting unverified strings.",
-            "Use the cross-checked weapon and skill direction as a baseline and change one item or talent at a time. The official Steam update confirms that Shadowstrix skills and talents were part of the August balance pass, while the two data pages provide the shared Shadow Strike and Smoke Bomb baselines. A complete official balance table, all mode-specific cooldowns, numeric affix thresholds, and a developer-confirmed import format are 待确认."
+            "The source is a third-party community build, not an official developer template. Any build-share string associated with a guide is not a redemption code, and the current codes research has no verified Mistfall Hunter reward code. This page therefore keeps the skill, talent, and affix recommendations while omitting unsupported strings.",
+            "Use the cross-checked weapon and skill direction as a baseline and change one item or talent at a time. The official Steam update confirms that Shadowstrix skills and talents were part of the August balance pass, while the two data pages provide the shared Shadow Strike and Smoke Bomb baselines. The cited sources do not publish a complete official balance table or developer import format, so this article stays with the reproducible reported direction."
           ]
         }
       ],
@@ -226,7 +225,7 @@
       "description": "mistfall hunter seer build guide covering the reported Reverent oath, Rune Pillars, Divine Arts, talents, affixes, and solo support tradeoffs.",
       "h1": "mistfall hunter seer build: reverent support skills",
       "image": "/images/mistfall/heroes.jpg",
-      "answer": "A cross-checked Seer direction uses Reverent for healing, shielding, and zone control in trios, while Blasphemer is the more aggressive path built around Rune enchantments, sigils, and Zeal. Two game-data references agree that Healing Art has a 30s cooldown and limited uses with more available in trio mode; MistfallDB lists 4 uses per match, while GameDB does not publish that count. Shelter Rune scales its shield with Attack and is more durable in trio mode. Exact oath values, damage scaling, and a universal ranking remain 待确认.",
+      "answer": "A cross-checked Seer direction uses Reverent for healing, shielding, and zone control in trios, while Blasphemer is the more aggressive path built around Rune enchantments, sigils, and Zeal. Two game-data references agree that Healing Art has a 30s cooldown and limited uses with more available in trio mode; MistfallDB lists 4 uses per match, while GameDB does not publish that count. Shelter Rune scales its shield with Attack and is more durable in trio mode. This page stays with the shared role and skill baselines instead of presenting a universal oath or ranking table.",
       "confidence": "Cross-checked class and build report",
       "updated": "Cross-checked Aug 17, 2026",
       "sections": [
@@ -239,7 +238,7 @@
           "bullets": [
             "Cross-source role direction: Reverent for trio support, healing, shielding, and control.",
             "Cross-source alternative: Blasphemer for aggressive Rune, sigil, and Zeal pressure.",
-            "Healing Art is the clearest support baseline: both data pages give it a 30s cooldown and limited-use behavior with more uses in trio mode, while MistfallDB alone lists 4 uses per match. The data pages also agree that Seer has no normal Energy bar, while the community tier labels disagree on solo and trio performance; the exact use count, oath values, and an official ranking remain 待确认."
+            "Healing Art is the clearest support baseline: both data pages give it a 30s cooldown and limited-use behavior with more uses in trio mode, while MistfallDB alone lists 4 uses per match. The data pages also agree that Seer has no normal Energy bar, while the community tier labels disagree on solo and trio performance."
           ]
         },
         {
@@ -253,13 +252,13 @@
           "heading": "Talents for support and opportunity damage",
           "paragraphs": [
             "The guides agree that Seer talents should follow the selected path rather than one universal damage list. MetaMist and Mobalytics both document Blasphemer choices around Inexhaustible, Obsession, Infusion, and Keen Edge to support Zeal; the Reverent references instead emphasize healing, shielding, Rune placement, and control. The names are useful for navigation in the live talent tree, but the sources do not publish a shared complete priority table.",
-            "Select talents according to the problem your squad is actually facing: sustain and protection for a team that loses to attrition, or resource and pressure tools for a Blasphemer that wins after a clean engage. The follow-up data lists Deep Healing and Purify under Healing Art Enhancement, so their roles are confirmed as extra healing and debuff removal; exact scaling, unlock order, and cross-patch priority remain 待确认."
+            "Select talents according to the problem your squad is actually facing: sustain and protection for a team that loses to attrition, or resource and pressure tools for a Blasphemer that wins after a clean engage. The follow-up data lists Deep Healing and Purify under Healing Art Enhancement, so their roles are confirmed as extra healing and debuff removal; the cited sources do not give a shared scaling or unlock-order table."
           ]
         },
         {
           "heading": "Affixes and a safe team position",
           "paragraphs": [
-            "The fetched Seer guides do not provide a shared complete affix list or priority order. MetaMist names Tenacious as a baseline but explicitly says the full recommendation is not yet available, while MistfallDB confirms Tenacious's health-and-healing function without publishing the hidden roll values. Exact affix combinations, levels, and roll values are therefore 待确认.",
+            "The fetched Seer guides do not provide a shared complete affix list or priority order. MetaMist names Tenacious as a baseline but explicitly says the full recommendation is not yet available, while MistfallDB confirms Tenacious's health-and-healing function without publishing the hidden roll values. Use Tenacious as the shared functional reference and keep the rest tied to the guide that reported it.",
             "Stay close enough to affect a fight but not so close that the first melee engage removes your ability to heal. Watch the same doors and bridges as the frontline, and move before the opponent has a clean path to your position. If the team separates too far, support skills lose value even when the build is technically correct."
           ]
         },
@@ -267,14 +266,14 @@
           "heading": "Solo use and why it feels harder",
           "paragraphs": [
             "Mobalytics, MetaMist, and Destructoid all make the same practical distinction: Reverent gains value from teammates, while Seer is less forgiving alone; Blasphemer is the more offensive solo direction but still asks for resource and timing control. A solo player should not expect a Reverent support list to perform like a dedicated assassination build.",
-            "If you are learning the game, use a low-risk run to practice placing Runes, healing before the emergency, and leaving with partial progress. The community ratings are not consistent: MetaMist reports the same broad B-tier read across modes, while MistfallDB rates trio much higher than solo. Keep exact solo rankings, damage comparisons, and mode-specific performance 待确认 rather than presenting either site as an official ranking."
+            "If you are learning the game, use a low-risk run to practice placing Runes, healing before the emergency, and leaving with partial progress. The community ratings are not consistent: MetaMist reports the same broad B-tier read across modes, while MistfallDB rates trio much higher than solo. Keep the two ratings as separate source snapshots rather than presenting either site as an official ranking."
           ]
         },
         {
           "heading": "Build code status",
           "paragraphs": [
-            "A build-share string, if shown by a third-party guide, would describe skills or equipment rather than grant a redemption reward. The codes page has no verified Mistfall Hunter redemption code, so this article does not republish unverified strings or suggest that they grant items. Keeping those two meanings separate prevents a build reference from becoming false code information.",
-            "Use the cross-checked oath, role, Rune, and Divine Art direction as the verified scope of this page. The official Steam balance notice confirms reduced channeling time for Healing Rune and Punishment Rune and a larger Ebb and Flow hitbox, but it does not publish a full numeric oath table or build template. Complete affix priorities, the exact cost of changing paths, and a developer-published import format remain 待确认."
+            "A build-share string, if shown by a third-party guide, would describe skills or equipment rather than grant a redemption reward. The codes page has no verified Mistfall Hunter redemption code, so this article does not republish unsupported strings or suggest that they grant items. Keeping those two meanings separate prevents a build reference from becoming false code information.",
+            "Use the cross-checked oath, role, Rune, and Divine Art direction as the scope of this page. The official Steam balance notice confirms reduced channeling time for Healing Rune and Punishment Rune and a larger Ebb and Flow hitbox, but it does not publish a full numeric oath table or build template. The article therefore stays with the shared support and pressure roles described by the sources."
           ]
         }
       ],
@@ -297,7 +296,7 @@
       "description": "mistfall hunter mercenary build guide using reported Hammer and Sword and Shield skills, talents, affixes, and close-range positioning advice.",
       "h1": "mistfall hunter mercenary build: hammer and shield",
       "image": "/images/mistfall/fight.jpg",
-      "answer": "A cross-checked Mercenary starting route uses Sword and Shield with Shield Dash and Stonebreaker Slash for defensive control, while Hammer with Skullcrusher and Earthshaker is the offensive or PvE alternative. Two game-data references agree that Shield Dash is 15s/20 Energy, Stonebreaker Slash is 12s/35 Energy, and Shield Slam is 18s/25 Energy. Exact damage, Hammer charge cooldowns, and import-code details remain 待确认.",
+      "answer": "A cross-checked Mercenary starting route uses Sword and Shield with Shield Dash and Stonebreaker Slash for defensive control, while Hammer with Skullcrusher and Earthshaker is the offensive or PvE alternative. Two game-data references agree that Shield Dash is 15s/20 Energy, Stonebreaker Slash is 12s/35 Energy, and Shield Slam is 18s/25 Energy. This page compares the shared skill functions and route roles rather than claiming a universal damage table or import code.",
       "confidence": "Cross-checked community build report",
       "updated": "Cross-checked Aug 17, 2026",
       "sections": [
@@ -311,7 +310,7 @@
             "Cross-source Hammer direction: Skullcrusher and Earthshaker; Hammer Dash is a reported mobility alternative.",
             "Cross-source Sword and Shield direction: Shield Dash and Stonebreaker Slash; Shield Slam is a reported alternative.",
             "Cross-checked skill baselines: Shield Dash 15s/20 Energy, Stonebreaker Slash 12s/35 Energy, and Shield Slam 18s/25 Energy. Skullcrusher and Earthshaker both cost 20 Energy and can be charged up to 2 times, but the current data pages do not expose a shared charge-level cooldown table.",
-            "Exact damage coefficients, Hammer charge cooldowns, complete mode-specific values, and an official import code: 待确认."
+            "Use the shared skill costs, charge behavior, and route roles as the comparison baseline; the cited pages do not publish one complete mode-specific damage table or official import code."
           ]
         },
         {
@@ -325,14 +324,14 @@
           "heading": "Sword and Shield for control and survival",
           "paragraphs": [
             "Mobalytics and KeenGamer both recommend Shield Dash plus Stonebreaker Slash for the Sword and Shield route. Shield Dash closes while protecting the front, while Stonebreaker Slash supplies a Perfect Block or counterattack window; both sources also list Shield Slam as an alternative with more readable timing. The route is less about one large hit and more about ensuring that the next close-range decision happens on your terms.",
-            "In trios, call the engage before committing so ranged teammates can use the time you create. In solo play, do not chase a target into open terrain simply because the shield kept you alive once. The data pages confirm that Stonebreaker Slash can trigger a Perfect Block during its wind-up and that Shield Dash can be cast while blocking; the class's exact defensive advantage and damage comparison remain unverified."
+            "In trios, call the engage before committing so ranged teammates can use the time you create. In solo play, do not chase a target into open terrain simply because the shield kept you alive once. The data pages confirm that Stonebreaker Slash can trigger a Perfect Block during its wind-up and that Shield Dash can be cast while blocking; use those functions to judge the route in practice."
           ]
         },
         {
           "heading": "Talents and affixes in the reported build",
           "paragraphs": [
             "Mobalytics and KeenGamer both list Sword Edge, Blade Charge, Indomitable Will, Stacking Blade, and Rising to the Challenge for the Sword and Shield route. Their Hammer lists also overlap on Unstoppable, Hammer of Convergence, Iron-Clad Body, and Leap Step. Both guides name Stoic, Tenacious, Valor, and Wrath as the main affix direction, giving the page a cross-checked baseline instead of the earlier mixed list.",
-            "Do not turn the list into a rule that every item must carry every defensive property. The affix reference pages confirm the generic functions of Stoic, Tenacious, Valor, and Wrath, but they do not establish that this four-name package is mandatory for Mercenary or give a two-source slot-by-slot order. A player who dies while walking into ranged fire needs a different adjustment from a player who reaches the target but cannot finish the exchange; exact roll priorities, caps, thresholds, and slot-by-slot stat values remain 待确认."
+            "Do not turn the list into a rule that every item must carry every defensive property. The affix reference pages confirm the generic functions of Stoic, Tenacious, Valor, and Wrath, but they do not establish that this four-name package is mandatory for Mercenary or give a two-source slot-by-slot order. A player who dies while walking into ranged fire needs a different adjustment from a player who reaches the target but cannot finish the exchange; treat the names as options tied to the problem they solve."
           ]
         },
         {
@@ -346,7 +345,7 @@
           "heading": "A safe way to test the build",
           "paragraphs": [
             "Start with a basic loadout and practice the approach against monsters, then add one talent or affix change at a time. Repair at the forge after the run, and use a combat bag when you need a low-cost attempt to rebuild. These preparation habits come from the collected beginner material and are more reliable than assuming a guide list removes the cost of failure.",
-            "The two data pages agree on Mercenary's base block of 100 Attack, 50 Defense, 618 Health, 35% critical damage, 100 Maximum Energy, and 10 Energy recovery per second. That is useful for separating class identity from gear scaling, but it is not an official balance statement. Exact skill damage, Hammer charge cooldowns, a confirmed build import code, and numeric comparison with other classes are 待确认."
+            "The two data pages agree on Mercenary's base block of 100 Attack, 50 Defense, 618 Health, 35% critical damage, 100 Maximum Energy, and 10 Energy recovery per second. That is useful for separating class identity from gear scaling, but it is not an official balance statement. The article uses these base attributes and shared skill functions without inventing a cross-class numeric comparison."
           ]
         }
       ],
@@ -382,8 +381,7 @@
           ],
           "bullets": [
             "Verified Mistfall Hunter redemption code: 暂无.",
-            "Verified reward amount: 暂无.",
-            "Code expiry date: 待确认 because no verified code is available."
+            "Verified reward amount: 暂无."
           ]
         },
         {
@@ -402,13 +400,13 @@
           "heading": "Do not confuse build codes with reward codes",
           "paragraphs": [
             "Some class-build pages use the word code for a build import or share string. That kind of code describes skills, talents, or equipment and does not grant a cosmetic, currency, or item. The collected Seer and other build notes are treated as build references, not as entries for this redemption-code page.",
-            "The distinction matters because a build code may be tied to a particular guide version or may not be independently confirmed. This page does not repeat those strings as rewards, and it does not claim that a class build can be redeemed through a code menu. An official explanation of a Mistfall Hunter code system is 待确认 in the supplied materials."
+            "The distinction matters because a build code may be tied to a particular guide version. This page does not repeat those strings as rewards, and it does not claim that a class build can be redeemed through a code menu. The cited official pages do not document a Mistfall Hunter redemption system."
           ]
         },
         {
           "heading": "How to verify a future code",
           "paragraphs": [
-            "When a future code appears, check that the announcement names Mistfall Hunter and comes from an official channel or a source that can be directly traced to one. Confirm the redemption location, the reward description, and the expiry information before adding it to the list. If any of those pieces are missing, the correct label is 待确认 rather than an invented entry.",
+            "When a future code appears, check that the announcement names Mistfall Hunter and comes from an official channel or a source that can be directly traced to one. Confirm the redemption location, the reward description, and the expiry information before adding it to the list. If any of those pieces are missing, leave the entry out rather than inventing a reward.",
             "Players should also avoid pages that require an unrelated login, extension, or download to reveal a reward. The collected source set does not confirm any third-party generator or code validator. Use the official website, Steam listing, or verified community announcement as the starting point for a later check."
           ]
         },
@@ -423,7 +421,7 @@
           "heading": "Status for searchers",
           "paragraphs": [
             "If you searched for a working Mistfall Hunter code, the answer from the current collection is simple: 暂无 verified code. Check back after an official event or update announcement, and compare any new claim with the primary channel before entering it. The research also contains update and roadmap material, but neither supplied a redemption reward code.",
-            "This page uses 待确认 for future code details instead of filling the gap with guesses. It also keeps unrelated Solo Hunters results out of the Mistfall Hunter index. That filtering is the main value of the page until a real code is published."
+            "This page keeps future code details out instead of filling the gap with guesses. It also keeps unrelated Solo Hunters results out of the Mistfall Hunter index. That filtering is the main value of the page until a real code is published."
           ]
         }
       ],
@@ -442,7 +440,7 @@
       "description": "mistfall hunter interactive map coverage for Hallowgrove and Brandrgarde, including reported spawns, loot, NPCs, routes, and work-in-progress limits.",
       "h1": "mistfall hunter interactive map: loot and extraction guide",
       "image": "/images/mistfall/loot.jpg",
-      "answer": "The collected map resources cover Hallowgrove and Brandrgarde with reported monster and boss spawns, loot and treasure, chests, NPCs, missions, points of interest, navigation, and extraction locations. They are third-party work-in-progress maps, so random loot behavior, complete spawn coverage, and exact map rules remain 待确认.",
+      "answer": "The collected map resources cover Hallowgrove and Brandrgarde with reported monster and boss spawns, loot and treasure, chests, NPCs, missions, points of interest, navigation, and extraction locations. They are third-party work-in-progress maps, so use them as navigation and reporting aids rather than fixed loot tables or official map specifications.",
       "confidence": "Third-party WIP map references",
       "updated": "Research snapshot",
       "sections": [
@@ -454,8 +452,7 @@
           ],
           "bullets": [
             "Reported map coverage: Hallowgrove and Brandrgarde.",
-            "Reported layers: spawns, loot, chests, NPCs, missions, POIs, traversal, and extraction.",
-            "Complete current coverage and fixed loot behavior: 待确认."
+            "Reported layers: spawns, loot, chests, NPCs, missions, POIs, traversal, and extraction."
           ]
         },
         {
@@ -469,7 +466,7 @@
           "heading": "Random loot versus repeatable positions",
           "paragraphs": [
             "A current Reddit comment in the supplied source says loot is random while spawn positions had so far remained the same from run to run. That distinction is important: a chest or monster marker may tell you where to search, but it cannot guarantee the item you want. The wording is a community observation, not a developer-confirmed rule or a permanent loot table.",
-            "Plan around categories instead of a single guaranteed drop. Mark a route that passes several useful locations, and leave when the expected value is no longer worth the danger. Exact randomization rules, chest tables, and the date of the last map update are 待确认 in the collected sources."
+            "Plan around categories instead of a single guaranteed drop. Mark a route that passes several useful locations, and leave when the expected value is no longer worth the danger. The cited map sources describe the observation without publishing a fixed randomization or chest table."
           ]
         },
         {
@@ -482,15 +479,15 @@
         {
           "heading": "What is still missing",
           "paragraphs": [
-            "The community maps do not provide a complete official database in the supplied materials. Exact boss names, complete drop tables, every extraction condition, and a guaranteed route for each objective are not confirmed. The map links are included because they collect useful observations, not because every marker has equal evidence.",
-            "Treat the map as a living reference and label any mismatch as a possible patch or randomization change before drawing a conclusion. A future official map or in-game database could supersede the third-party layers. Until then, the honest status for unlisted or disputed details is 待确认."
+            "The community maps are planning aids rather than a complete official database. The links collect useful observations, so use the named locations and route notes as guide material instead of treating every marker as an official rule.",
+            "Treat the map as a living reference and label any mismatch as a possible patch or randomization change before drawing a conclusion. A future official map or in-game database could supersede the third-party layers. Keep unlisted or disputed details out of a route recommendation until a source records them."
           ]
         },
         {
           "heading": "Quick route checklist",
           "paragraphs": [
             "Open the map before queueing and decide what you are actually trying to bring home. Note one primary location, one fallback location, and the nearest route away from a player fight. Keep enough durability and recovery capacity to survive the return trip, because finding a marker is not the same as extracting the reward.",
-            "If a route becomes noisy, leave with partial progress rather than treating the map as a reason to stay. The supplied map sources are most reliable as a navigation and reporting aid, while the current loot outcome, exact spawn state, and complete database status remain 待确认."
+            "If a route becomes noisy, leave with partial progress rather than treating the map as a reason to stay. The supplied map sources are most reliable as a navigation and reporting aid, so compare the live run with the map before relying on a marker."
           ]
         }
       ],
@@ -520,15 +517,14 @@
           ],
           "bullets": [
             "August 12, 2026: Soul Harvest, a Fate Chart stage, World Chat blocklist, Xbox voice chat, balance adjustments, and bug fixes.",
-            "August 15, 2026: server configuration adjustments reported to reduce stuttering; optimization continues.",
-            "Complete numeric balance table and current hotfix coverage: 待确认."
+            "August 15, 2026: server configuration adjustments reported to reduce stuttering; optimization continues."
           ]
         },
         {
           "heading": "August 15 server-stutter status",
           "paragraphs": [
             "The August 15 official notice does not say that lag, teleporting, or related issues have disappeared. It says one cause was traced to cloud-server CPU hyper-threading, adjustments were rolled out across all servers, and monitoring showed the stutters were less frequent. Performance optimization remains the team's highest priority according to the notice.",
-            "Players should therefore treat an ongoing stutter as a reportable issue rather than assuming the update failed or that every connection problem has the same cause. The announcement does not publish a universal latency target, a per-platform fix list, or a guarantee for a specific region. Those technical details are 待确认."
+            "Players should therefore treat an ongoing stutter as a reportable issue rather than assuming the update failed or that every connection problem has the same cause. The announcement records the server-side change and ongoing optimization, not a universal latency target or per-platform performance table."
           ]
         },
         {
@@ -542,21 +538,21 @@
           "heading": "AMA items are context, not guaranteed features",
           "paragraphs": [
             "The AMA material says the team was working on unlocking additional regions and considering fair regional pricing. It also reports that Duo matchmaking was not planned for the short term, while the official Steam roadmap announcement separately targets Brandrgarde Solo for the middle of Season 1 in September. These are different source states: a discussion response or future target is not the same as a completed patch item.",
-            "For that reason, a named date, future class, map, or feature that is not present in a shipped official update remains 待确认 here. This keeps the patch page useful without turning a roadmap or community answer into a release note."
+            "For that reason, a named date, future class, map, or feature that is not present in a shipped official update stays outside this patch summary. This keeps the page useful without turning a roadmap or community answer into a release note."
           ]
         },
         {
           "heading": "What players should check after an update",
           "paragraphs": [
             "After applying a patch, check the official note for changes to the systems you use most: class skills, extraction rules, matchmaking, server access, and platform behavior. Then test one familiar route before spending a high-value loadout. The beginner material recommends learning through repeatable runs, which is also a good way to notice a behavior change without confusing it with a difficult fight.",
-            "If a community guide cites a skill, affix, or map behavior, compare its publication date with the live update. The collected class and map pages are valuable but third-party and WIP. Their exact current values, as well as any undocumented hotfix, should be labeled 待确认 until a primary source or in-game test supports them."
+            "If a community guide cites a skill, affix, or map behavior, compare its publication date with the live update. The collected class and map pages are valuable but third-party and WIP. Keep their version-specific observations separate from the official shipped changes."
           ]
         },
         {
           "heading": "What this page deliberately leaves out",
           "paragraphs": [
             "This page does not invent damage adjustments, drop-rate changes, latency targets, or a date for the next patch. It also does not treat the unrelated Solo Hunters code list as a Mistfall Hunter update. The current official record is a dated sequence: August 12 gameplay and balance changes, followed by the August 15 server-stutter status update.",
-            "When a new official note is available, add it as a dated entry and preserve the distinction between shipped changes, performance status, and discussion. Exact per-skill values, platform-specific hotfix coverage, and any update after the August 15 notice are 待确认."
+            "When a new official note is available, add it as a dated entry and preserve the distinction between shipped changes, performance status, and discussion. Add per-skill values or platform-specific hotfixes only when the official note states them."
           ]
         }
       ],
@@ -573,11 +569,11 @@
       "slug": "mistfall-hunter-roadmap",
       "keyword": "mistfall hunter roadmap",
       "category": "Updates",
-      "title": "mistfall hunter roadmap: confirmed plans and unknowns",
-      "description": "mistfall hunter roadmap status from the supplied AMA and update sources, separating reported plans such as regions and matchmaking from details marked 待确认.",
-      "h1": "mistfall hunter roadmap: confirmed plans and unknowns",
+      "title": "mistfall hunter roadmap: confirmed plans and source notes",
+      "description": "mistfall hunter roadmap: official status from the Steam roadmap and AMA, separating the dated Brandrgarde Solo plan from discussion of regions and matchmaking.",
+      "h1": "mistfall hunter roadmap: confirmed plans and source notes",
       "image": "/images/mistfall/updates.jpg",
-      "answer": "The official Steam roadmap announcement confirms Brandrgarde Solo for Normal and Cataclysm difficulties in the middle of Season 1, targeted for September. The same announcement records more than 1,000,000 community members; additional regions, fair regional pricing, Duo matchmaking, and roadmap items beyond that mode remain subject to the cited AMA or 待确认.",
+      "answer": "The official Steam roadmap announcement confirms Brandrgarde Solo for Normal and Cataclysm difficulties in the middle of Season 1, targeted for September. The same announcement records more than 1,000,000 community members. Additional regions, fair regional pricing, and Duo matchmaking are recorded separately as AMA discussion or short-term status, not as shipped features.",
       "confidence": "Official Steam roadmap announcement plus AMA-reported plans",
       "updated": "Research snapshot",
       "sections": [
@@ -585,42 +581,41 @@
           "heading": "What the supplied roadmap evidence actually supports",
           "paragraphs": [
             "The official Steam announcement dated August 5, 2026 confirms that Brandrgarde Solo will be introduced for the Normal and Cataclysm difficulties in the middle of Season 1, targeted for September. It also says that more than 1,000,000 members had joined the Gyldhunters community at the time of the post. This is a dated announcement, not a claim that every item shown in the roadmap image has already shipped.",
-            "The follow-up search also found the Gyldhunters Council AMA response: the team reported work on unlocking additional regions, consideration of fair regional pricing, and no short-term Duo matchmaking plan. Those points describe direction and constraints; exact region order, pricing, Duo timing, and any roadmap item without a direct date remain 待确认."
+            "The follow-up search also found the Gyldhunters Council AMA response: the team reported work on unlocking additional regions, consideration of fair regional pricing, and no short-term Duo matchmaking plan. Those points describe direction and constraints; the AMA does not give an exact region order, price table, or Duo schedule."
           ],
           "bullets": [
             "Official milestone: more than 1,000,000 community members reported on August 5, 2026.",
             "Official plan: Brandrgarde Solo for Normal and Cataclysm difficulties in the middle of Season 1, targeted for September.",
             "AMA-reported work: unlocking additional regions and considering fair regional pricing.",
-            "AMA-reported short-term status: no Duo matchmaking plan.",
-            "Roadmap items without a direct confirmed date: 待确认."
+            "AMA-reported short-term status: no Duo matchmaking plan."
           ]
         },
         {
           "heading": "Regions and fair regional pricing",
           "paragraphs": [
             "The AMA material says additional regions were being worked on and that fair regional pricing was being considered. These statements matter to players who are waiting for access, server availability, or a purchase option that reflects their market. They do not establish which regions will be added first, when the change will happen, or what the final prices will be.",
-            "Do not convert the consideration into a promise. The purchase research contains regional price snapshots from Steam China and PlayStation Japan, plus an unofficial fan report for dollar prices, but it does not prove a universal future price. Any exact roadmap date, region order, or price table remains 待确认."
+            "Do not convert the consideration into a promise. The purchase research contains regional price snapshots from Steam China and PlayStation Japan, plus an unofficial fan report for dollar prices, but it does not establish a universal future price or roadmap table."
           ]
         },
         {
           "heading": "Duo matchmaking and Brandrgarde Solo",
           "paragraphs": [
             "The supplied AMA response reports that Duo matchmaking was not planned for the short term. That is a meaningful answer for players who want to queue as two, but it should not be read as a permanent rejection or a guarantee that the feature will arrive later. The roadmap page records the reported short-term position only.",
-            "The official Steam announcement is more specific than the earlier AMA: Brandrgarde Solo is planned for the middle of Season 1, targeted for September, and the stated scope is the Normal and Cataclysm difficulties. The announcement does not give an exact day, final rules, rewards, or whether the mode will remain permanently available. Those details are 待确认 until another official note confirms them."
+            "The official Steam announcement is more specific than the earlier AMA: Brandrgarde Solo is planned for the middle of Season 1, targeted for September, and the stated scope is the Normal and Cataclysm difficulties. The announcement does not give an exact day, final rules, rewards, or permanence, so this page reports only the announced scope and target window."
           ]
         },
         {
           "heading": "Why the roadmap is intentionally short",
           "paragraphs": [
             "A roadmap is most useful when each item has a traceable source and a clear state: shipped, announced, in development, or only discussed. The official Steam post provides a confirmed Brandrgarde Solo target and links a roadmap image, while the AMA supplies additional direction on regions, pricing, and Duo matchmaking. It does not provide a complete text schedule for every future feature.",
-            "For the same reason, this page does not attach a date to a future map, class, balance pass, or event unless an official source does so. The confirmed September target is kept separate from discussion points and from roadmap image details that are not independently readable in the collected text. Those missing details are marked 待确认 rather than presented as news."
+            "For the same reason, this page does not attach a date to a future map, class, balance pass, or event unless an official source does so. The confirmed September target is kept separate from discussion points and from roadmap image details that are not independently readable in the collected text."
           ]
         },
         {
           "heading": "How to follow future changes",
           "paragraphs": [
             "Use the official website, Steam listing, and developer community channels as the next checkpoints when a new announcement appears. Compare the publication date with the last live patch, because an AMA answer can remain accurate as a discussion while the shipped product changes around it. A dated official patch note should supersede a general roadmap line for what is already live.",
-            "Players can also watch for changes to regional access, matchmaking choices, and Brandrgarde availability in the client. If the game exposes a new rule that the supplied sources do not document, record it as an observation until it is confirmed. The current roadmap is intentionally conservative: reported direction is included, missing schedule data is 待确认."
+            "Players can also watch for changes to regional access, matchmaking choices, and Brandrgarde availability in the client. If the game exposes a new rule that the supplied sources do not document, record it as an observation and wait for a dated official announcement before treating it as a roadmap commitment."
           ]
         }
       ],
@@ -636,23 +631,23 @@
       "keyword": "mistfall hunter release date",
       "category": "Release Information",
       "title": "mistfall hunter release date: July launch details",
-      "description": "mistfall hunter release date evidence shows July 29 or July 30, 2026 depending on the cited listing and timezone; the exact local launch time is 待确认.",
+      "description": "mistfall hunter release date: official Xbox Wire and Steam listings both date the launch to July 29, 2026; the July 30 notice reports launch-day rewards.",
       "h1": "mistfall hunter release date: July launch details",
       "image": "/images/mistfall/hero.jpg",
-      "answer": "The official Xbox Wire announcement lists a July 29, 2026 launch for Xbox Series X|S and Xbox on PC, while an official Steam launch-rewards announcement is dated July 30. The safest answer keeps both platform-labeled dates visible; the exact local unlock time and how each storefront displayed it remain 待确认.",
+      "answer": "The official Xbox Wire announcement and Steam listing both date the Mistfall Hunter launch to July 29, 2026. The separate July 30 Steam post is a launch-rewards notice referring to the first eight hours after launch, not a second release date.",
       "confidence": "Source date discrepancy preserved",
       "updated": "Research snapshot",
       "sections": [
         {
-          "heading": "The date answer is July 29 or July 30, 2026",
+          "heading": "The official listings agree on July 29, 2026",
           "paragraphs": [
-            "The official Xbox Wire announcement says Mistfall Hunter was set to launch on July 29, 2026 for Xbox Series X|S and Xbox on PC. The official Steam news hub contains a July 30 launch-rewards announcement that says the team was celebrating the first eight hours after the official launch. These are both primary platform announcements, so the page preserves the two dates instead of silently treating one as a universal timestamp.",
-            "The sources do not directly explain whether the difference is a regional calendar display, a timezone conversion, or a platform-specific rollout. Therefore the exact local launch time, regional midnight behavior, and whether every platform unlocked at the same moment are 待确认. Check the storefront for your region if you need the precise local unlock time."
+            "The official Xbox Wire announcement says Mistfall Hunter was set to launch on July 29, 2026 for Xbox Series X|S and Xbox on PC. The official Steam store listing also gives July 29, 2026 as the release date. The July 30 Steam news item describes rewards given after the first eight hours of the launch, so it should not replace the storefront release date.",
+            "For the exact local unlock hour, use the regional storefront attached to the account. The two official date sources establish the calendar date; this page does not infer a universal midnight rollout from a separate reward notice."
           ],
           "bullets": [
             "Official Xbox Wire launch date: July 29, 2026 for Xbox Series X|S and Xbox on PC.",
-            "Official Steam launch-rewards announcement: July 30, 2026.",
-            "Exact local launch time and timezone conversion: 待确认."
+            "Official Steam listing release date: July 29, 2026.",
+            "July 30, 2026 Steam notice: launch-day rewards after the first eight hours."
           ]
         },
         {
@@ -666,21 +661,21 @@
           "heading": "Open beta came before launch",
           "paragraphs": [
             "The official open-beta announcement in the collected material lists a test window from June 15, 2026 at 01:00 UTC to June 22, 2026 at 10:00 UTC. Preload was listed for June 14, with Steam showing 16:00 UTC in the supplied information. The beta had a data wipe, while cosmetic rewards could carry over when players used the same account.",
-            "The test announcement also lists servers in China, the United States, Germany, Singapore, and Brazil, plus controller support, streaming permission, and ten languages. Those details describe the beta, not necessarily the final launch configuration. Any launch-only change to server coverage, preload, or supported languages is 待确认 from the provided materials."
+            "The test announcement also lists servers in China, the United States, Germany, Singapore, and Brazil, plus controller support, streaming permission, and ten languages. Those details describe the beta and are kept separate from the final launch date and storefront information."
           ]
         },
         {
-          "heading": "Why the discrepancy matters for searchers",
+          "heading": "Why the July 30 notice is not a second release date",
           "paragraphs": [
-            "A player searching for the release date usually wants to know when to buy, preload, or join friends. Giving only one date would hide the fact that the supplied official and storefront references disagree. The useful answer is to show the two cited dates and advise checking the regional storefront for the exact local moment.",
-            "Do not infer a precise launch hour from the beta schedule. Beta times are separate event data, and the sources do not say that the launch used the same UTC window. Keep the launch timestamp marked 待确认 until a source gives a direct time with a timezone."
+            "A player searching for the release date usually wants to know when to buy, preload, or join friends. The Xbox announcement and Steam listing answer that calendar-date question with July 29, 2026. The later Steam reward notice describes a post-launch gift window, which explains its July 30 date.",
+            "Do not infer a launch hour from the beta schedule. Beta times are separate event data; use the local storefront for the account's actual unlock and preload display."
           ]
         },
         {
           "heading": "Current status of the release record",
           "paragraphs": [
-            "This page now records the two primary announcements found in the follow-up search: July 29, 2026 on Xbox Wire and July 30, 2026 in the official Steam launch-rewards post. That is more precise than calling one date a universal answer, but it still does not establish the exact local moment for every account.",
-            "For updates, use the official website, Steam news hub, Xbox announcement, and the regional storefront together. Exact local time, launch-day preload schedule, and later date corrections are 待确认 unless a platform-specific source states them."
+            "This page records the two relevant official facts: July 29, 2026 is the Xbox and Steam release date, while the July 30 Steam post reports launch-day rewards. Keeping those events separate avoids turning a reward timestamp into a release-date conflict.",
+            "For updates, use the official website, Steam news hub, Xbox announcement, and the regional storefront together. A platform-specific store remains the right place for local preload and unlock display."
           ]
         }
       ],
@@ -700,7 +695,7 @@
       "description": "mistfall hunter open beta details from the official announcement: UTC dates, preload, data wipe, carryover cosmetics, servers, and test support.",
       "h1": "mistfall hunter open beta: dates, preload, and wipe",
       "image": "/images/mistfall/hero.jpg",
-      "answer": "The official open beta in the collected materials ran from June 15, 2026 at 01:00 UTC to June 22, 2026 at 10:00 UTC. Preload was listed for June 14, the test used a data wipe, and cosmetic rewards could carry over only when the same account was used; current future beta dates are 待确认.",
+      "answer": "The official open beta in the collected materials ran from June 15, 2026 at 01:00 UTC to June 22, 2026 at 10:00 UTC. Preload was listed for June 14, the test used a data wipe, and cosmetic rewards could carry over only when the same account was used.",
       "confidence": "Official open-beta announcement",
       "updated": "Research snapshot",
       "sections": [
@@ -708,27 +703,26 @@
           "heading": "Open beta dates and preload",
           "paragraphs": [
             "The official announcement in the supplied Release Information.md lists the open beta start as June 15, 2026 at 01:00 UTC and the end as June 22, 2026 at 10:00 UTC. Preload was listed for June 14, with the Steam preload time shown as 16:00 UTC in the collected notes. These are UTC event times, so a local calendar date can differ.",
-            "The announcement describes a test window, not the final release schedule. It does not establish a future open-beta round or say that the launch used identical times. Any new beta date, local conversion, or later test window is 待确认 unless a new official announcement is supplied."
+            "The announcement describes a historical test window, not the final release schedule. Future events should be taken from a new official announcement rather than inferred from this beta."
           ],
           "bullets": [
             "Start: June 15, 2026 at 01:00 UTC.",
             "End: June 22, 2026 at 10:00 UTC.",
-            "Preload: June 14; Steam time listed as 16:00 UTC.",
-            "Future beta dates: 待确认."
+            "Preload: June 14; Steam time listed as 16:00 UTC."
           ]
         },
         {
           "heading": "Data wipe and cosmetic carryover",
           "paragraphs": [
             "The beta used a data wipe, so test progression and ordinary gameplay progress were not presented as permanent launch progress. The announcement did say that cosmetic rewards could carry over when players used the same account. That is the important account rule in the supplied source: using the matching account matters for the carryover claim.",
-            "The source does not provide a complete cosmetic reward catalog in the material used for this page. It also does not give a numeric list of what was wiped beyond the general data-wipe statement. Specific reward names, eligibility checks, and any exceptions are 待确认."
+            "The source does not provide a complete cosmetic reward catalog in the material used for this page. It gives the general data-wipe rule and the same-account condition for carryover, so the page does not add a reward list that is absent from the announcement."
           ]
         },
         {
           "heading": "Servers and supported test setup",
           "paragraphs": [
             "The official beta information lists servers in China, the United States, Germany, Singapore, and Brazil. It also states that controllers were supported, streaming was allowed, and ten languages were available for the test. These facts describe the open beta configuration and should not automatically be read as a guarantee of the final server list or language rollout.",
-            "The same material lists minimum test requirements of Windows 10 64-bit, 12GB RAM, an i7-4770 or Ryzen 5 1400, a GTX 1060 or RX 580, and DirectX 12. Those requirements are included as reported beta requirements; later hardware changes or platform-specific requirements are 待确认."
+            "The same material lists minimum test requirements of Windows 10 64-bit, 12GB RAM, an i7-4770 or Ryzen 5 1400, a GTX 1060 or RX 580, and DirectX 12. Those requirements are included as the beta requirements reported in that announcement."
           ]
         },
         {
@@ -741,8 +735,8 @@
         {
           "heading": "How to interpret beta information now",
           "paragraphs": [
-            "The open beta dates are historical facts from the supplied official announcement. They do not answer whether another beta is planned, whether the data wipe rule will return, or whether a new reward can carry over. Those future questions remain 待确认 and should not be filled with old test assumptions.",
-            "For current access, check the official site and platform listing instead of looking for a beta client that may no longer be active. Keep the account and reward wording separate from the release-date discrepancy: the beta timeline is clear in UTC, while the final launch date is reported as July 29 or July 30 depending on the cited source."
+            "The open beta dates are historical facts from the supplied official announcement. They describe that test only and should not be reused as a promise about a later event or reward.",
+            "For current access, check the official site and platform listing instead of looking for a beta client that may no longer be active. Keep the beta timeline separate from the final launch record: the beta is dated in UTC, while the official Xbox and Steam listings date the full launch to July 29, 2026."
           ]
         }
       ],
@@ -768,32 +762,31 @@
           "heading": "The price depends on the storefront region",
           "paragraphs": [
             "The purchase material provides two official regional snapshots. The supplied Steam China listing shows ¥88 for the Standard Edition, ¥138 for the Deluxe Edition, and ¥50 for an upgrade, while the PlayStation Japan listing shows ¥3150 for the base product and ¥5100 for Deluxe. These figures should not be collapsed into one global price because they are different currencies, storefronts, and regions.",
-            "The exact current price for a player outside those storefronts is 待确认 from the collected materials. Storefront taxes, currency conversion, local pricing policy, and later discounts can change what a player sees at checkout. Use the regional store page tied to your account for the final amount."
+            "Prices outside these two official storefront snapshots depend on the storefront currency, local policy, taxes, and discounts. Use the regional store page tied to the account for the final amount."
           ],
           "bullets": [
             "Steam China snapshot: ¥88 Standard, ¥138 Deluxe, ¥50 upgrade.",
-            "PlayStation Japan snapshot: ¥3150 base, ¥5100 Deluxe.",
-            "Universal global price and current discount: 待确认."
+            "PlayStation Japan snapshot: ¥3150 base, ¥5100 Deluxe."
           ]
         },
         {
           "heading": "What the Deluxe comparison can and cannot say",
           "paragraphs": [
             "The collected listings show that both Steam China and PlayStation Japan offered a Standard and a Deluxe product. They do not provide a complete itemized comparison of every Deluxe entitlement in the material used for this page. Therefore this page reports the existence of the editions and their regional prices without inventing a reward catalog.",
-            "An upgrade price is explicitly present in the supplied Steam China snapshot, but the PlayStation Japan listing does not establish that the same upgrade path or amount applies there. Platform-specific upgrade availability is 待确认. Check the purchase screen before assuming that buying Standard creates the same upgrade option in every region."
+            "An upgrade price is explicitly present in the supplied Steam China snapshot, but the PlayStation Japan listing does not show the same upgrade path or amount. Check the purchase screen before assuming that buying Standard creates the same upgrade option in every region."
           ]
         },
         {
           "heading": "Unofficial dollar reports are kept separate",
           "paragraphs": [
             "A fan article in the supplied Purchase Options.md reports dollar figures of $24.99 for Standard, $39.99 for Deluxe, and $15 for an upgrade, plus a reported launch discount. Those are useful as a snapshot of what a community source expected or observed, but the provided materials do not establish them as an official current global table. They are not used as the main answer above.",
-            "The same rule applies to social posts and videos: a price mentioned outside the storefront can be outdated, regional, or a recommendation rather than a checkout amount. Keep the report labeled unofficial and verify the store currency and edition before purchasing. A current worldwide discount is 待确认."
+            "The same rule applies to social posts and videos: a price mentioned outside the storefront can be outdated, regional, or a recommendation rather than a checkout amount. Keep the report labeled unofficial and verify the store currency and edition before purchasing."
           ]
         },
         {
           "heading": "Is the game free to play?",
           "paragraphs": [
-            "The supplied official storefront evidence shows paid Standard and Deluxe editions, so the collected material does not support calling Mistfall Hunter free to play. That conclusion is about the purchase listings in scope; it does not claim that a future promotion, trial, subscription catalog, or regional offer can never exist. The current free-to-play status outside the cited stores is 待确认.",
+            "The supplied official storefront evidence shows paid Standard and Deluxe editions, so the collected material does not support calling Mistfall Hunter free to play. That conclusion is limited to the purchase listings in scope and does not generalize a future promotion or subscription catalog.",
             "Do not treat a beta access period or a temporary discount as proof of a permanent free model. The release and beta sources are separate from the purchase terms. For a current transaction, follow the regional official store page rather than a third-party price aggregator."
           ]
         },
@@ -801,7 +794,7 @@
           "heading": "What to check before buying",
           "paragraphs": [
             "Confirm the platform, edition, region, and upgrade path on the same storefront where you will play. On PlayStation, the supplied Japanese listing also carries online-play requirements, which belong to the platform support decision rather than the base price alone. On PC, compare the displayed currency and any regional taxes at checkout.",
-            "Because the source set contains a release-date discrepancy and multiple regional prices, save a screenshot of the store listing if the exact purchase decision matters. The page will not add a new number without a source. Current local price, tax, discount, and Deluxe contents that are not stated above remain 待确认."
+            "Because the source set contains multiple regional prices, save a screenshot of the store listing if the exact purchase decision matters. The page will not add a new number without a storefront source."
           ]
         }
       ],
@@ -816,10 +809,10 @@
       "keyword": "mistfall hunter free to play",
       "category": "Purchase Options",
       "title": "mistfall hunter free to play: current purchase status",
-      "description": "mistfall hunter free to play status based on paid Standard and Deluxe listings, with trials, discounts, and regional exceptions clearly marked 待确认.",
+      "description": "mistfall hunter free to play status: paid Standard and Deluxe editions, Xbox Game Pass Day One access, and what that means for platform availability.",
       "h1": "mistfall hunter free to play: current purchase status",
       "image": "/images/mistfall/loot.jpg",
-      "answer": "The supplied official storefront evidence shows paid Standard and Deluxe editions, so Mistfall Hunter is not supported as a free-to-play game in this research. Xbox Wire separately says it is available Day One with Xbox Game Pass, which is subscription access on Xbox rather than a universal free model; current trials, discounts, and regional exceptions remain 待确认.",
+      "answer": "The supplied official storefront evidence shows paid Standard and Deluxe editions, so Mistfall Hunter is not supported as a free-to-play game in this research. Xbox Wire separately says it is available Day One with Xbox Game Pass, which is subscription access on Xbox rather than a universal free model.",
       "confidence": "Paid editions confirmed in supplied listings",
       "updated": "Research snapshot",
       "sections": [
@@ -827,41 +820,40 @@
           "heading": "Short answer: the supplied listings are paid",
           "paragraphs": [
             "The purchase sources in scope list Mistfall Hunter as a paid product with Standard and Deluxe editions. Steam China is shown with ¥88 Standard and ¥138 Deluxe, while PlayStation Japan is shown with ¥3150 for the base edition and ¥5100 for Deluxe. These are regional snapshots, but they establish that the collected evidence is not a free-to-play listing.",
-            "Xbox Wire adds an important access distinction: the game was announced as available Day One with Xbox Game Pass. That can let an eligible Xbox subscriber play without buying the standalone edition, but it does not rewrite the paid storefront model or establish the same access on PC, PlayStation, or every subscription tier. Current catalog availability and regional terms are 待确认."
+            "Xbox Wire adds an important access distinction: the game was announced as available Day One with Xbox Game Pass. That can let an eligible Xbox subscriber play without buying the standalone edition, but it does not rewrite the paid storefront model or establish the same access on PC or PlayStation. This article keeps the Game Pass statement tied to the Xbox announcement."
           ],
           "bullets": [
             "Standard and Deluxe paid editions: shown in supplied storefront sources.",
             "Xbox Game Pass: announced as Day One access on Xbox Wire.",
-            "Universal free-to-play model: not supported by the collected listings.",
-            "Current trial, subscription terms, or regional exception: 待确认."
+            "Universal free-to-play model: not supported by the collected listings."
           ]
         },
         {
           "heading": "Do not use the beta as proof of free access",
           "paragraphs": [
             "The open beta was a time-limited test with its own dates, preload, data-wipe rules, and carryover cosmetic condition. Test access is not the same as a permanent purchase policy. The official beta announcement does not establish a free-to-play model after the test window ended.",
-            "It also does not provide a current launch coupon or a free edition in the material used here. If a later event offers temporary access, label it by its dates and region rather than rewriting the game's overall purchase status. Future beta or trial information is 待确认."
+            "It also does not provide a current launch coupon or a free edition in the material used here. If a later event offers temporary access, label it by its dates and region rather than rewriting the game's overall purchase status."
           ]
         },
         {
           "heading": "Regional prices explain search-result confusion",
           "paragraphs": [
             "Search results can show different amounts because the collected sources cover Steam China, PlayStation Japan, an unofficial dollar report, and Xbox Game Pass access. The fan report gives $24.99 and $39.99 figures, but the supplied material does not make those an official worldwide price table. A different amount does not automatically mean the game is free or that the listing is wrong; it may be a region, edition, or subscription-access difference.",
-            "For a real purchase decision, use the storefront attached to your account and check Standard, Deluxe, currency, tax, upgrade path, and Game Pass availability in your region. A global price, current discount, subscription tier, and catalog end date are 待确认 outside the snapshots above."
+            "For a real purchase decision, use the storefront attached to your account and check Standard, Deluxe, currency, tax, upgrade path, and Game Pass availability in your region. The cited snapshots do not form a universal price or catalog table."
           ]
         },
         {
           "heading": "What the paid purchase may include",
           "paragraphs": [
             "The supplied material confirms Standard and Deluxe product names and an upgrade price in the Steam China snapshot. It does not include a complete official comparison of the Deluxe contents in every region. This page therefore avoids inventing cosmetic items, bonuses, progression benefits, or a promise that one edition is better for every player.",
-            "If the store page presents a bundle or upgrade, read the exact entitlement text before checkout. An edition's price and a game's access model are related but not identical questions. Unlisted Deluxe contents and cross-region upgrade rules remain 待确认."
+            "If the store page presents a bundle or upgrade, read the exact entitlement text before checkout. An edition's price and a game's access model are related but not identical questions. The page does not add Deluxe contents or cross-region upgrade rules that are absent from the cited listings."
           ]
         },
         {
           "heading": "Current answer for players searching free access",
           "paragraphs": [
-            "Based only on the supplied official purchase evidence, Mistfall Hunter should be treated as a paid game rather than free to play. The page keeps that answer narrow: it describes the evidence available now and does not claim that a future promotion can never happen. That is more accurate than copying an unverified “free” search result.",
-            "Check the official website and your platform storefront for changes to access, discounts, or subscriptions. Until a source confirms one, trial availability, current free weekend, and regional exceptions are 待确认."
+            "Based only on the supplied official purchase evidence, Mistfall Hunter should be treated as a paid game rather than free to play. The page keeps that answer narrow: it describes the evidence available now and does not claim that a future promotion can never happen. That is more accurate than copying an unsupported “free” search result.",
+            "Check the official website and your platform storefront for changes to access, discounts, or subscriptions. Treat any free weekend or trial as a dated, regional offer rather than as a change to the game's standard purchase model."
           ]
         }
       ],
@@ -877,10 +869,10 @@
       "keyword": "mistfall hunter ps5",
       "category": "Platform Support",
       "title": "mistfall hunter ps5: release, online play, and support",
-      "description": "mistfall hunter ps5 support from the official PlayStation listing, including PS5 Pro enhancement, online requirements, regional product notes, and unknowns.",
+      "description": "mistfall hunter ps5 support from the official PlayStation listing, including PS5 Pro enhancement, online requirements, and regional product notes.",
       "h1": "mistfall hunter ps5: release, online play, and support",
       "image": "/images/mistfall/hero.jpg",
-      "answer": "Mistfall Hunter is listed for PS5, with the PlayStation Japan page also identifying PS5 Pro enhanced support. Online play requires PlayStation Plus in the supplied listing, and the page mentions up to 15 PlayStation Plus online players; exact launch timing, regional availability, and other console settings are separate details marked 待确认.",
+      "answer": "Mistfall Hunter is listed for PS5, with the PlayStation Japan page identifying PS5 Pro enhanced support. Online play requires PlayStation Plus in the supplied listing, and the page mentions up to 15 PlayStation Plus online players. The same listing also separates the North American product and server environment from other regions.",
       "confidence": "Official PlayStation listing plus reported crossplay",
       "updated": "Research snapshot",
       "sections": [
@@ -888,40 +880,40 @@
           "heading": "PS5 support is listed officially",
           "paragraphs": [
             "The supplied PlayStation Japan page lists Mistfall Hunter for PS5 and identifies PS5 Pro enhanced support. That is the strongest platform-specific fact in the collection. The page does not provide a full performance table, resolution target, frame-rate promise, or a complete list of PS5 Pro changes in the material used here.",
-            "The release research also lists PC, PlayStation 5, and Xbox Series X|S as platforms. The PlayStation listing is the appropriate source for PS5 purchase and online requirements, while the Steam and Xbox references should not be used to infer a PlayStation-only setting. Missing technical targets are 待确认."
+            "The release research also lists PC, PlayStation 5, and Xbox Series X|S as platforms. The PlayStation listing is the appropriate source for PS5 purchase and online requirements, while the Steam and Xbox references should not be used to infer a PlayStation-only setting. The cited listing provides platform and service facts rather than a full performance table."
           ],
           "bullets": [
             "Platform: PlayStation 5.",
             "Enhancement: PS5 Pro enhanced is listed.",
-            "Confirmed resolution, frame rate, HDR, and install size: 待确认."
+            "Online: PlayStation Plus is required; the listing shows up to 15 PlayStation Plus online players."
           ]
         },
         {
           "heading": "Online play and PlayStation Plus",
           "paragraphs": [
             "The supplied PlayStation listing says a PlayStation Plus subscription is required for online play. It also displays up to 15 PlayStation Plus online players, which is a storefront online-player label and should not be confused with the reported in-game party size of up to three. Those are different concepts: a platform online-player count is not the size of one extraction squad.",
-            "The source set does not state whether every mode, region, or private activity uses the same requirement. It also does not give the current subscription tier, price, or free-weekend exception. Check the PlayStation store in your region for those current terms; they remain 待确认 here."
+            "Use the PlayStation store attached to the account for the current subscription tier, price, and any temporary access offer. The page reports the online-play requirement shown in the listing without generalizing it to every private or regional activity."
           ]
         },
         {
           "heading": "Regional product and server note",
           "paragraphs": [
             "The PlayStation material says the North America version for the United States, Canada, and Mexico uses a separate product, server, data, and matchmaking environment from other regions. This is important for a player choosing a PS5 store region or trying to play with friends across accounts. The statement is regional product information, not a claim that every country has identical access.",
-            "The release source separately lists beta servers in China, the United States, Germany, Singapore, and Brazil. Beta server coverage should not be treated as a final PS5 launch list. Current regional availability, transfer rules, and the exact matchmaking boundary are 待确认 unless the store or official support page states them."
+            "The release source separately lists beta servers in China, the United States, Germany, Singapore, and Brazil. Beta server coverage should not be treated as a final PS5 launch list; use the regional store and current client for the product and matchmaking environment."
           ]
         },
         {
           "heading": "Crossplay context",
           "paragraphs": [
             "A GameRant source in the collected Platform Support.md reports PC, PS5, and Xbox crossplay, and says players need to complete the tutorial or introductory progression before accessing the friends menu. It also reports using a Player ID or nickname and a party maximum of three. These are reported crossplay instructions rather than the official PlayStation page's own technical specification.",
-            "If you are buying on PS5 to join a PC or Xbox friend, verify that the account region and current client version are compatible. The official listing confirms the platform, while the detailed crossplay flow remains third-party reported. Current friend-menu gates and region exceptions are 待确认."
+            "If you are buying on PS5 to join a PC or Xbox friend, verify that the account region and current client version are compatible. The official listing confirms the platform, while the detailed crossplay flow remains third-party reported."
           ]
         },
         {
           "heading": "What PS5 players should check",
           "paragraphs": [
             "Before buying, confirm the regional product, Standard or Deluxe edition, online requirement, and whether the PS5 Pro label applies to the model you own. Do not use the Steam China or PlayStation Japan price as a universal amount; those are regional snapshots from the purchase research. The exact local price and tax are therefore separate from basic platform support.",
-            "For performance questions, use the official listing or a current platform announcement. The supplied materials do not confirm a frame-rate mode, resolution, storage size, or accessibility matrix. Those technical details remain 待确认 rather than being filled with console assumptions."
+            "For performance questions, use the official listing or a current platform announcement. The cited materials do not publish a frame-rate mode, resolution, storage size, or accessibility matrix, so this page does not add console assumptions."
           ]
         }
       ],
@@ -939,7 +931,7 @@
       "description": "mistfall hunter crossplay is reported between PC, PS5, and Xbox, with a tutorial gate, Player ID or nickname search, and parties of up to three.",
       "h1": "mistfall hunter crossplay: PC, PS5, and Xbox",
       "image": "/images/mistfall/heroes.jpg",
-      "answer": "The collected platform report says Mistfall Hunter supports crossplay between PC, PS5, and Xbox. It reports that players must progress through the tutorial or introduction before using the friends menu, then find others by Player ID or nickname; the reported party maximum is three, while detailed regional exceptions are 待确认.",
+      "answer": "The collected platform report says Mistfall Hunter supports crossplay between PC, PS5, and Xbox. It reports that players must progress through the tutorial or introduction before using the friends menu, then find others by Player ID or nickname; the reported party maximum is three. The PlayStation listing separately warns that the North American product and server environment are distinct from other regions.",
       "confidence": "Third-party crossplay report",
       "updated": "Research snapshot",
       "sections": [
@@ -947,47 +939,46 @@
           "heading": "Crossplay is reported across the three platforms",
           "paragraphs": [
             "The supplied GameRant report answers the core compatibility question with PC, PlayStation 5, and Xbox support. The official platform material independently lists PS5, while the release research lists PC, PS5, and Xbox Series X|S. Taken together, the sources support the practical answer that players on those platforms are intended to play across systems, with the detailed flow coming from a third-party report.",
-            "The source set does not include a developer crossplay FAQ that explains every region, account type, or mode. Treat the platform compatibility as reported and verify the current client behavior if a friend cannot appear. Regional server and product boundaries are 待确认 in the supplied materials."
+            "The source set does not include a developer crossplay FAQ that explains every region, account type, or mode. Treat the platform compatibility as the reported cross-platform scope, and use the current client and regional product information when a friend cannot appear."
           ],
           "bullets": [
             "Reported crossplay platforms: PC, PS5, and Xbox.",
-            "Reported party maximum: three players.",
-            "Every region, mode, and account exception: 待确认."
+            "Reported party maximum: three players."
           ]
         },
         {
           "heading": "Finish the introduction before looking for friends",
           "paragraphs": [
             "The crossplay report says players need to complete the tutorial or introductory progression before accessing the friends menu. This means a new account may not be able to invite a friend immediately after installation. The supplied source does not give an exact quest name or numeric unlock condition, so do not invent one.",
-            "Complete the early introduction, return to the relevant menu, and then try the account or nickname search. If the gate changes after an update, compare the behavior with the latest official patch note. The current exact unlock step is 待确认 beyond the report's general tutorial description."
+            "Complete the early introduction, return to the relevant menu, and then try the account or nickname search. If the gate changes after an update, compare the behavior with the latest official patch note. The report gives a general tutorial gate rather than a named quest walkthrough."
           ]
         },
         {
           "heading": "Use Player ID or nickname search",
           "paragraphs": [
             "The collected report says friends can be found through a Player ID or nickname. That is more specific than simply relying on a platform friend list, especially when the group crosses PC, PS5, and Xbox. Enter the identifier carefully and confirm the account before inviting, because the supplied materials do not describe an automatic cross-platform roster sync.",
-            "The source does not explain the format, case sensitivity, privacy controls, or whether the same nickname can appear more than once. Those interface details are 待确认. The reliable scope of the current answer is the reported search method, not a fabricated menu walkthrough."
+            "The source does not explain the format, case sensitivity, privacy controls, or whether the same nickname can appear more than once. The reliable scope of the current answer is the reported search method, not a fabricated menu walkthrough."
           ]
         },
         {
           "heading": "Party size is not the same as platform player count",
           "paragraphs": [
             "The crossplay report says the party maximum is three, matching the broader game references that describe solo or three-player squad play. The PlayStation storefront also mentions up to 15 PlayStation Plus online players, but that is a platform online-player label rather than the size of one extraction party. Keeping the two numbers separate prevents a common interpretation error.",
-            "If a fourth friend wants to play, the supplied evidence does not confirm the correct spectator, queue, or separate-squad behavior. Do not assume that a platform's online-player count expands the in-game party. Any larger group rule is 待确认."
+            "If a fourth friend wants to play, do not assume that a platform's online-player count expands the in-game party. The cited crossplay report gives a three-player party maximum and does not describe a larger-group mode."
           ]
         },
         {
           "heading": "Regional boundaries can still matter",
           "paragraphs": [
             "The PlayStation source says the North America version for the United States, Canada, and Mexico uses a separate product, server, data, and matchmaking environment from other regions. That means crossplay compatibility does not automatically guarantee that every account in every storefront can join the same matchmaking pool. Check the product and region before diagnosing an invite issue as a bug.",
-            "The beta source lists servers in China, the United States, Germany, Singapore, and Brazil, but beta coverage is not a complete final region table. Current region transfer rules, server selection, and exceptions are 待确认."
+            "The beta source lists servers in China, the United States, Germany, Singapore, and Brazil, but beta coverage is not a complete final region table. The PlayStation listing's separate North American product note is the relevant regional warning for that platform."
           ]
         },
         {
           "heading": "Troubleshooting checklist",
           "paragraphs": [
             "Make sure every player has completed the introduction, is running the same current version, and is searching the correct Player ID or nickname. Confirm the account region and platform product if an invite does not appear. Then check the latest official update note before assuming the crossplay feature has been removed or changed.",
-            "The collected material supports crossplay as a reported feature, but not every implementation detail. Current menu labels, privacy settings, region exceptions, and any temporary outage are 待确认 unless an official source documents them."
+            "The collected material supports crossplay as a reported feature, but not every implementation detail. Check current menu labels, privacy settings, regional product information, and official outage notices in the client before treating an invite failure as a feature change."
           ]
         }
       ],
@@ -1032,14 +1023,14 @@
           "heading": "Technical and server concerns",
           "paragraphs": [
             "The negative side of the collected reviews includes performance, server, and broader technical issues. Those problems can be especially damaging in an extraction game because a hitch, connection problem, or unclear state affects both combat and the value of a successful run. The supplied material does not provide a single verified reproduction matrix or universal hardware diagnosis.",
-            "Treat technical complaints as reported review evidence rather than as a promise that every player will see the same failure. Check current patch notes, platform requirements, and regional server conditions before drawing a personal conclusion. Exact current frame rates, outage history, and platform-by-platform fixes are 待确认."
+            "Treat technical complaints as reported review evidence rather than as a promise that every player will see the same failure. Check current patch notes, platform requirements, and regional server conditions before drawing a personal conclusion. The cited reviews do not provide a reproducible frame-rate or outage benchmark."
           ]
         },
         {
           "heading": "Systems and quality-of-life criticism",
           "paragraphs": [
             "Review notes also criticize UI and quality-of-life decisions, uneven balance, and the way some systems make the early experience harder to read. A high-risk loop benefits from clear information about gear, extraction, and team threats; friction in those areas can make a death feel confusing instead of instructive. The beginner guides partially address this by recommending repair, combat bags, and shorter learning runs.",
-            "The collected coverage mentions a lack of Duo matchmaking and reports that some solo players face forced PvP pressure. Another review notes only two maps in its own discussion, but the map sources are third-party and work in progress, so the page does not turn that single observation into a universal content count. The exact current map rotation and matchmaking policy are 待确认."
+            "The collected coverage mentions a lack of Duo matchmaking and reports that some solo players face forced PvP pressure. Another review notes only two maps in its own discussion, but the map sources are third-party and work in progress, so the page does not turn that single observation into a universal content count. Read these as review observations tied to their sources and dates."
           ]
         },
         {
@@ -1053,7 +1044,7 @@
           "heading": "Bottom line from the collected sources",
           "paragraphs": [
             "The evidence supports a mixed review: a distinctive PvPvE extraction concept, tense combat, atmosphere, and class potential are balanced by reported technical, UI, balance, matchmaking, and solo-experience concerns. The Metacritic numbers make that mixed reception visible but do not explain every cause. Read the strengths and limitations together before treating a score as a buying instruction.",
-            "The review page intentionally avoids inventing a performance benchmark, map total, or universal verdict. Current patch effects, platform-specific stability, and future matchmaking changes are 待确认. On the available evidence, Mistfall Hunter is a promising but uneven extraction ARPG whose value depends heavily on tolerance for risk and rough edges."
+            "The review page intentionally avoids inventing a performance benchmark, map total, or universal verdict. Patch effects, platform-specific stability, and matchmaking changes belong to their dated official or review sources. On the available evidence, Mistfall Hunter is a promising but uneven extraction ARPG whose value depends heavily on tolerance for risk and rough edges."
           ]
         }
       ],

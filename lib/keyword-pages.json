@@ -41,7 +41,7 @@
         {
           "heading": "Use the camp between runs instead of leaving progress idle",
           "paragraphs": [
-            "The collected guides describe Windrest Camp and its facilities as the preparation layer between expeditions. The forge repairs and crafts gear, the warehouse stores recovered materials, the auction house lets you buy or sell equipment and materials, and the scavenger system can bring back resources while you are away. These systems are presented in third-party guides, so exact timers and upgrade costs remain待确认.",
+            "The collected guides describe Windrest Camp and its facilities as the preparation layer between expeditions. The forge repairs and crafts gear, the warehouse stores recovered materials, the auction house lets you buy or sell equipment and materials, and the scavenger system can bring back resources while you are away. Use these facilities to prepare the next run and treat the guide as a practical orientation to the camp.",
             "Check facilities before starting the next run, especially when a craft or scavenger mission has finished. The same material says characters share the account base, which makes a second character less expensive to support than rebuilding every facility from zero. The safest routine is to repair, move useful materials into storage, check available combat bags, and only then choose the next risk level."
           ]
         },
@@ -63,7 +63,7 @@
             "Carry a recovery option instead of risking every valuable item.",
             "Clear nearby PvE enemies for practice and materials.",
             "Keep an exit route in mind before entering a loot zone.",
-            "Mark exact timers, costs, and spawn rules as待确认 until verified in game."
+            "Use the current in-game map and extraction prompts when planning a high-value route."
           ]
         }
       ],
@@ -120,10 +120,10 @@
           ]
         },
         {
-          "heading": "What is still待确认",
+          "heading": "How to read the tier snapshot",
           "paragraphs": [
             "The supplied tier lists are written by third-party guide publishers and do not provide an official developer ranking. The exact launch patch, player skill distribution, map rotation, and future balance changes can all change the outcome. The collected material also contains path labels that do not appear consistently across every source.",
-            "This page therefore preserves the reported rankings while separating them from confirmed facts. The official Steam material confirms six playable classes and multiple build systems, but it does not confirm that any class is objectively S tier. Recheck the latest patch notes before treating a letter grade as current."
+            "This page preserves the reported rankings while separating them from the official feature scope. Steam confirms six playable classes and multiple build systems, but the letter grades belong to the cited guides. Read each grade with its mode and weapon path, then compare it with the latest dated update before using it as a build shortcut."
           ]
         }
       ],
@@ -138,10 +138,10 @@
       "keyword": "mistfall hunter classes",
       "category": "Class Selection",
       "title": "mistfall hunter classes: weapons, paths, and roles",
-      "description": "mistfall hunter classes explained with the six reported archetypes, weapon paths, team roles, class switching rules, and clear notes on what remains待确认.",
+      "description": "mistfall hunter classes explained with six reported archetypes, weapon paths, team roles, and the class-switching rules described by the cited guides.",
       "h1": "mistfall hunter classes: weapons, paths, and roles",
       "image": "/images/mistfall/heroes.jpg",
-      "answer": "Mistfall Hunter has six playable classes: Blackarrow, Mercenary, Seer, Shadowstrix, Sorcerer, and Withered Knight. Collected guides describe different weapon paths and roles for each, but exact balance values are not confirmed by the official Steam description.",
+      "answer": "Mistfall Hunter has six playable classes: Blackarrow, Mercenary, Seer, Shadowstrix, Sorcerer, and Withered Knight. Collected guides describe different weapon paths and roles for each, while the official Steam description focuses on the class-system scope rather than a balance table.",
       "confidence": "Six classes confirmed; paths reported",
       "updated": "Research snapshot",
       "sections": [
@@ -171,7 +171,7 @@
           "heading": "How class switching is described",
           "paragraphs": [
             "A Mobalytics class guide reports that players can change classes after the tutorial progression. The change requires a Gyldenblod fee, the cost increases with level, and a cooldown limits how quickly another change can be made. The same guide also reports a short reversion window, but these details are not laid out in the official Steam description and should be treated as reported system behavior.",
-            "The beginner guide also reports multiple character slots and an account-linked base. That makes experimentation less punishing because facilities such as the warehouse and forge are shared across characters. Exact unlock levels, fees, cooldown durations, and reversion rules are待确认 in the current collected set."
+            "The beginner guide also reports multiple character slots and an account-linked base. That makes experimentation less punishing because facilities such as the warehouse and forge are shared across characters. The cited guides describe the class-switching flow, but do not provide a complete itemized table of every fee, timer, or reversion condition."
           ]
         },
         {

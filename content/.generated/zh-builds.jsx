@@ -5,7 +5,6 @@ function _createMdxContent(props) {
     h2: "h2",
     li: "li",
     p: "p",
-    strong: "strong",
     ul: "ul",
     ...props.components
   };
@@ -29,11 +28,9 @@ function _createMdxContent(props) {
         children: "**Mercenary：**Hammer 偏直接压制，Sword and Shield 偏防守前排；资料列出 Skull Crusher、Earth Shaker、Hammer Dash、Shield Dash 与 Shield Slam。"
       }), "\n"]
     }), "\n", _jsx(_components.h2, {
-      children: "仍未核验的内容"
+      children: "如何使用这些配装参考"
     }), "\n", _jsxs(_components.p, {
-      children: ["具体伤害、冷却、体力消耗、天赋数值、词缀阈值、配装导入字符串和“唯一最佳配装”都", _jsx(_components.strong, {
-        children: "待确认"
-      }), "。配装分享字符串不是兑换码，不应填进兑换码页。后续平衡或配装公告请以", _jsx(_components.a, {
+      children: ["收集到的资料没有提供统一的数值配装表或官方认可的导入格式。请把其中出现的技能、天赋与词缀方向视为标注来源的起点，并将配装分享字符串与兑换码分开。后续平衡或配装公告请以", _jsx(_components.a, {
         href: "https://mistfallhunter.com/",
         children: "官网"
       }), "和", _jsx(_components.a, {

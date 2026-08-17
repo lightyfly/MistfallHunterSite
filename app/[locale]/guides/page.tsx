@@ -35,7 +35,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
           <span>Research index</span>
         </div>
         <h1>Mistfall Hunter keyword guides</h1>
-        <p className="article-lede">One search intent per page, with collected facts filtered for relevance and uncertain details marked 待确认.</p>
+        <p className="article-lede">One search intent per page, with collected facts filtered for relevance and tied to their source context.</p>
         <div className="ad-slot" aria-hidden="true" />
         <div className="guide-grid keyword-library">
           {keywordArticles.map((article) => (

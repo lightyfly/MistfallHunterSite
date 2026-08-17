@@ -4,7 +4,6 @@ function _createMdxContent(props) {
     a: "a",
     h2: "h2",
     p: "p",
-    strong: "strong",
     ...props.components
   };
   return _jsxs(_Fragment, {
@@ -18,10 +17,8 @@ function _createMdxContent(props) {
       children: "The class-selection research names Blackarrow, Mercenary, Seer, Shadowstrix, Sorcerer, and Withered Knight. The same material describes Blackarrow as a ranged bow class, Mercenary as direct melee, Seer as a support and magic option, Shadowstrix as stealth and assassination, Sorcerer as a spellcaster, and Withered Knight as a melee class with defensive counterplay. These are source-labeled role summaries, not a promise that one class is objectively strongest."
     }), "\n", _jsx(_components.h2, {
       children: "How to use the role descriptions"
-    }), "\n", _jsxs(_components.p, {
-      children: ["Choose the class whose decision loop you can repeat: range and kiting for Blackarrow, close pressure for Mercenary, support or magic for Seer, ambush timing for Shadowstrix, spell-resource management for Sorcerer, or parry and protection for Withered Knight. The collected guides also describe multiple weapon paths, so a class label does not define every possible build. Skill values, cooldowns, unlock conditions, and current balance remain ", _jsx(_components.strong, {
-        children: "待确认"
-      }), "."]
+    }), "\n", _jsx(_components.p, {
+      children: "Choose the class whose decision loop you can repeat: range and kiting for Blackarrow, close pressure for Mercenary, support or magic for Seer, ambush timing for Shadowstrix, spell-resource management for Sorcerer, or parry and protection for Withered Knight. The collected guides also describe multiple weapon paths, so a class label does not define every possible build. This overview keeps numeric skill tables and current balance out of the role summary."
     }), "\n", _jsx(_components.h2, {
       children: "Source boundary"
     }), "\n", _jsxs(_components.p, {

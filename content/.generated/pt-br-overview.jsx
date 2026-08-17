@@ -3,10 +3,8 @@ function _createMdxContent(props) {
   const _components = {
     a: "a",
     h2: "h2",
-    li: "li",
     p: "p",
     strong: "strong",
-    ul: "ul",
     ...props.components
   };
   return _jsxs(_Fragment, {
@@ -27,26 +25,14 @@ function _createMdxContent(props) {
         children: "habilidades ativas"
       }), "."]
     }), "\n", _jsx(_components.h2, {
-      children: "Detalhes a confirmar"
-    }), "\n", _jsxs(_components.ul, {
-      children: ["\n", _jsxs(_components.li, {
-        children: ["Nomes individuais das classes: ", _jsx(_components.strong, {
-          children: "a confirmar"
-        }), "."]
-      }), "\n", _jsxs(_components.li, {
-        children: ["Listas de habilidades e valores de balanceamento por classe: ", _jsx(_components.strong, {
-          children: "a confirmar"
-        }), "."]
-      }), "\n", _jsxs(_components.li, {
-        children: ["Builds recomendadas: ", _jsx(_components.strong, {
-          children: "a confirmar"
-        }), "."]
-      }), "\n"]
+      children: "Como ler as informações de classe"
+    }), "\n", _jsx(_components.p, {
+      children: "As descrições oficiais das plataformas definem o escopo de recursos, enquanto as páginas de classe com fontes indicadas acrescentam nomes, funções e direções de build. Esta visão geral não contém tabelas numéricas completas de habilidades ou balanceamento; use as páginas individuais para os detalhes."
     }), "\n", _jsxs(_components.p, {
       children: ["Use a ", _jsx(_components.a, {
         href: "https://store.steampowered.com/app/3282300/Mistfall_Hunter/",
         children: "página oficial da Steam"
-      }), " e os canais oficiais como fonte."]
+      }), " e os canais oficiais como fontes primárias."]
     })]
   });
 }

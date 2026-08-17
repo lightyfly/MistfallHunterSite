@@ -3,10 +3,8 @@ function _createMdxContent(props) {
   const _components = {
     a: "a",
     h2: "h2",
-    li: "li",
     p: "p",
     strong: "strong",
-    ul: "ul",
     ...props.components
   };
   return _jsxs(_Fragment, {
@@ -27,26 +25,14 @@ function _createMdxContent(props) {
         children: "активные навыки"
       }), "."]
     }), "\n", _jsx(_components.h2, {
-      children: "Детали ожидают проверки"
-    }), "\n", _jsxs(_components.ul, {
-      children: ["\n", _jsxs(_components.li, {
-        children: ["Названия отдельных классов: ", _jsx(_components.strong, {
-          children: "ожидают подтверждения"
-        }), "."]
-      }), "\n", _jsxs(_components.li, {
-        children: ["Списки навыков и значения баланса по классам: ", _jsx(_components.strong, {
-          children: "ожидают подтверждения"
-        }), "."]
-      }), "\n", _jsxs(_components.li, {
-        children: ["Рекомендованные билды: ", _jsx(_components.strong, {
-          children: "ожидают подтверждения"
-        }), "."]
-      }), "\n"]
+      children: "Как читать сведения о классах"
+    }), "\n", _jsx(_components.p, {
+      children: "Официальные описания платформ задают общий набор функций, а страницы классов с указанными источниками дополняют их названиями, ролями и направлениями билдов. В этом обзоре нет полных числовых таблиц навыков и баланса, поэтому для деталей используйте отдельные страницы классов."
     }), "\n", _jsxs(_components.p, {
       children: ["Используйте ", _jsx(_components.a, {
         href: "https://store.steampowered.com/app/3282300/Mistfall_Hunter/",
         children: "официальную страницу Steam"
-      }), " и официальные каналы как источник истины."]
+      }), " и официальные каналы как первичные источники."]
     })]
   });
 }

@@ -23,7 +23,7 @@ export default function Page() {
           <span>调研索引</span>
         </div>
         <h1>Mistfall Hunter 关键词指南</h1>
-        <p className="article-lede">每个页面对应一个搜索意图，已过滤无效信息；不确定内容标为“待确认”。</p>
+        <p className="article-lede">每个页面对应一个搜索意图，已过滤无效信息，并保留与来源对应的事实。</p>
         <div className="ad-slot" aria-hidden="true" />
         <div className="guide-grid keyword-library">
           {keywordArticles.map((article) => (

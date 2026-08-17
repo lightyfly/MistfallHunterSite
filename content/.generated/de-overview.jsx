@@ -3,10 +3,8 @@ function _createMdxContent(props) {
   const _components = {
     a: "a",
     h2: "h2",
-    li: "li",
     p: "p",
     strong: "strong",
-    ul: "ul",
     ...props.components
   };
   return _jsxs(_Fragment, {
@@ -27,26 +25,14 @@ function _createMdxContent(props) {
         children: "aktiven Skills"
       }), "."]
     }), "\n", _jsx(_components.h2, {
-      children: "Details zu bestätigen"
-    }), "\n", _jsxs(_components.ul, {
-      children: ["\n", _jsxs(_components.li, {
-        children: ["Einzelne Klassennamen: ", _jsx(_components.strong, {
-          children: "zu bestätigen"
-        }), "."]
-      }), "\n", _jsxs(_components.li, {
-        children: ["Skill-Listen und Balancewerte pro Klasse: ", _jsx(_components.strong, {
-          children: "zu bestätigen"
-        }), "."]
-      }), "\n", _jsxs(_components.li, {
-        children: ["Empfohlene Klassen-Builds: ", _jsx(_components.strong, {
-          children: "zu bestätigen"
-        }), "."]
-      }), "\n"]
+      children: "Einordnung der Klassenangaben"
+    }), "\n", _jsx(_components.p, {
+      children: "Die offiziellen Plattformbeschreibungen liefern den Funktionsumfang; die quellenmarkierten Klassenseiten ergänzen Namen, Rollen und Build-Richtungen. Diese Übersicht enthält keine vollständigen numerischen Skill- oder Balance-Tabellen und ersetzt keine klassenbezogene Referenzseite."
     }), "\n", _jsxs(_components.p, {
       children: ["Nutze die ", _jsx(_components.a, {
         href: "https://store.steampowered.com/app/3282300/Mistfall_Hunter/",
         children: "offizielle Steam-Seite"
-      }), " und die offiziellen Kanäle als Quelle."]
+      }), " und die offiziellen Kanäle als Primärquellen."]
     })]
   });
 }

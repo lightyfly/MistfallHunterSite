@@ -15,7 +15,7 @@ function _createMdxContent(props) {
     }), "\n", _jsx(_components.p, {
       children: "Der Recherchebrief bestätigt Waffenhaltungen, Talentbäume, Edelstein-Affixe und aktive Skills. Eine verifizierte Build-Tabelle für einzelne Klassen liegt nicht vor."
     }), "\n", _jsx(_components.h3, {
-      children: "Sicher bestätigt"
+      children: "Gemeinsame Grundlage"
     }), "\n", _jsxs(_components.ul, {
       children: ["\n", _jsxs(_components.li, {
         children: ["Die offizielle Steam-Seite listet ", _jsx(_components.strong, {
@@ -23,10 +23,8 @@ function _createMdxContent(props) {
         }), "."]
       }), "\n", _jsx(_components.li, {
         children: "Empfehlungen hängen von Klassennamen, Skill-Details und Balancewerten ab."
-      }), "\n", _jsxs(_components.li, {
-        children: ["Konkrete Klassen-Builds sind ", _jsx(_components.strong, {
-          children: "zu bestätigen"
-        }), "."]
+      }), "\n", _jsx(_components.li, {
+        children: "Die einzelnen Klassen-Builds stehen auf den quellenmarkierten Referenzseiten."
       }), "\n"]
     })]
   });

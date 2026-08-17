@@ -91,7 +91,7 @@ test("server-renders keyword index, article pages, and localized keyword pages",
     assert.equal(response.status, 200, pathname);
     const html = await response.text();
     assert.match(html, /Mistfall Hunter/);
-    assert.match(html, /待确认|暂无/);
+    assert.doesNotMatch(html, /待确认|待核实|未确认|unverified|to be confirmed|ожидают подтверждения|zu bestätigen|a confirmar/i);
   }
 
   for (const article of keywordArticles) {

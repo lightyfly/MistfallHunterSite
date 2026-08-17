@@ -39,11 +39,9 @@ function _createMdxContent(props) {
         }), " Hammer is reported for direct pressure, while Sword and Shield is reported for a defensive frontline. Skull Crusher, Earth Shaker, Hammer Dash, Shield Dash, and Shield Slam appear in the collected material."]
       }), "\n"]
     }), "\n", _jsx(_components.h2, {
-      children: "What remains unverified"
+      children: "How to use these build references"
     }), "\n", _jsxs(_components.p, {
-      children: ["Exact damage, cooldowns, stamina costs, talent values, affix thresholds, build-import strings, and a universal best build are ", _jsx(_components.strong, {
-        children: "待确认"
-      }), ". A build-share string is not a redemption code and should not be listed on the code page. Use the ", _jsx(_components.a, {
+      children: ["The collected sources do not publish one universal numeric build table or a developer-approved import format. Treat the reported skills, talents, and affix directions as source-labeled starting points, and keep build-share strings separate from redemption codes. Use the ", _jsx(_components.a, {
         href: "https://mistfallhunter.com/",
         children: "official website"
       }), " and ", _jsx(_components.a, {

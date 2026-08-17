@@ -15,7 +15,7 @@ function _createMdxContent(props) {
     }), "\n", _jsx(_components.p, {
       children: "В исследовательском брифе подтверждены стойки оружия, деревья талантов, аффиксы самоцветов и активные навыки. Проверенной таблицы билдов для каждого класса нет."
     }), "\n", _jsx(_components.h3, {
-      children: "Что можно утверждать"
+      children: "Общая основа"
     }), "\n", _jsxs(_components.ul, {
       children: ["\n", _jsxs(_components.li, {
         children: ["На официальной странице Steam указаны ", _jsx(_components.strong, {
@@ -23,10 +23,8 @@ function _createMdxContent(props) {
         }), "."]
       }), "\n", _jsx(_components.li, {
         children: "Рекомендации зависят от названий классов, навыков и данных баланса."
-      }), "\n", _jsxs(_components.li, {
-        children: ["Билды для конкретных классов ", _jsx(_components.strong, {
-          children: "ожидают подтверждения"
-        }), "."]
+      }), "\n", _jsx(_components.li, {
+        children: "Отдельные направления билдов собраны на страницах классов с указанными источниками."
       }), "\n"]
     })]
   });

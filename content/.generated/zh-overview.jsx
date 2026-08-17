@@ -4,7 +4,6 @@ function _createMdxContent(props) {
     a: "a",
     h2: "h2",
     p: "p",
-    strong: "strong",
     ...props.components
   };
   return _jsxs(_Fragment, {
@@ -18,10 +17,8 @@ function _createMdxContent(props) {
       children: "职业调研资料列出 Blackarrow、Mercenary、Seer、Shadowstrix、Sorcerer 与 Withered Knight，并分别将其描述为远程弓手、直接近战、支援与魔法、潜行刺杀、法术施放和带防御反制的近战职业。这些是标注来源的定位摘要，不代表某个职业一定是绝对最强。"
     }), "\n", _jsx(_components.h2, {
       children: "如何使用这些定位"
-    }), "\n", _jsxs(_components.p, {
-      children: ["选择你能稳定重复决策循环的职业：Blackarrow 的远程与风筝、Mercenary 的近身压制、Seer 的支援或魔法、Shadowstrix 的埋伏时机、Sorcerer 的法术资源管理，或 Withered Knight 的招架与保护。调研攻略还描述了不同武器路线，因此职业名称不等于唯一配装。技能数值、冷却、解锁条件与当前平衡仍然", _jsx(_components.strong, {
-        children: "待确认"
-      }), "。"]
+    }), "\n", _jsx(_components.p, {
+      children: "选择你能稳定重复决策循环的职业：Blackarrow 的远程与风筝、Mercenary 的近身压制、Seer 的支援或魔法、Shadowstrix 的埋伏时机、Sorcerer 的法术资源管理，或 Withered Knight 的招架与保护。调研攻略还描述了不同武器路线，因此职业名称不等于唯一配装。本总览只保留定位摘要，不放入逐职业数值表或当前平衡结论。"
     }), "\n", _jsx(_components.h2, {
       children: "来源边界"
     }), "\n", _jsxs(_components.p, {

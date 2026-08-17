@@ -39,7 +39,7 @@ export function ClassDetailPage({ locale, slug }: { locale: Locale; slug: string
 }
 
 function FallbackMdx({ locale, title }: { locale: Locale; title: string }) {
-  const text = locale === "zh" ? { heading: `${title}参考`, body: "这是一份基于官方研究资料的职业参考页。具体职业名称、技能列表与平衡数据待确认。", subheading: "已确认信息", items: ["官方 Steam 页面列出 6 个可玩职业。", "调研资料提到双武器姿态、天赋树、宝石词缀与主动技能。", "逐职业路线将在官方信息完成核验后补充。"] } : { heading: `${title} Reference`, body: "This reference page uses the official research brief. Individual class names, skill lists, and balance values are 待确认.", subheading: "Confirmed in the brief", items: ["The official Steam page lists 6 playable classes.", "The research brief mentions dual weapon stances, talent trees, gem affixes, and active skills.", "Class-specific routes will be added after official details are verified."] };
+  const text = locale === "zh" ? { heading: `${title}参考`, body: "这是一份基于官方研究资料的职业参考页。本页保留官方列出的职业系统范围，并将具体路线放在标注来源的职业资料中。", subheading: "资料范围", items: ["官方 Steam 页面列出 6 个可玩职业。", "调研资料提到双武器姿态、天赋树、宝石词缀与主动技能。", "逐职业路线请从职业参考页进入。"] } : { heading: `${title} Reference`, body: "This reference page uses the official research brief for the class-system scope and links to source-labeled class material for individual routes.", subheading: "Research scope", items: ["The official Steam page lists 6 playable classes.", "The research brief mentions dual weapon stances, talent trees, gem affixes, and active skills.", "Open the class reference pages for individual routes."] };
   return <><h2 className="mdx-h2">{text.heading}</h2><p>{text.body}</p><h3 className="mdx-h3">{text.subheading}</h3><ul>{text.items.map((item) => <li key={item}>{item}</li>)}</ul></>;
 }
 
