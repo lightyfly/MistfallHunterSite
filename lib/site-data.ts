@@ -131,13 +131,13 @@ type SiteCopy = {
 };
 
 const railSections = (labels: Record<Exclude<RailSectionKey, "overview" | "detail" | "codes">, string>) => [
-  { key: "gettingStarted" as const, label: labels.gettingStarted, count: "待确认" },
+  { key: "gettingStarted" as const, label: labels.gettingStarted, count: "" },
   { key: "classes" as const, label: labels.classes, count: "6" },
-  { key: "bosses" as const, label: labels.bosses, count: "待确认" },
-  { key: "maps" as const, label: labels.maps, count: "待确认" },
-  { key: "builds" as const, label: labels.builds, count: "待确认" },
-  { key: "systems" as const, label: labels.systems, count: "待确认" },
-  { key: "updates" as const, label: labels.updates, count: "待确认" },
+  { key: "bosses" as const, label: labels.bosses, count: "" },
+  { key: "maps" as const, label: labels.maps, count: "" },
+  { key: "builds" as const, label: labels.builds, count: "" },
+  { key: "systems" as const, label: labels.systems, count: "" },
+  { key: "updates" as const, label: labels.updates, count: "" },
 ];
 
 export const siteCopy: Record<Locale, SiteCopy> = {
