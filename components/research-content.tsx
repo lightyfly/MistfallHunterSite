@@ -1,12 +1,11 @@
 import { getKeywordArticle, type KeywordArticle } from "../lib/keyword-pages";
 import type { Locale } from "../lib/site-data";
 
-export type ReferenceResearchKey = "beginner-guide" | "extraction" | "codes" | "tier-list" | "updates" | "maps-and-loot";
+export type ReferenceResearchKey = "beginner-guide" | "extraction" | "tier-list" | "updates" | "maps-and-loot";
 
 const referenceResearchSlugs: Record<ReferenceResearchKey, string[]> = {
   "beginner-guide": ["mistfall-hunter-guide"],
   extraction: ["mistfall-hunter-guide"],
-  codes: ["mistfall-hunter-codes"],
   "tier-list": ["mistfall-hunter-tier-list"],
   updates: ["mistfall-hunter-patch-notes", "mistfall-hunter-roadmap"],
   "maps-and-loot": ["mistfall-hunter-interactive-map"],

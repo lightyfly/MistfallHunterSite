@@ -30,7 +30,8 @@ export type KeywordArticle = {
 const baseArticles = baseData as { articles: KeywordArticle[] };
 const extraArticles = extraData as { articles: KeywordArticle[] };
 
-export const keywordArticles: KeywordArticle[] = [...baseArticles.articles, ...extraArticles.articles];
+export const keywordArticles: KeywordArticle[] = [...baseArticles.articles, ...extraArticles.articles]
+  .filter((article) => article.slug !== "mistfall-hunter-codes");
 
 export const keywordArticleSlugs = keywordArticles.map((article) => article.slug);
 

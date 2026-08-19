@@ -24,7 +24,7 @@ export function HomePage({ locale = "en" as Locale }: { locale?: Locale }) {
         <div className="media-frame hero-video"><video className="hero-video-frame" src={officialLinks.heroVideo} poster="/images/mistfall/hero.jpg" autoPlay muted loop playsInline preload="auto" aria-hidden="true" /><span className="media-source">{copy.home.mediaLabel}</span></div>
         <p className="hero-intro">{copy.home.intro}</p>
         <div className="stat-row">{copy.home.stats.map((stat) => <span className="stat-chip" key={stat}>{stat}</span>)}</div>
-        <div className="hero-ctas"><Link href={localizedPath(locale, "/beginner-guide")} className="button button-primary">{copy.home.ctas[0]} <span>→</span></Link><Link href={localizedPath(locale, "/classes")} className="button">{copy.home.ctas[1]} <span>→</span></Link><Link href={localizedPath(locale, "/codes")} className="button">{copy.home.ctas[2]} <span>→</span></Link></div>
+        <div className="hero-ctas"><Link href={localizedPath(locale, "/beginner-guide")} className="button button-primary">{copy.home.ctas[0]} <span>→</span></Link><Link href={localizedPath(locale, "/classes")} className="button">{copy.home.ctas[1]} <span>→</span></Link></div>
       </section>
 
       <section className="home-split-section">

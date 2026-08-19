@@ -4,7 +4,7 @@ import { ReferenceSectionPage, type SectionKey } from "../../../components/refer
 import { localizedSeo, supportedLocales, type Locale } from "../../../lib/site-data";
 
 const dynamicLocales = supportedLocales.filter((locale) => !["en", "zh"].includes(locale));
-const sections: SectionKey[] = ["beginner-guide", "extraction", "bosses", "codes", "tier-list", "updates", "community", "maps-and-loot"];
+const sections: SectionKey[] = ["beginner-guide", "extraction", "bosses", "tier-list", "updates", "community", "maps-and-loot"];
 
 export function generateStaticParams() { return dynamicLocales.flatMap((locale) => sections.map((section) => ({ locale, section }))); }
 

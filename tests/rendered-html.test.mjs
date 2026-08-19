@@ -8,7 +8,7 @@ const { default: worker } = await import(workerUrl.href);
 const keywordArticles = [
   ...JSON.parse(fs.readFileSync(new URL("../lib/keyword-pages.json", import.meta.url), "utf8")).articles,
   ...JSON.parse(fs.readFileSync(new URL("../lib/keyword-pages-extra.json", import.meta.url), "utf8")).articles,
-];
+].filter((article) => article.slug !== "mistfall-hunter-codes");
 
 async function render(pathname) {
   return worker.fetch(
@@ -27,7 +27,6 @@ test("server-renders the requested core routes", async () => {
     ["/beginner-guide", "Beginner Guide"],
     ["/extraction", "How Extraction Works"],
     ["/bosses", "Mist Lords"],
-    ["/codes", "暂无官方可验证兑换码"],
     ["/maps-and-loot", "Maps, Bosses"],
     ["/tier-list", "Tier List"],
     ["/updates", "Official Updates"],
@@ -61,13 +60,11 @@ test("server-renders multilingual routes and MDX article", async () => {
     "/de",
     "/pt-br",
     "/ru/classes/overview",
-    "/de/codes",
     "/pt-br/privacy-policy",
     "/zh/guides",
     "/zh/beginner-guide",
     "/zh/extraction",
     "/zh/bosses",
-    "/zh/codes",
     "/zh/tier-list",
     "/zh/updates",
     "/zh/community",
@@ -78,15 +75,32 @@ test("server-renders multilingual routes and MDX article", async () => {
   }
 });
 
+test("renders working primary and rail navigation links without Codes", async () => {
+  for (const [pathname, expectedLinks] of [
+    ["/", ["/classes", "/bosses", "/guides", "/tier-list", "/updates", "/beginner-guide", "/maps-and-loot"]],
+    ["/zh", ["/zh/classes", "/zh/bosses", "/zh/guides", "/zh/tier-list", "/zh/updates", "/zh/beginner-guide", "/zh/maps-and-loot"]],
+  ]) {
+    const response = await render(pathname);
+    assert.equal(response.status, 200, pathname);
+    const html = await response.text();
+
+    for (const href of expectedLinks) {
+      assert.match(html, new RegExp(`href="${href}"`), `${pathname} should link to ${href}`);
+    }
+
+    assert.doesNotMatch(html, /href="(?:\/[a-z-]+)?\/codes"/);
+  }
+});
+
 test("server-renders keyword index, article pages, and localized keyword pages", async () => {
-  assert.equal(keywordArticles.length, 20);
+  assert.equal(keywordArticles.length, 19);
   for (const article of keywordArticles) {
     assert.ok(article.title.length >= 40 && article.title.length <= 60, article.slug);
     assert.ok(article.description.length >= 140 && article.description.length <= 160, article.slug);
     assert.match(article.description.toLowerCase(), new RegExp(article.keyword.toLowerCase()), article.slug);
   }
 
-  for (const pathname of ["/guides", "/guides/mistfall-hunter-guide", "/guides/mistfall-hunter-codes", "/guides/mistfall-hunter-review", "/zh/guides/mistfall-hunter-codes"]) {
+  for (const pathname of ["/guides", "/guides/mistfall-hunter-guide", "/guides/mistfall-hunter-review", "/zh/guides/mistfall-hunter-review"]) {
     const response = await render(pathname);
     assert.equal(response.status, 200, pathname);
     const html = await response.text();

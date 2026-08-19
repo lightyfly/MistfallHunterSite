@@ -7,7 +7,6 @@ const sections: SectionKey[] = [
   "beginner-guide",
   "extraction",
   "bosses",
-  "codes",
   "tier-list",
   "updates",
   "community",

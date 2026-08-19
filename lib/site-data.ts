@@ -59,13 +59,12 @@ export const navItems = [
   { label: "Classes", path: "/classes", key: "classes" },
   { label: "Bosses", path: "/bosses", key: "bosses" },
   { label: "Guides", path: "/guides", key: "guides" },
-  { label: "Codes", path: "/codes", key: "codes" },
   { label: "Tier List", path: "/tier-list", key: "tierList" },
   { label: "Updates", path: "/updates", key: "updates" },
 ] as const;
 
 type NavKey = (typeof navItems)[number]["key"];
-type RailSectionKey = "gettingStarted" | "classes" | "bosses" | "maps" | "builds" | "systems" | "updates" | "overview" | "detail" | "codes";
+type RailSectionKey = "gettingStarted" | "classes" | "bosses" | "maps" | "builds" | "systems" | "updates" | "overview" | "detail";
 
 type HomeCopy = {
   eyebrow: string;
@@ -130,7 +129,7 @@ type SiteCopy = {
   };
 };
 
-const railSections = (labels: Record<Exclude<RailSectionKey, "overview" | "detail" | "codes">, string>) => [
+const railSections = (labels: Record<Exclude<RailSectionKey, "overview" | "detail">, string>) => [
   { key: "gettingStarted" as const, label: labels.gettingStarted, count: "" },
   { key: "classes" as const, label: labels.classes, count: "6" },
   { key: "bosses" as const, label: labels.bosses, count: "" },
@@ -142,7 +141,7 @@ const railSections = (labels: Record<Exclude<RailSectionKey, "overview" | "detai
 
 export const siteCopy: Record<Locale, SiteCopy> = {
   en: {
-    nav: { classes: "Classes", bosses: "Bosses", guides: "Guides", codes: "Codes", tierList: "Tier List", updates: "Updates", language: "Languages" },
+    nav: { classes: "Classes", bosses: "Bosses", guides: "Guides", tierList: "Tier List", updates: "Updates", language: "Languages" },
     home: {
       eyebrow: "Fan-Made Community Wiki",
       intro: "Mistfall Hunter is a dark fantasy third-person PvPvE extraction ARPG where every run is a gamble. Build your class, fight corrupted monsters and rival Gyldhunters, then extract your loot before the mist takes everything.",
@@ -157,7 +156,7 @@ export const siteCopy: Record<Locale, SiteCopy> = {
     footer: { note: "Independent fan wiki. Official sources are linked for verification.", title: "Mistfall Hunter Wiki", description: "Mistfall Hunter Wiki is an independent fan-made guide hub for Bellring Games' dark fantasy extraction ARPG. It helps Gyldhunters learn the PvPvE loop, choose a class, optimize gear, and survive each extraction. It is not affiliated with Bellring Games or Skystone Games.", quickLinks: "Official Links", guides: "Guides", legal: "Legal", website: "Official Website", steam: "Steam Store", discord: "Official Discord", youtube: "Official YouTube", community: "Steam Community Hub", privacy: "Privacy Policy", terms: "Terms of Service", disclaimer: "Not affiliated with Bellring Games or Skystone Games." },
   },
   ru: {
-    nav: { classes: "Классы", bosses: "Боссы", guides: "Гайды", codes: "Коды", tierList: "Тир-лист", updates: "Обновления", language: "Языки" },
+    nav: { classes: "Классы", bosses: "Боссы", guides: "Гайды", tierList: "Тир-лист", updates: "Обновления", language: "Языки" },
     home: {
       eyebrow: "Фанатская вики сообщества",
       intro: "Mistfall Hunter — мрачная фэнтезийная PvPvE extraction ARPG от третьего лица, где каждый рейд становится ставкой. Выберите класс, сражайтесь с искажёнными монстрами и соперниками-Gyldhunter, а затем успейте вынести добычу до того, как туман заберёт всё.",
@@ -171,7 +170,7 @@ export const siteCopy: Record<Locale, SiteCopy> = {
     footer: { note: "Независимая фанатская вики. Официальные источники доступны для проверки.", title: "Вики Mistfall Hunter", description: "Mistfall Hunter Wiki — независимый фанатский справочник по мрачной фэнтезийной extraction ARPG от Bellring Games. Здесь собраны материалы о PvPvE-цикле, классах, снаряжении и выживании в рейдах. Вики не связана с Bellring Games или Skystone Games.", quickLinks: "Официальные ссылки", guides: "Гайды", legal: "Правовая информация", website: "Официальный сайт", steam: "Магазин Steam", discord: "Официальный Discord", youtube: "Официальный YouTube", community: "Сообщество Steam", privacy: "Политика конфиденциальности", terms: "Условия использования", disclaimer: "Не связана с Bellring Games или Skystone Games." },
   },
   de: {
-    nav: { classes: "Klassen", bosses: "Bosse", guides: "Guides", codes: "Codes", tierList: "Tier-Liste", updates: "Updates", language: "Sprachen" },
+    nav: { classes: "Klassen", bosses: "Bosse", guides: "Guides", tierList: "Tier-Liste", updates: "Updates", language: "Sprachen" },
     home: {
       eyebrow: "Fan-Wiki der Community",
       intro: "Mistfall Hunter ist ein düsteres Third-Person-PvPvE-Extraction-ARPG, in dem jeder Lauf ein Risiko ist. Wähle deine Klasse, kämpfe gegen verdorbene Monster und rivalisierende Gyldhunter und sichere deine Beute, bevor der Nebel alles verschlingt.",
@@ -185,7 +184,7 @@ export const siteCopy: Record<Locale, SiteCopy> = {
     footer: { note: "Unabhängiges Fan-Wiki. Offizielle Quellen sind zur Prüfung verlinkt.", title: "Mistfall-Hunter-Wiki", description: "Mistfall Hunter Wiki ist ein unabhängiger Fan-Leitfaden für Bellring Games' düsteres Extraction-ARPG. Die Seite erklärt den PvPvE-Loop, Klassen, Ausrüstung und sichere Extraction-Läufe. Sie ist nicht mit Bellring Games oder Skystone Games verbunden.", quickLinks: "Offizielle Links", guides: "Guides", legal: "Rechtliches", website: "Offizielle Website", steam: "Steam-Shop", discord: "Offizieller Discord", youtube: "Offizieller YouTube-Kanal", community: "Steam-Community", privacy: "Datenschutz", terms: "Nutzungsbedingungen", disclaimer: "Nicht mit Bellring Games oder Skystone Games verbunden." },
   },
   "pt-br": {
-    nav: { classes: "Classes", bosses: "Chefes", guides: "Guias", codes: "Códigos", tierList: "Tier List", updates: "Atualizações", language: "Idiomas" },
+    nav: { classes: "Classes", bosses: "Chefes", guides: "Guias", tierList: "Tier List", updates: "Atualizações", language: "Idiomas" },
     home: {
       eyebrow: "Wiki da comunidade feita por fãs",
       intro: "Mistfall Hunter é um extraction ARPG PvPvE de fantasia sombria em terceira pessoa, no qual cada incursão é uma aposta. Monte sua classe, enfrente monstros corrompidos e Gyldhunters rivais e extraia seu saque antes que a névoa leve tudo.",
@@ -199,7 +198,7 @@ export const siteCopy: Record<Locale, SiteCopy> = {
     footer: { note: "Wiki independente feita por fãs. Links oficiais para conferência.", title: "Wiki de Mistfall Hunter", description: "Mistfall Hunter Wiki é um hub independente de guias de fãs para o extraction ARPG de fantasia sombria da Bellring Games. A página ajuda Gyldhunters com o ciclo PvPvE, classes, equipamentos e extrações. Não somos afiliados à Bellring Games ou à Skystone Games.", quickLinks: "Links oficiais", guides: "Guias", legal: "Legal", website: "Site oficial", steam: "Loja Steam", discord: "Discord oficial", youtube: "YouTube oficial", community: "Comunidade Steam", privacy: "Política de privacidade", terms: "Termos de uso", disclaimer: "Não afiliado à Bellring Games ou à Skystone Games." },
   },
   zh: {
-    nav: { classes: "职业", bosses: "首领", guides: "指南", codes: "兑换码", tierList: "强度榜", updates: "更新", language: "EN" },
+    nav: { classes: "职业", bosses: "首领", guides: "指南", tierList: "强度榜", updates: "更新", language: "EN" },
     home: {
       eyebrow: "玩家共建 Wiki",
       intro: "Mistfall Hunter 是一款黑暗奇幻第三人称 PvPvE 撤离 ARPG，每次出发都是一次下注。选择职业，对抗被腐化的怪物与敌对 Gyldhunter，并在迷雾夺走一切之前带着战利品撤离。",
@@ -239,11 +238,11 @@ export const popularPages: Record<Locale, Array<{ tag: string; title: string; de
 };
 
 export const exploreCards: Record<Locale, Array<[string, string, string]>> = {
-  en: [["Classes & Builds", "Steam and Xbox confirm six classes and two weapon stances; the collected guides list the class names.", "/classes"], ["Extraction Loop", "Learn the PvPvE loop, solo or trio runs, Returner Woodlings, and extraction risk.", "/extraction"], ["Maps, Bosses & Loot", "Xbox and Steam confirm ruins, treasure, relics, Corroded creatures, Mist Lords, rival Gyldhunters, and Returner Woodling extraction.", "/maps-and-loot"], ["Official Updates", "Follow the latest official update and player-count snapshots.", "/updates"], ["Official Community", "Open the official website, Steam community, Discord directory, X, and YouTube.", "/community"], ["Active Codes", "暂无官方可验证兑换码。这个页面只会收录可核验的官方代码。", "/codes"]],
-  ru: [["Классы и билды", "Steam и Xbox подтверждают шесть классов и две стойки оружия; собранные гайды перечисляют их названия.", "/classes"], ["Цикл extraction", "Изучите PvPvE, одиночные и троечные рейды, Returner Woodling и риск эвакуации.", "/extraction"], ["Карты, боссы и добыча", "Xbox и Steam подтверждают руины, сокровища, реликвии, Corroded, Mist Lords, соперников-Gyldhunter и эвакуацию через Returner Woodling.", "/maps-and-loot"], ["Официальные обновления", "Следите за официальными обновлениями и снимками онлайна.", "/updates"], ["Официальное сообщество", "Сайт, Steam, Discord, X и YouTube по официальным ссылкам.", "/community"], ["Активные коды", "Официально подтверждённых кодов пока нет; здесь будут только проверенные коды.", "/codes"]],
-  de: [["Klassen und Builds", "Steam und Xbox bestätigen sechs Klassen und zwei Waffenhaltungen; die gesammelten Guides nennen die Klassennamen.", "/classes"], ["Extraction-Loop", "PvPvE, Solo- und Dreierläufe, Returner Woodling und das Risiko der Extraction.", "/extraction"], ["Karten, Bosse und Beute", "Xbox und Steam bestätigen Ruinen, Schätze, Relikte, Corroded, Mist Lords, rivalisierende Gyldhunter und die Extraction über Returner Woodling.", "/maps-and-loot"], ["Offizielle Updates", "Verfolge offizielle Updates und Spieler-Snapshots.", "/updates"], ["Offizielle Community", "Website, Steam, Discord, X und YouTube über offizielle Links.", "/community"], ["Aktive Codes", "暂无 offiziell bestätigte Codes; hier erscheinen nur verifizierte Codes.", "/codes"]],
-  "pt-br": [["Classes e builds", "Steam e Xbox confirmam seis classes e duas posturas de arma; os guias coletados listam os nomes.", "/classes"], ["Ciclo de extração", "PvPvE, incursões solo ou em trio, Returner Woodling e risco da extração.", "/extraction"], ["Mapas, chefes e saque", "Xbox e Steam confirmam ruínas, tesouros, relíquias, Corroded, Mist Lords, Gyldhunters rivais e a extração pelo Returner Woodling.", "/maps-and-loot"], ["Atualizações oficiais", "Acompanhe atualizações oficiais e snapshots de jogadores.", "/updates"], ["Comunidade oficial", "Site, Steam, Discord, X e YouTube por links oficiais.", "/community"], ["Códigos ativos", "暂无 códigos oficialmente verificáveis; só códigos confirmados serão publicados.", "/codes"]],
-  zh: [["职业与配装", "Steam 与 Xbox 资料确认有 6 个职业和两种武器姿态；收集到的职业攻略列出具体职业名。", "/classes"], ["撤离循环", "了解 PvPvE、单人或三人小队、Returner Woodling 与撤离风险。", "/extraction"], ["地图、首领与战利品", "Xbox 与 Steam 官方资料确认遗迹、宝藏、遗物、Corroded 生物、Mist Lords、敌对 Gyldhunters 与通过 Returner Woodling 撤离。", "/maps-and-loot"], ["官方更新", "跟进官方更新与在线人数快照。", "/updates"], ["官方社区", "通过官方链接访问官网、Steam、Discord、X 与 YouTube。", "/community"], ["当前兑换码", "暂无官方可验证兑换码；此页只收录可核验的官方代码。", "/codes"]],
+  en: [["Classes & Builds", "Steam and Xbox confirm six classes and two weapon stances; the collected guides list the class names.", "/classes"], ["Extraction Loop", "Learn the PvPvE loop, solo or trio runs, Returner Woodlings, and extraction risk.", "/extraction"], ["Maps, Bosses & Loot", "Xbox and Steam confirm ruins, treasure, relics, Corroded creatures, Mist Lords, rival Gyldhunters, and Returner Woodling extraction.", "/maps-and-loot"], ["Official Updates", "Follow the latest official update and player-count snapshots.", "/updates"], ["Official Community", "Open the official website, Steam community, Discord directory, X, and YouTube.", "/community"]],
+  ru: [["Классы и билды", "Steam и Xbox подтверждают шесть классов и две стойки оружия; собранные гайды перечисляют их названия.", "/classes"], ["Цикл extraction", "Изучите PvPvE, одиночные и троечные рейды, Returner Woodling и риск эвакуации.", "/extraction"], ["Карты, боссы и добыча", "Xbox и Steam подтверждают руины, сокровища, реликвии, Corroded, Mist Lords, соперников-Gyldhunter и эвакуацию через Returner Woodling.", "/maps-and-loot"], ["Официальные обновления", "Следите за официальными обновлениями и снимками онлайна.", "/updates"], ["Официальное сообщество", "Сайт, Steam, Discord, X и YouTube по официальным ссылкам.", "/community"]],
+  de: [["Klassen und Builds", "Steam und Xbox bestätigen sechs Klassen und zwei Waffenhaltungen; die gesammelten Guides nennen die Klassennamen.", "/classes"], ["Extraction-Loop", "PvPvE, Solo- und Dreierläufe, Returner Woodling und das Risiko der Extraction.", "/extraction"], ["Karten, Bosse und Beute", "Xbox und Steam bestätigen Ruinen, Schätze, Relikte, Corroded, Mist Lords, rivalisierende Gyldhunter und die Extraction über Returner Woodling.", "/maps-and-loot"], ["Offizielle Updates", "Verfolge offizielle Updates und Spieler-Snapshots.", "/updates"], ["Offizielle Community", "Website, Steam, Discord, X und YouTube über offizielle Links.", "/community"]],
+  "pt-br": [["Classes e builds", "Steam e Xbox confirmam seis classes e duas posturas de arma; os guias coletados listam os nomes.", "/classes"], ["Ciclo de extração", "PvPvE, incursões solo ou em trio, Returner Woodling e risco da extração.", "/extraction"], ["Mapas, chefes e saque", "Xbox e Steam confirmam ruínas, tesouros, relíquias, Corroded, Mist Lords, Gyldhunters rivais e a extração pelo Returner Woodling.", "/maps-and-loot"], ["Atualizações oficiais", "Acompanhe atualizações oficiais e snapshots de jogadores.", "/updates"], ["Comunidade oficial", "Site, Steam, Discord, X e YouTube por links oficiais.", "/community"]],
+  zh: [["职业与配装", "Steam 与 Xbox 资料确认有 6 个职业和两种武器姿态；收集到的职业攻略列出具体职业名。", "/classes"], ["撤离循环", "了解 PvPvE、单人或三人小队、Returner Woodling 与撤离风险。", "/extraction"], ["地图、首领与战利品", "Xbox 与 Steam 官方资料确认遗迹、宝藏、遗物、Corroded 生物、Mist Lords、敌对 Gyldhunters 与通过 Returner Woodling 撤离。", "/maps-and-loot"], ["官方更新", "跟进官方更新与在线人数快照。", "/updates"], ["官方社区", "通过官方链接访问官网、Steam、Discord、X 与 YouTube。", "/community"]],
 };
 
 export const faqItems: Record<Locale, Array<[string, string]>> = {
