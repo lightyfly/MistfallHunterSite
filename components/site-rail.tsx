@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { localizedPath, officialLinks, type Locale, siteCopy } from "../lib/site-data";
 
 const sectionKeys = new Set(["gettingStarted", "classes", "bosses", "maps", "builds", "systems", "updates"]);
@@ -12,9 +11,8 @@ const sectionPaths: Record<string, string> = {
   updates: "/updates",
 };
 
-export function SiteRail({ locale, currentPath = "/" }: { locale: Locale; currentPath?: string }) {
+export function SiteRail({ locale }: { locale: Locale; currentPath?: string }) {
   const copy = siteCopy[locale];
-  const classOpen = currentPath.includes("/classes");
   const sections = copy.rail.sections.filter((section) => sectionKeys.has(section.key));
   return (
     <aside className="site-rail" aria-label={copy.rail.navigation}>
@@ -25,14 +23,14 @@ export function SiteRail({ locale, currentPath = "/" }: { locale: Locale; curren
           const href = localizedPath(locale, sectionPaths[section.key]);
           const count = section.count ? <span className="rail-count">{section.count}</span> : null;
           if (section.key === "classes") {
-            return <details className="rail-section" open={classOpen} key={section.key}><summary><Link className="rail-section-title" href={href}><span className="rail-icon">{icon}</span><span>{section.label}</span></Link>{count}</summary><div className="rail-subnav"><Link href={localizedPath(locale, "/classes")}>{copy.rail.overview}</Link><Link href={localizedPath(locale, "/classes/overview")}>{copy.rail.detail}</Link><Link href={localizedPath(locale, "/classes/builds")}>{copy.nav.classes} &amp; Builds</Link></div></details>;
+            return <div className="rail-section" key={section.key}><a className="rail-section-link" href={href}><span className="rail-icon">{icon}</span><span>{section.label}</span>{count}</a><div className="rail-subnav"><a href={localizedPath(locale, "/classes")}>{copy.rail.overview}</a><a href={localizedPath(locale, "/classes/overview")}>{copy.rail.detail}</a><a href={localizedPath(locale, "/classes/builds")}>{copy.nav.classes} &amp; Builds</a></div></div>;
           }
-          return <Link className="rail-section rail-section-link" href={href} key={section.key}><span className="rail-icon">{icon}</span><span>{section.label}</span>{count}</Link>;
+          return <a className="rail-section rail-section-link" href={href} key={section.key}><span className="rail-icon">{icon}</span><span>{section.label}</span>{count}</a>;
         })}
-        <Link className="rail-link" href={localizedPath(locale, "/classes")}><span className="rail-icon">◇</span> {copy.nav.classes}</Link>
-        <Link className="rail-link" href={localizedPath(locale, "/updates")}><span className="rail-icon">▦</span> {copy.rail.updates}</Link>
+        <a className="rail-link" href={localizedPath(locale, "/classes")}><span className="rail-icon">◇</span> {copy.nav.classes}</a>
+        <a className="rail-link" href={localizedPath(locale, "/updates")}><span className="rail-icon">▦</span> {copy.rail.updates}</a>
       </div>
-      <Link className="official-card" href={officialLinks.website}><img src="/images/mistfall/extract.jpg" alt={copy.rail.play} /><div className="official-overlay"><strong>Mistfall Hunter</strong><span>{copy.rail.gameDescription}</span><span>Steam / Xbox Series X|S / PS5</span><b>{copy.rail.playCta} ↗</b></div></Link>
+      <a className="official-card" href={officialLinks.website}><img src="/images/mistfall/extract.jpg" alt={copy.rail.play} /><div className="official-overlay"><strong>Mistfall Hunter</strong><span>{copy.rail.gameDescription}</span><span>Steam / Xbox Series X|S / PS5</span><b>{copy.rail.playCta} ↗</b></div></a>
       <div className="rail-ad" aria-hidden="true" />
     </aside>
   );
