@@ -23,7 +23,7 @@ const mdxComponents = { a: MdxLink, h2: MdxHeadingTwo, h3: MdxHeadingThree, bloc
 const buildArticles = keywordArticles.filter((article) => article.category === "Class Builds");
 
 function MdxBody({ locale, slug, title }: { locale: Locale; slug: string; title: string }) {
-  if (slug === "builds" && (locale === "en" || locale === "zh")) return <ResearchArticles articles={buildArticles} locale={locale} />;
+  if (slug === "builds" && locale === "en") return <ResearchArticles articles={buildArticles} locale={locale} />;
   const MdxComponent = getClassMdx(locale, slug);
   return MdxComponent ? createElement(MdxComponent, { components: mdxComponents }) : <FallbackMdx locale={locale} title={title} />;
 }
@@ -39,8 +39,15 @@ export function ClassDetailPage({ locale, slug }: { locale: Locale; slug: string
 }
 
 function FallbackMdx({ locale, title }: { locale: Locale; title: string }) {
-  const text = locale === "zh" ? { heading: `${title}参考`, body: "这是一份基于官方研究资料的职业参考页。本页保留官方列出的职业系统范围，并将具体路线放在标注来源的职业资料中。", subheading: "资料范围", items: ["官方 Steam 页面列出 6 个可玩职业。", "调研资料提到双武器姿态、天赋树、宝石词缀与主动技能。", "逐职业路线请从职业参考页进入。"] } : { heading: `${title} Reference`, body: "This reference page uses the official research brief for the class-system scope and links to source-labeled class material for individual routes.", subheading: "Research scope", items: ["The official Steam page lists 6 playable classes.", "The research brief mentions dual weapon stances, talent trees, gem affixes, and active skills.", "Open the class reference pages for individual routes."] };
-  return <><h2 className="mdx-h2">{text.heading}</h2><p>{text.body}</p><h3 className="mdx-h3">{text.subheading}</h3><ul>{text.items.map((item) => <li key={item}>{item}</li>)}</ul></>;
+  const copy: Record<Locale, Omit<{ heading: string; body: string; subheading: string; items: string[] }, "heading"> & { heading: (name: string) => string }> = {
+    en: { heading: (name) => `${name} Reference`, body: "This reference page uses the official research brief for the class-system scope and links to source-labeled class material for individual routes.", subheading: "Research scope", items: ["The official Steam page lists 6 playable classes.", "The research brief mentions dual weapon stances, talent trees, gem affixes, and active skills.", "Open the class reference pages for individual routes."] },
+    ru: { heading: (name) => `${name}: справка`, body: "Эта справочная страница использует официальный исследовательский материал для описания системы классов и связывает отдельные пути с материалами, где указан источник.", subheading: "Рамки исследования", items: ["На официальной странице Steam перечислены 6 игровых классов.", "Исследовательский материал упоминает две стойки оружия, деревья талантов, аффиксы самоцветов и активные навыки.", "Откройте страницы классов, чтобы изучить отдельные направления."] },
+    de: { heading: (name) => `${name}-Referenz`, body: "Diese Referenzseite nutzt den offiziellen Recherchebrief für den Umfang des Klassensystems und verlinkt einzelne Wege mit quellenmarkierten Materialien.", subheading: "Rechercheumfang", items: ["Die offizielle Steam-Seite nennt 6 spielbare Klassen.", "Der Recherchebrief erwähnt zwei Waffenhaltungen, Talentbäume, Edelstein-Affixe und aktive Fähigkeiten.", "Öffne die Klassenseiten für einzelne Ausrichtungen."] },
+    "pt-br": { heading: (name) => `Referência de ${name}`, body: "Esta página de referência usa o briefing oficial de pesquisa para o escopo do sistema de classes e vincula caminhos individuais a materiais com fonte identificada.", subheading: "Escopo da pesquisa", items: ["A página oficial da Steam lista 6 classes jogáveis.", "O briefing de pesquisa menciona duas posturas de arma, árvores de talentos, afixos de gemas e habilidades ativas.", "Abra as páginas de classe para ver as direções individuais."] },
+    zh: { heading: (name) => `${name}参考`, body: "这是一份基于官方调研资料的职业参考页。本页保留官方列出的职业系统范围，并将具体路线放在标注来源的职业资料中。", subheading: "资料范围", items: ["官方 Steam 页面列出 6 个可玩职业。", "调研资料提到双武器姿态、天赋树、宝石词缀与主动技能。", "逐职业路线请从职业参考页进入。"] },
+  };
+  const text = copy[locale];
+  return <><h2 className="mdx-h2">{text.heading(title)}</h2><p>{text.body}</p><h3 className="mdx-h3">{text.subheading}</h3><ul>{text.items.map((item) => <li key={item}>{item}</li>)}</ul></>;
 }
 
 export const RaceDetailPage = ClassDetailPage;

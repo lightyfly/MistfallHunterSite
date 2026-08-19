@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { localizedPath, type Locale } from "../lib/site-data";
+import { localizedPath, localeHomeLabels, type Locale } from "../lib/site-data";
 import { SiteFrame } from "./site-frame";
 
 type LegalKind = "privacy" | "terms";
@@ -30,5 +30,5 @@ const legalCopy: Record<Locale, Record<LegalKind, LegalContent>> = {
 
 export function LegalPage({ locale, kind }: { locale: Locale; kind: LegalKind }) {
   const copy = legalCopy[locale][kind];
-  return <SiteFrame locale={locale} currentPath={`/${kind === "privacy" ? "privacy-policy" : "terms-of-service"}`}><article className="reference-article legal-article"><nav className="breadcrumbs"><Link href={localizedPath(locale, "/")}>{locale === "zh" ? "首页" : "Home"}</Link><span>›</span><span>{copy.title}</span></nav><h1>{copy.title}</h1><p className="article-lede">{copy.lede}</p><div className="article-copy">{copy.sections.map((section) => <section className="legal-section" key={section.heading}><h2>{section.heading}</h2><p>{section.body}</p></section>)}</div></article></SiteFrame>;
+  return <SiteFrame locale={locale} currentPath={`/${kind === "privacy" ? "privacy-policy" : "terms-of-service"}`}><article className="reference-article legal-article"><nav className="breadcrumbs"><Link href={localizedPath(locale, "/")}>{localeHomeLabels[locale]}</Link><span>›</span><span>{copy.title}</span></nav><h1>{copy.title}</h1><p className="article-lede">{copy.lede}</p><div className="article-copy">{copy.sections.map((section) => <section className="legal-section" key={section.heading}><h2>{section.heading}</h2><p>{section.body}</p></section>)}</div></article></SiteFrame>;
 }

@@ -10,6 +10,14 @@ export const localeLabels: Record<Locale, string> = {
   zh: "中文",
 };
 
+export const localeHomeLabels: Record<Locale, string> = {
+  en: "Home",
+  ru: "Главная",
+  de: "Startseite",
+  "pt-br": "Início",
+  zh: "首页",
+};
+
 export function normalizeLocale(value?: string): Locale {
   return supportedLocales.includes(value as Locale) ? (value as Locale) : "en";
 }

@@ -92,6 +92,21 @@ test("renders working primary and rail navigation links without Codes", async ()
   }
 });
 
+test("uses localized copy instead of English research content on localized reference pages", async () => {
+  for (const [pathname, expected] of [
+    ["/zh/beginner-guide", "新手指南"],
+    ["/ru/beginner-guide", "Гайд новичка"],
+    ["/de/beginner-guide", "Einsteiger-Guide"],
+    ["/pt-br/beginner-guide", "Guia para iniciantes"],
+  ]) {
+    const response = await render(pathname);
+    assert.equal(response.status, 200, pathname);
+    const html = await response.text();
+    assert.match(html, new RegExp(expected));
+    assert.doesNotMatch(html, /Research status|Sources used/);
+  }
+});
+
 test("server-renders keyword index, article pages, and localized keyword pages", async () => {
   assert.equal(keywordArticles.length, 19);
   for (const article of keywordArticles) {

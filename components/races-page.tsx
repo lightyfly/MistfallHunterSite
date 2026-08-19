@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { getKeywordArticle } from "../lib/keyword-pages";
-import { classRecords, localizedPath, type Locale } from "../lib/site-data";
+import { classRecords, localizedPath, localeHomeLabels, type Locale } from "../lib/site-data";
 import { ResearchArticles } from "./research-content";
 import { SiteFrame } from "./site-frame";
 
@@ -16,8 +16,8 @@ export function ClassesPage({ locale }: { locale: Locale }) {
   const text = copy[locale];
   const records = classRecords[locale];
   const classArticle = getKeywordArticle("mistfall-hunter-classes");
-  const researchContent = classArticle && (locale === "en" || locale === "zh") ? <ResearchArticles articles={[classArticle]} locale={locale} /> : null;
-  return <SiteFrame locale={locale} currentPath="/classes"><article className="reference-article"><nav className="breadcrumbs"><Link href={localizedPath(locale, "/")}>{locale === "zh" ? "首页" : "Home"}</Link><span>›</span><span>{text.breadcrumb}</span></nav><div className="article-media"><img src="/images/mistfall/heroes.jpg" alt="Mistfall Hunter official class artwork" /><span>{text.media}</span></div><h1>{text.title}</h1><p className="article-lede">{text.lede}</p><div className="ad-slot" aria-hidden="true" /><div className="article-copy"><p>{text.intro}</p><p className="warning-copy">{text.warning}</p><p>{text.warningCopy}</p><h2>{text.guides}</h2><div className="guide-grid">{records.map((record) => <Link className="guide-card" href={localizedPath(locale, `/classes/${record.slug}`)} key={record.slug}><div className="guide-card-copy">{record.tag ? <span className="badge">{record.tag}</span> : null}<h3>{record.title}</h3><p>{record.description}</p><span className="read-more">{text.read} <b>→</b></span></div></Link>)}</div></div>{researchContent}</article></SiteFrame>;
+  const researchContent = classArticle && locale === "en" ? <ResearchArticles articles={[classArticle]} locale={locale} /> : null;
+  return <SiteFrame locale={locale} currentPath="/classes"><article className="reference-article"><nav className="breadcrumbs"><Link href={localizedPath(locale, "/")}>{localeHomeLabels[locale]}</Link><span>›</span><span>{text.breadcrumb}</span></nav><div className="article-media"><img src="/images/mistfall/heroes.jpg" alt="Mistfall Hunter official class artwork" /><span>{text.media}</span></div><h1>{text.title}</h1><p className="article-lede">{text.lede}</p><div className="ad-slot" aria-hidden="true" /><div className="article-copy"><p>{text.intro}</p><p className="warning-copy">{text.warning}</p><p>{text.warningCopy}</p><h2>{text.guides}</h2><div className="guide-grid">{records.map((record) => <Link className="guide-card" href={localizedPath(locale, `/classes/${record.slug}`)} key={record.slug}><div className="guide-card-copy">{record.tag ? <span className="badge">{record.tag}</span> : null}<h3>{record.title}</h3><p>{record.description}</p><span className="read-more">{text.read} <b>→</b></span></div></Link>)}</div></div>{researchContent}</article></SiteFrame>;
 }
 
 export const RacesPage = ClassesPage;
