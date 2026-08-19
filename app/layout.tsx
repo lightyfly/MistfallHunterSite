@@ -3,7 +3,7 @@ import Script from "next/script";
 import "./globals.css";
 import { seo } from "../lib/site-data";
 
-const gaMeasurementId = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID;
+const gaMeasurementId = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID || "G-HQD33GJEV4";
 const gscVerification = process.env.NEXT_PUBLIC_GSC_VERIFICATION;
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "");
 
