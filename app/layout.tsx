@@ -1,6 +1,10 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import "./globals.css";
 import { seo } from "../lib/site-data";
+
+const gaMeasurementId = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID;
+const gscVerification = process.env.NEXT_PUBLIC_GSC_VERIFICATION;
 
 export const metadata: Metadata = {
   title: seo.title,
@@ -16,6 +20,7 @@ export const metadata: Metadata = {
     apple: [{ url: "/images/mistfall/favicon.png", type: "image/png", sizes: "50x50" }],
   },
   manifest: "/manifest.webmanifest",
+  verification: gscVerification ? { google: gscVerification } : undefined,
 };
 
 export const viewport = {
@@ -26,5 +31,5 @@ export const viewport = {
 } as const;
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
-  return <html lang="en"><body>{children}</body></html>;
+  return <html lang="en"><body>{children}{gaMeasurementId ? <><Script async src={`https://www.googletagmanager.com/gtag/js?id=${gaMeasurementId}`} /><Script id="google-analytics">{`window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', '${gaMeasurementId}', { send_page_view: true });`}</Script></> : null}</body></html>;
 }
