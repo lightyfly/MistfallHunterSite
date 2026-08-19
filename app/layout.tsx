@@ -5,11 +5,13 @@ import { seo } from "../lib/site-data";
 
 const gaMeasurementId = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID;
 const gscVerification = process.env.NEXT_PUBLIC_GSC_VERIFICATION;
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "");
 
 export const metadata: Metadata = {
   title: seo.title,
   description: seo.description,
   keywords: seo.keywords,
+  metadataBase: siteUrl ? new URL(siteUrl) : undefined,
   themeColor: "#0b0b0b",
   icons: {
     icon: [

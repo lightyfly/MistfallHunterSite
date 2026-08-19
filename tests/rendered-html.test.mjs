@@ -107,6 +107,21 @@ test("uses localized copy instead of English research content on localized refer
   }
 });
 
+test("serves a crawlable sitemap and robots file", async () => {
+  const sitemap = await render("/sitemap.xml");
+  assert.equal(sitemap.status, 200);
+  assert.match(sitemap.headers.get("content-type") ?? "", /^application\/xml\b/i);
+  const sitemapXml = await sitemap.text();
+  assert.match(sitemapXml, /<loc>http:\/\/localhost\/classes<\/loc>/);
+  assert.match(sitemapXml, /<loc>http:\/\/localhost\/zh\/classes<\/loc>/);
+  assert.doesNotMatch(sitemapXml, /\/codes/);
+
+  const robots = await render("/robots.txt");
+  assert.equal(robots.status, 200);
+  assert.match(robots.headers.get("content-type") ?? "", /^text\/plain\b/i);
+  assert.match(await robots.text(), /Sitemap: http:\/\/localhost\/sitemap\.xml/);
+});
+
 test("server-renders keyword index, article pages, and localized keyword pages", async () => {
   assert.equal(keywordArticles.length, 19);
   for (const article of keywordArticles) {
